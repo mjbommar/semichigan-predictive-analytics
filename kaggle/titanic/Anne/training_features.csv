@@ -1,0 +1,892 @@
+pclass,sex,sibsp,embarked,moniker,age ,spouse,parent,child,survived
+3,male,1,S,Mr. ,22,0,0,0,0
+2,female,1,C,Mrs.,14,1,0,0,1
+2,male,1,S,Mr. ,34,1,0,0,0
+3,female,0,S,Miss,28,0,0,0,0
+3,male,1,S,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,21,0,0,1,0
+3,male,0,S,Mr. ,33,0,0,0,0
+3,male,2,S,Mr. ,37,0,0,0,0
+3,male,0,S,Mr. ,28,0,0,0,0
+3,female,0,S,Miss,21,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,1
+3,male,0,S,Mr. ,38,0,0,0,0
+3,female,1,S,Miss,4,0,0,1,1
+3,female,1,Q,Miss,18,0,0,0,1
+1,male,0,S,Mr. ,47,0,0,0,0
+3,female,1,C,Miss,14.5,0,0,0,0
+3,male,0,S,Mr. ,22,0,0,0,0
+3,female,1,S,Miss,20,0,0,0,0
+3,female,0,C,Miss,17,0,0,0,0
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,Q,Mr. ,70.5,0,0,0,0
+2,male,1,S,Mr. ,29,1,0,0,0
+1,male,0,C,Mr. ,24,0,0,1,0
+1,female,0,S,Miss,58,0,0,0,1
+3,female,4,S,Miss,2,0,0,2,0
+2,male,2,S,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+2,male,1,C,Mr. ,32.5,1,0,0,0
+2,female,0,S,Miss,32.5,0,0,0,1
+1,male,0,S,Mr. ,54,0,1,0,0
+3,male,1,C,Mast,12,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,24,0,0,0,1
+3,female,1,C,Miss,18,0,0,1,1
+3,male,0,S,Mr. ,20,0,0,0,0
+3,male,0,S,Mr. ,45,0,0,0,0
+3,male,0,C,Mr. ,33,0,0,0,0
+3,male,0,S,Mr. ,20,0,0,0,0
+3,female,1,S,Mrs.,47,1,0,0,0
+2,female,1,S,Mrs.,29,1,0,0,1
+2,male,0,S,Mr. ,25,0,0,0,0
+2,male,0,C,Mr. ,23,0,0,0,0
+1,female,0,S,Miss,19,0,0,2,1
+1,male,1,S,Mr. ,37,1,0,0,0
+3,male,0,S,Mr. ,16,0,0,0,0
+3,male,1,S,Mr. ,39,1,2,0,0
+1,male,0,C,Mr. ,24,0,0,0,0
+3,female,0,C,Mrs.,31,0,1,0,0
+3,female,0,S,Miss,22,0,0,0,1
+3,female,1,S,Mrs.,24,1,0,0,1
+3,male,0,Q,Mr. ,19,0,0,0,0
+2,male,0,S,Mr. ,18,0,0,0,0
+2,male,1,S,Mr. ,19,0,0,0,0
+3,male,0,S,Mr. ,27,0,0,0,1
+3,female,2,S,Miss,9,0,0,2,0
+2,male,0,S,Mr. ,36.5,0,1,0,0
+3,female,0,S,Miss,14,0,0,0,0
+2,male,0,S,Rev.,42,0,0,0,0
+2,male,0,S,Rev.,51,0,0,0,0
+1,female,1,S,Mrs.,22,1,0,0,1
+3,male,0,S,Mr. ,55.5,0,0,0,0
+3,male,0,S,Mr. ,40.5,0,1,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,C,Mr. ,51,0,1,0,0
+3,female,0,Q,Miss,16,0,0,0,1
+3,male,0,S,Mr. ,30,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+2,female,0,S,Mrs.,55,0,0,0,1
+3,male,8,S,Mast,6,0,0,2,0
+3,male,0,S,Mr. ,44,0,1,0,0
+2,female,0,S,Mrs.,40,0,1,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,1,S,Mr. ,17,0,0,0,0
+3,male,4,S,Mast,1,0,0,1,0
+3,male,0,S,Mast,9,0,0,2,1
+1,female,0,S,Mrs.,45,0,1,0,1
+3,female,1,S,Mrs.,45,1,2,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,4,Q,Mast,2,0,0,1,0
+3,male,0,S,Mr. ,28,0,0,0,0
+1,male,0,S,Mr. ,61,0,0,0,0
+3,male,4,Q,Mast,4,0,0,1,0
+3,female,1,S,Miss,1,0,0,1,1
+3,male,0,S,Mr. ,21,0,0,0,0
+1,male,0,C,Mr. ,56,0,0,0,0
+3,male,1,S,Mr. ,18,0,0,1,0
+3,male,3,S,Mast,6,0,0,1,0
+1,female,0,C,Miss,50,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,1
+3,male,0,S,Mr. ,36,0,0,0,0
+3,female,8,S,Miss,18,0,0,2,0
+2,male,0,C,Mr. ,30,0,0,0,0
+3,male,4,S,Mast,9,0,0,2,0
+2,male,2,S,Mast,1,0,0,1,1
+3,female,0,S,Miss,4,0,0,2,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,female,1,Q,Mrs.,31,1,0,0,1
+1,male,0,S,Mr. ,45,0,0,0,1
+3,male,1,Q,Mr. ,40,1,2,0,0
+3,female,1,S,Mrs.,31,1,0,0,0
+3,male,0,S,Mr. ,36,0,0,0,0
+2,female,0,S,Mrs.,32,0,0,0,1
+2,male,0,S,Mr. ,19,0,0,0,0
+3,female,1,S,Miss,19,0,0,0,1
+2,male,1,S,Mast,3,0,0,1,1
+1,female,0,C,Mrs.,44,0,0,0,1
+1,female,0,C,Miss,58,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,42,0,1,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+1,female,1,C,Mrs.,38,1,0,0,1
+3,female,0,C,Mrs.,31,0,0,0,1
+2,female,0,S,Miss,24,0,0,0,0
+3,male,0,S,Mr. ,28,0,0,0,0
+3,male,8,S,Mr. ,26,0,0,2,0
+3,male,0,S,Mr. ,34,0,0,0,0
+3,male,0,C,Mr. ,45.5,0,0,0,0
+3,male,0,S,Mr. ,18,0,0,0,1
+3,female,0,S,Miss,2,0,0,1,0
+3,male,1,S,Mr. ,32,1,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,1
+3,female,0,Q,Miss,16,0,0,0,1
+2,male,0,S,Mr. ,35,0,0,0,0
+1,male,0,C,Mr. ,40,0,0,0,1
+3,male,1,S,Mr. ,24,0,0,0,0
+2,female,0,S,Miss,35,0,0,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,1,Q,Mr. ,26,0,0,0,0
+1,female,1,C,Miss,31,0,0,0,1
+3,female,0,S,Miss,27,0,0,0,1
+2,male,1,S,Mr. ,42,1,0,0,0
+1,female,0,C,Miss,32,0,0,0,1
+2,male,0,S,Mr. ,34,0,0,0,1
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,0,S,Mr. ,16,0,0,0,1
+2,male,0,S,Mr. ,27,0,0,0,0
+3,male,0,S,Mr. ,51,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,1,S,Mr. ,38,1,0,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+2,male,0,S,Mr. ,19,0,0,0,1
+3,male,0,S,Mr. ,20.5,0,0,0,0
+2,male,0,S,Mr. ,18,0,0,0,0
+3,female,0,Q,Miss,15,0,0,0,1
+3,female,3,S,Miss,18,0,0,1,0
+1,female,1,S,Mrs.,35,1,0,0,1
+3,male,0,S,Mr. ,29,0,0,0,0
+2,male,0,S,Mr. ,59,0,0,0,0
+3,female,4,S,Miss,5,0,0,2,1
+2,male,0,S,Mr. ,24,0,0,0,0
+3,female,0,S,Miss,18,0,0,0,0
+2,male,1,S,Mr. ,44,1,0,0,0
+2,female,0,S,Miss,8,0,0,2,1
+2,male,0,S,Mr. ,19,0,0,0,0
+1,male,0,S,Mr. ,28,0,0,0,1
+2,male,0,S,Mr. ,33,0,0,0,0
+3,female,1,C,Miss,18,0,0,0,0
+3,female,1,Q,Miss,18,0,0,0,1
+2,male,0,S,Mr. ,29,0,0,0,0
+3,male,0,S,Mr. ,22,0,0,0,0
+3,male,0,C,Mr. ,30,0,0,0,0
+1,male,2,Q,Dr. ,44,1,0,0,0
+3,female,0,S,Miss,25,0,0,0,0
+2,female,0,S,Mrs.,24,0,1,0,1
+1,male,1,S,Mr. ,37,1,2,0,1
+3,female,3,S,Miss,8,0,0,1,0
+2,male,1,S,Rev.,54,1,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,female,1,S,Mrs.,29,0,1,0,0
+1,male,0,S,Mr. ,62,0,0,0,0
+3,male,1,S,Mr. ,30,1,0,0,0
+3,female,0,S,Mrs.,41,0,1,0,0
+3,female,0,C,Mrs.,29,0,1,0,1
+1,female,0,C,Mrs.,45,0,0,0,1
+1,female,0,S,Miss,30,0,0,0,1
+1,female,0,C,Miss,35,0,0,0,1
+3,female,1,S,Mrs.,38,1,2,0,1
+2,female,0,S,Mrs.,50,0,1,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,4,S,Mast,3,0,0,2,1
+1,male,1,S,Mr. ,52,1,2,0,0
+1,male,0,S,Mr. ,40,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,0
+2,male,0,S,Mr. ,36,0,0,0,0
+3,male,4,S,Mr. ,16,0,0,1,0
+3,male,1,S,Mr. ,25,0,0,0,1
+1,female,0,S,Mrs.,58,0,1,0,1
+3,male,0,C,Mr. ,26,0,0,0,0
+1,female,0,S,Miss,35,0,0,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,0,S,Mr. ,25,0,0,0,1
+2,female,0,S,Mrs.,41,0,1,0,1
+1,male,0,C,Mr. ,41.5,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+1,female,1,S,Miss,63,0,0,0,1
+3,female,0,S,Miss,45,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,4,Q,Mast,7,0,0,1,0
+1,male,3,S,Mr. ,19,0,0,2,0
+3,female,1,S,Mrs.,35,1,1,0,1
+3,male,0,Q,Mr. ,65,0,0,0,0
+3,male,0,S,Mr. ,28,0,0,0,0
+3,male,0,S,Mr. ,16,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,0,C,Mr. ,33,0,0,0,0
+3,male,0,S,Mr. ,30,0,0,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+2,male,0,S,Mr. ,42,0,0,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+3,female,0,Q,Miss,22,0,0,0,1
+1,female,0,S,Miss,26,0,0,0,1
+1,female,1,C,Mrs.,19,1,0,0,1
+2,male,0,C,Mr. ,36,0,0,0,0
+3,female,0,S,Miss,24,0,0,0,0
+3,male,0,S,Mr. ,24,0,0,0,0
+1,male,0,C,Mr. ,41.5,0,0,0,0
+3,male,0,C,Mr. ,23.5,0,0,0,0
+1,female,1,S,Miss,2,0,0,2,0
+1,male,0,S,Mr. ,41.5,0,0,0,1
+3,female,0,S,Miss,26,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,female,1,C,Mrs.,50,0,1,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+3,male,2,Q,Mr. ,26,0,0,0,1
+3,male,0,S,Mr. ,19,0,0,0,0
+2,female,0,Q,Miss,20,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,1,S,Mast,0.92,0,0,2,1
+1,female,0,C,Miss,30,0,0,0,1
+1,female,1,C,Mrs.,17,1,0,0,1
+2,male,1,C,Mr. ,30,1,0,0,0
+1,male,0,C,Sir,40,0,0,0,0
+1,female,0,C,Miss,30,0,0,0,1
+1,female,0,C,Miss,24,0,0,0,1
+1,female,2,C,Miss,18,0,0,2,1
+2,female,1,S,Mrs.,26,1,2,0,0
+3,male,0,S,Mr. ,28,0,0,0,0
+2,male,1,S,Mr. ,43,1,2,0,0
+3,female,0,S,Miss,26,0,0,0,1
+2,female,1,S,Mrs.,24,1,0,0,1
+2,male,0,S,Dr. ,54,0,0,0,0
+1,female,0,S,Miss,31,0,0,2,1
+1,female,1,C,Mrs.,45,1,0,0,1
+1,female,1,C,Mrs.,40,1,2,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+3,male,0,S,Mr. ,27,0,0,0,0
+2,female,0,Q,Miss,30,0,0,0,1
+2,female,1,S,Mrs.,22,1,2,0,1
+3,male,8,S,Mr. ,26,0,0,2,0
+1,female,0,C,Miss,36,0,0,0,1
+3,male,0,S,Mr. ,61,0,0,0,0
+2,female,0,S,Mrs.,36,0,0,0,1
+3,female,1,S,Mrs.,31,1,2,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+1,female,0,C,Miss,16,0,0,1,1
+3,female,2,Q,Miss,18,0,0,0,1
+1,male,0,S,Mr. ,45.5,0,0,0,0
+1,male,0,S,Mr. ,38,0,0,1,0
+3,male,2,S,Mr. ,16,0,0,0,0
+1,female,1,S,Mrs.,45,1,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,1,S,Mr. ,29,1,0,0,0
+1,female,0,C,Miss,41,0,0,0,1
+3,male,0,S,Mr. ,45,0,0,0,1
+2,male,0,S,Mr. ,66,0,0,0,0
+1,male,0,S,Mr. ,45,0,0,0,0
+2,male,1,S,Mast,2,0,0,1,1
+1,female,3,S,Miss,24,0,0,2,1
+2,male,0,S,Mr. ,28,0,0,0,0
+2,male,0,S,Mr. ,25,0,0,0,0
+2,male,0,S,Mr. ,36,0,0,0,0
+2,female,0,S,Miss,24,0,0,0,1
+2,female,0,S,Miss,40,0,0,0,1
+3,female,1,S,Mrs.,31,1,0,0,1
+3,male,1,S,Mast,3,0,0,1,1
+1,male,1,C,Mr. ,28,1,0,0,0
+3,male,0,S,Mr. ,42,0,0,0,0
+3,male,0,S,Mr. ,23,0,0,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,1,C,Mr. ,15,0,0,1,0
+3,male,1,S,Mr. ,25,1,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,28,0,0,0,0
+1,female,0,S,Miss,22,0,0,1,1
+2,female,0,S,Miss,38,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+1,male,1,S,Mr. ,42,1,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+3,male,1,S,Mr. ,40,1,2,0,0
+2,male,1,C,Mr. ,29,1,0,0,0
+3,female,0,C,Mrs.,45,0,1,0,0
+3,male,0,S,Mr. ,35,0,0,0,0
+3,male,1,Q,Mr. ,26,1,0,0,0
+3,male,0,S,Mr. ,30,0,0,0,0
+1,female,1,C,Mrs.,60,1,0,0,1
+3,female,0,C,Mrs.,31,0,0,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+3,male,0,C,Mr. ,26,0,0,0,1
+1,female,0,C,Mrs.,24,0,0,0,1
+1,male,1,C,Mr. ,25,1,0,0,1
+3,male,1,S,Mr. ,18,1,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+1,male,0,C,Mr. ,22,0,0,0,0
+3,female,3,S,Miss,3,0,0,1,0
+1,female,1,C,Mrs.,45,1,0,0,1
+3,female,0,S,Miss,22,0,0,0,1
+1,male,0,C,Mr. ,27,0,0,2,0
+3,male,0,C,Mr. ,20,0,1,0,0
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+1,female,0,C,Miss,42,0,0,0,1
+3,female,0,C,Miss,1,0,0,2,1
+3,male,0,S,Mr. ,32,0,0,0,0
+1,female,1,S,Mrs.,35,1,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+2,male,0,S,Mr. ,18,0,0,0,0
+3,male,5,S,Mast,1,0,0,2,0
+2,female,0,S,Miss,36,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,female,2,S,Miss,18,0,0,0,0
+2,female,0,C,Miss,17,0,0,0,1
+1,male,1,S,Mr. ,36,1,2,0,1
+3,male,0,S,Mr. ,21,0,0,0,1
+3,male,2,S,Mr. ,28,0,0,0,0
+1,female,1,C,Miss,23,0,0,0,1
+3,female,0,S,Mrs.,24,0,1,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+3,female,0,S,Miss,31,0,0,0,0
+2,male,0,S,Mr. ,46,0,0,0,0
+2,male,0,S,Dr. ,23,0,0,0,0
+1,female,1,S,Mrs.,35,1,0,0,1
+3,female,1,C,Miss,14,0,0,0,1
+2,female,0,S,Mrs.,28,0,0,0,1
+3,male,0,S,Mr. ,39,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,female,1,S,Miss,21,0,0,0,0
+3,male,1,S,Mr. ,28,1,0,0,0
+3,female,2,S,Miss,20,0,0,0,0
+2,male,1,S,Mr. ,34,0,0,0,0
+3,male,0,S,Mr. ,51,0,0,0,0
+2,male,1,S,Mast,3,0,0,1,1
+3,male,0,S,Mr. ,21,0,0,0,0
+3,female,1,S,Mrs.,40,0,0,0,0
+3,female,3,S,Miss,18,0,0,1,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+1,female,1,Q,Miss,33,0,0,0,1
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,0,S,Mr. ,44,0,0,0,1
+3,female,0,S,Mrs.,31,0,0,0,0
+2,female,1,S,Mrs.,34,1,2,0,1
+2,female,0,S,Miss,18,0,0,2,1
+2,male,0,S,Mr. ,30,0,0,0,0
+2,female,1,S,Mrs.,27,1,0,0,0
+3,female,0,S,Miss,10,0,0,2,0
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,Q,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,29,0,0,0,0
+3,female,1,S,Mrs.,28,1,2,0,0
+3,male,1,S,Mr. ,18,0,0,1,0
+3,male,0,S,Mr. ,26,0,0,0,0
+2,female,1,S,Mrs.,28,1,0,0,1
+2,female,0,S,Miss,19,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,1
+1,male,0,S,Mr. ,28,0,0,0,1
+3,female,1,S,Mrs.,31,1,0,0,1
+2,female,1,S,Mrs.,42,1,0,0,1
+3,male,0,S,Mr. ,17,0,0,0,0
+1,male,1,S,Mr. ,50,1,0,0,0
+1,female,1,S,Miss,14,0,0,2,1
+3,female,2,S,Miss,21,0,0,2,0
+2,female,2,S,Mrs.,24,0,1,1,1
+1,male,1,S,Mr. ,64,1,2,0,0
+2,female,1,C,Miss,3,0,0,2,1
+2,male,0,S,Mr. ,31,0,0,0,0
+2,female,1,S,Mrs.,45,1,2,0,1
+3,male,0,S,Mr. ,20,0,0,0,0
+3,male,1,S,Mr. ,26,0,0,0,0
+2,female,0,S,Ms. ,28,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,1
+1,male,0,S,Mast,4,0,0,2,1
+2,female,0,S,Miss,13,0,0,1,1
+1,male,0,S,Mr. ,34,0,0,0,1
+3,female,2,C,Miss,5,0,0,1,1
+3,female,0,Q,Miss,19,0,0,0,1
+1,male,0,S,Majo,52,0,0,0,1
+2,male,1,S,Mr. ,36,1,2,0,0
+3,male,1,S,Mr. ,26,0,0,0,0
+1,male,0,C,Mr. ,30,0,0,0,0
+1,male,1,C,Mr. ,49,1,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,C,Mr. ,29,0,0,0,1
+1,male,0,S,Mr. ,65,0,0,0,0
+1,female,1,S,Mrs.,45,1,0,0,1
+2,female,0,S,Miss,50,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,48,0,0,0,1
+3,male,0,S,Mr. ,34,0,0,0,0
+1,male,0,S,Mr. ,47,0,0,0,0
+2,male,0,S,Mr. ,48,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,38,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,0
+1,male,0,S,Mr. ,56,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,1,Q,Mr. ,26,0,0,0,0
+3,female,2,C,Miss,0.75,0,0,1,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,3,S,Mr. ,38,0,0,0,0
+2,female,1,S,Mrs.,33,1,2,0,1
+2,female,0,C,Mrs.,23,0,0,0,1
+3,female,0,S,Miss,22,0,0,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,0
+2,male,1,S,Mr. ,34,1,0,0,0
+3,male,1,S,Mr. ,29,0,0,0,0
+3,male,0,S,Mr. ,22,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+3,female,0,S,Miss,2,0,0,1,1
+3,male,5,S,Mast,9,0,0,2,0
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,0,S,Mr. ,50,0,0,0,0
+3,female,0,S,Mrs.,63,0,0,0,1
+1,male,1,C,Mr. ,25,1,0,0,1
+3,female,3,S,Miss,18,0,0,1,0
+1,female,1,S,Mrs.,35,1,0,0,1
+1,male,0,C,Mr. ,58,0,0,0,0
+3,male,0,S,Mr. ,30,0,0,0,0
+3,male,2,C,Mr. ,26,0,0,0,0
+3,male,1,S,Mast,9,0,0,1,1
+3,male,1,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,21,0,0,0,0
+1,male,0,S,Mr. ,55,0,0,0,0
+1,male,0,C,Mr. ,71,0,0,0,0
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+1,female,1,C,Miss,54,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,female,1,S,Mrs.,25,1,2,0,0
+3,male,0,S,Mr. ,35,0,0,0,0
+3,female,1,S,Mrs.,18,1,0,0,0
+3,male,0,S,Mr. ,24,0,0,0,0
+3,male,1,S,Mr. ,17,0,0,0,0
+3,female,0,Q,Miss,21,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,0
+3,female,0,S,Miss,37,0,0,0,0
+1,female,0,S,Miss,16,0,0,0,1
+1,male,1,C,Mr. ,18,1,0,0,0
+2,female,0,S,Mrs.,33,0,1,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,1
+3,male,0,S,Mr. ,28,0,0,0,0
+3,male,4,S,Mast,7,0,0,1,0
+3,male,0,S,Mr. ,26,0,0,0,1
+3,male,0,Q,Mr. ,29,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,36,0,0,0,1
+1,female,1,C,Mrs.,54,1,0,0,1
+3,male,1,S,Mr. ,24,0,0,0,0
+1,male,0,S,Mr. ,47,0,0,0,0
+2,female,0,S,Mrs.,34,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+2,female,1,S,Mrs.,36,1,0,0,1
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,0
+1,female,0,S,Miss,30,0,0,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+1,female,0,C,Mrs.,44,0,1,0,1
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,Q,Mr. ,40.5,0,0,0,0
+2,female,0,S,Miss,50,0,0,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,0,S,Mr. ,39,0,0,0,0
+1,female,1,C,Mrs.,49,1,0,0,1
+2,male,2,S,Mr. ,23,0,0,1,0
+2,female,1,S,Miss,2,0,0,1,1
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,1,C,Mr. ,17,0,0,1,0
+3,female,0,C,Mrs.,31,0,1,0,1
+3,female,3,S,Miss,30,0,0,0,0
+2,female,0,S,Miss,7,0,0,2,1
+1,male,0,S,Majo,45,0,0,0,0
+1,female,0,C,Miss,30,0,0,0,1
+3,male,1,S,Mr. ,26,1,0,0,0
+2,female,1,S,Mrs.,29,1,0,0,1
+1,female,0,C,Miss,22,0,0,2,1
+1,female,0,S,Miss,36,0,0,2,1
+3,female,4,S,Miss,9,0,0,2,0
+3,female,4,S,Miss,11,0,0,2,0
+2,male,1,S,Mr. ,32,1,0,0,1
+1,male,1,C,Mr. ,50,1,0,0,0
+1,male,0,S,Mr. ,64,0,0,0,0
+2,female,1,S,Mrs.,19,1,0,0,1
+2,male,0,C,Mr. ,30,0,0,0,1
+3,male,1,S,Mr. ,33,1,2,0,0
+1,male,0,C,Mr. ,65,0,1,0,0
+2,male,1,S,Mast,8,0,0,1,1
+1,male,0,C,Mr. ,17,0,0,2,1
+2,male,0,S,Mr. ,27,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,C,Mr. ,22,0,0,0,1
+3,female,0,S,Miss,22,0,0,0,1
+1,male,0,S,Mr. ,62,0,0,0,0
+1,female,1,C,Lady,48,1,0,0,1
+1,male,0,C,Mr. ,41.5,0,0,0,0
+1,female,1,S,Mrs.,39,1,2,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,1
+3,female,1,S,Mrs.,36,1,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,40,0,0,0,0
+2,male,0,S,Mr. ,28,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,female,0,S,Miss,18,0,0,0,0
+3,male,2,S,Mr. ,24,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+3,female,0,S,Mrs.,29,0,1,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+2,female,0,S,Miss,21,0,0,0,1
+3,male,0,S,Mr. ,32,0,0,0,1
+2,male,0,S,Mr. ,62,0,0,0,1
+1,female,2,S,Mrs.,53,0,0,0,1
+1,male,0,S,Mr. ,36,0,0,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+3,male,0,S,Mr. ,16,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+2,female,0,S,Miss,34,0,0,0,1
+1,female,1,S,Mrs.,39,1,0,0,1
+3,female,1,C,Mrs.,31,1,0,0,0
+3,male,0,C,Mr. ,28.5,0,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,1
+2,female,1,S,Miss,25,0,0,1,1
+1,female,1,C,Mrs.,39,1,2,0,1
+2,male,0,S,Mr. ,54,0,0,0,0
+1,male,0,C,Mr. ,36,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+1,female,0,S,Miss,18,0,0,2,1
+2,male,0,S,Mr. ,47,0,0,0,0
+1,male,1,C,Mr. ,60,1,2,0,1
+3,male,0,S,Mr. ,22,0,0,0,0
+2,female,1,S,Miss,5,0,0,2,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,35,0,0,0,0
+1,female,1,C,Mrs.,52,0,0,0,1
+3,male,0,S,Mr. ,47,0,0,0,0
+3,female,0,Q,Miss,18,0,0,2,0
+2,male,1,S,Mr. ,37,1,0,0,0
+3,male,1,S,Mr. ,36,1,2,0,0
+2,female,0,S,Miss,20,0,0,0,1
+3,male,0,S,Mr. ,49,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,5,S,Mast,11,0,0,2,0
+1,male,1,C,Sir,49,1,0,0,1
+2,female,2,S,Mrs.,24,1,0,1,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,male,0,S,Mr. ,44,0,0,0,0
+1,male,0,C,Mr. ,35,0,0,0,1
+3,male,1,S,Mr. ,36,1,0,0,0
+3,male,0,S,Mr. ,30,0,0,0,0
+1,male,0,S,Mr. ,27,0,0,0,1
+2,female,1,C,Mrs.,22,1,2,0,1
+3,male,0,C,Mr. ,22,0,0,0,0
+1,female,0,S,Miss,40,0,0,0,1
+3,female,1,S,Mrs.,39,1,2,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,female,1,Q,Miss,18,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,35,0,0,0,0
+2,female,1,S,Miss,24,0,0,2,1
+3,male,1,S,Mr. ,34,1,2,0,0
+3,female,1,S,Mrs.,26,1,0,0,0
+2,female,2,S,Miss,4,0,0,1,1
+1,female,0,S,Miss,38,0,0,0,1
+2,male,0,S,Mr. ,26,0,0,0,0
+3,male,1,C,Mr. ,27,1,0,0,0
+1,male,1,S,Mr. ,42,1,0,0,1
+3,male,1,C,Mr. ,20,1,2,0,1
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,21,0,0,0,0
+1,male,0,S,Mr. ,61,0,0,0,0
+2,male,0,Q,Rev.,57,0,0,0,0
+1,female,0,S,Miss,21,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,1,S,Mr. ,45,1,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,80,0,0,0,1
+3,male,0,S,Mr. ,51,0,0,0,0
+1,male,0,C,Dr. ,32,0,0,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,female,3,S,Miss,9,0,0,2,0
+2,female,0,S,Miss,28,0,0,0,1
+3,male,0,S,Mr. ,32,0,0,0,0
+2,male,1,S,Mr. ,31,1,2,0,0
+3,female,0,S,Mrs.,41,0,1,0,0
+3,male,3,S,Mast,4,0,0,2,0
+3,male,1,S,Mr. ,26,1,0,0,0
+3,male,0,S,Mr. ,20,0,0,0,0
+1,female,0,C,Miss,24,0,0,0,1
+3,female,3,S,Miss,2,0,0,2,0
+3,male,0,S,Mr. ,26,0,0,0,1
+3,female,2,C,Miss,0.75,0,0,1,1
+1,male,1,C,Mr. ,48,1,0,0,1
+3,male,0,S,Mr. ,19,0,0,0,0
+1,male,0,C,Col.,56,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,C,Mr. ,41.5,0,0,0,0
+3,female,0,S,Miss,23,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+2,female,0,S,Miss,18,0,0,1,1
+3,male,0,S,Mr. ,21,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+3,female,0,Q,Miss,18,0,0,0,0
+2,male,2,S,Mr. ,24,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,female,1,Q,Mrs.,32,1,2,0,0
+2,male,0,S,Mr. ,23,0,0,0,0
+3,male,1,C,Mast,6,0,0,1,1
+1,male,0,C,Mr. ,58,0,0,0,0
+1,male,2,S,Dr. ,50,1,0,0,1
+3,male,0,C,Mr. ,40,0,0,0,0
+1,male,0,S,Mr. ,47,0,0,0,0
+3,male,1,S,Mr. ,36,0,0,0,0
+3,male,1,S,Mr. ,20,0,0,0,1
+2,male,2,S,Mr. ,32,0,0,0,0
+2,male,0,S,Mr. ,25,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,43,0,0,0,0
+2,female,0,S,Mrs.,29,0,0,0,1
+1,female,1,S,Mrs.,45,1,0,0,1
+2,female,1,S,Mrs.,40,1,2,0,1
+1,male,1,S,Mr. ,31,1,0,0,0
+2,male,0,S,Mr. ,70,0,0,0,0
+2,male,0,S,Mr. ,31,0,0,0,1
+2,male,0,S,Mr. ,30,0,0,0,0
+3,male,0,S,Mr. ,18,0,0,0,0
+3,male,0,S,Mr. ,24.5,0,0,0,0
+3,female,0,S,Miss,18,0,0,0,1
+3,female,1,S,Mrs.,43,1,2,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+1,male,0,C,Mr. ,36,0,0,1,1
+3,female,0,Q,Miss,18,0,0,0,0
+1,male,0,C,Mr. ,27,0,0,0,1
+3,male,0,S,Mr. ,20,0,0,0,0
+3,male,5,S,Mr. ,14,0,0,2,0
+2,male,1,S,Mr. ,60,1,2,0,0
+2,male,1,C,Mr. ,25,1,2,0,0
+3,male,4,S,Mr. ,14,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+3,male,0,S,Mr. ,18,0,0,0,0
+3,female,4,S,Miss,17,0,0,2,1
+1,female,0,S,Miss,15,0,0,1,1
+1,male,1,S,Mr. ,31,1,0,0,1
+3,female,0,C,Miss,4,0,0,1,1
+3,male,0,S,Mr. ,26,0,0,0,1
+3,male,0,C,Mr. ,25,0,0,0,0
+1,male,0,S,Col.,60,0,0,0,0
+2,male,0,S,Mr. ,52,0,0,0,0
+3,male,0,S,Mr. ,44,0,0,0,0
+3,female,0,Q,Miss,18,0,0,0,1
+1,male,1,C,Mr. ,49,1,2,0,0
+1,male,0,S,Mr. ,54,0,0,0,0
+3,male,2,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,42,0,0,0,0
+1,female,1,C,Mrs.,18,1,0,0,1
+1,male,0,S,Mr. ,35,0,0,0,1
+3,female,0,C,Miss,18,0,0,1,0
+3,male,0,Q,Mr. ,25,0,0,0,0
+3,male,1,S,Mr. ,26,0,0,0,0
+2,male,0,S,Mr. ,39,0,0,0,0
+2,female,0,S,Mrs.,45,0,0,0,1
+1,male,0,S,Mr. ,42,0,0,0,1
+1,female,0,S,Miss,22,0,0,0,1
+2,male,0,S,Mr. ,32,0,0,0,0
+3,male,1,C,Mast,6,0,0,1,1
+1,female,0,C,Miss,24,0,0,0,1
+1,male,0,S,Mr. ,41.5,0,0,0,0
+1,male,1,S,Mr. ,48,1,0,0,1
+3,male,1,S,Mr. ,29,0,0,0,0
+2,male,0,S,Mr. ,52,0,0,0,0
+3,male,0,S,Mr. ,19,0,0,0,0
+1,female,0,C,Miss,38,0,0,0,1
+2,female,0,S,Miss,27,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,female,5,S,Miss,16,0,0,2,0
+3,male,0,S,Mr. ,33,0,0,0,0
+2,female,0,S,Miss,6,0,0,1,1
+3,male,1,S,Mr. ,17,0,0,0,0
+2,male,0,S,Mr. ,34,0,0,0,0
+2,male,0,S,Mr. ,50,0,0,0,0
+1,male,1,S,Mr. ,27,1,0,0,1
+3,male,2,S,Mr. ,20,0,0,0,0
+2,female,3,S,Mrs.,30,1,0,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+2,male,1,S,Mr. ,25,0,0,0,0
+2,male,0,S,Mr. ,21,0,0,0,0
+3,female,1,S,Miss,25,0,0,0,0
+1,female,0,S,Miss,29,0,0,0,1
+3,male,0,C,Mr. ,11,0,0,0,0
+2,male,0,S,Mr. ,30,0,0,0,0
+2,male,0,S,Mr. ,23,0,0,0,0
+2,male,0,S,Mr. ,23,0,0,0,0
+3,male,0,S,Mr. ,28.5,0,0,0,0
+3,female,1,S,Mrs.,48,1,2,0,0
+1,male,0,C,Mr. ,35,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,1,C,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,1
+1,male,1,S,Mr. ,36,1,0,0,0
+1,female,2,C,Miss,21,0,0,2,1
+3,male,1,S,Mr. ,24,1,0,0,0
+3,male,0,S,Mr. ,31,0,0,0,1
+1,male,1,S,Capt,70,1,2,0,0
+3,male,1,S,Mr. ,16,1,0,0,0
+2,female,0,S,Miss,30,0,0,0,1
+1,male,1,S,Mr. ,19,1,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,1
+3,male,0,Q,Mr. ,31,0,0,0,0
+2,female,1,S,Miss,4,0,0,1,1
+3,male,0,S,Mast,6,0,0,1,1
+3,male,0,S,Mr. ,33,0,0,0,0
+3,male,0,S,Mr. ,23,0,0,0,0
+2,female,1,S,Mrs.,48,1,2,0,1
+2,male,1,S,Mast,0.67,0,0,1,1
+3,male,0,S,Mr. ,28,0,0,0,0
+2,male,0,S,Mr. ,18,0,0,0,0
+3,male,0,S,Mr. ,34,0,0,0,0
+3,male,0,S,Mr. ,25,0,0,0,0
+1,female,0,S,Lady,33,0,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,41,0,0,0,0
+3,male,0,C,Mr. ,20,0,0,0,1
+1,female,1,S,Mrs.,36,1,2,0,1
+3,male,0,S,Mr. ,16,0,0,0,0
+1,female,1,S,Mrs.,51,1,0,0,1
+1,male,0,C,Dr. ,49,0,0,0,0
+3,female,0,Q,Miss,30.5,0,0,0,0
+3,male,1,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,0
+3,male,0,S,Mr. ,24,0,0,0,0
+3,male,0,S,Mr. ,48,0,0,0,0
+2,female,0,S,Mrs.,57,0,0,0,0
+3,male,0,C,Mr. ,26,0,0,0,0
+2,female,1,S,Mrs.,54,1,1,0,1
+3,male,0,S,Mr. ,18,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,female,0,S,Miss,5,0,0,0,1
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,female,0,S,Mrs.,43,0,1,0,1
+3,female,0,C,Miss,13,0,0,0,1
+1,female,1,S,Mrs.,17,1,0,0,1
+1,male,0,S,Mr. ,29,0,0,0,0
+3,male,1,S,Mr. ,26,1,2,0,0
+3,male,1,S,Mr. ,25,0,0,0,0
+3,male,0,S,Mr. ,25,0,0,0,0
+3,female,0,S,Miss,18,0,0,0,1
+3,male,4,Q,Mast,8,0,0,1,0
+3,male,1,S,Mast,1,0,0,2,1
+2,male,0,S,Mast,0.83,0,0,2,1
+1,male,0,C,Mr. ,46,0,0,0,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+2,male,0,S,Mr. ,16,0,0,0,0
+3,female,8,S,Miss,18,0,0,2,0
+1,male,0,C,Mr. ,41.5,0,0,0,0
+3,male,0,S,Mr. ,25,0,0,0,0
+2,male,0,S,Mr. ,39,0,0,0,0
+1,female,0,S,Dr. ,49,0,0,0,1
+3,female,0,S,Mrs.,31,0,0,0,1
+3,male,0,C,Mr. ,30,0,0,0,0
+3,male,3,S,Mast,2,0,0,1,0
+3,female,0,S,Miss,30,0,0,0,1
+3,female,1,S,Mrs.,30,1,2,0,0
+2,male,0,S,Mr. ,34,0,0,0,0
+2,female,1,S,Mrs.,31,1,2,0,1
+1,male,1,S,Mast,11,0,0,2,1
+3,male,0,C,Mast,0.42,0,0,1,1
+3,male,0,S,Mr. ,27,0,0,0,1
+3,male,0,S,Mr. ,31,0,0,0,0
+1,male,0,S,Mr. ,39,0,0,0,0
+3,female,0,S,Miss,18,0,0,0,0
+2,male,0,S,Mr. ,39,0,0,0,0
+3,male,0,S,Mr. ,22,0,0,0,0
+1,female,1,S,Mrs.,33,1,0,0,1
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,39,0,0,0,0
+2,male,0,S,Mr. ,35,0,0,0,0
+3,female,4,S,Miss,6,0,0,2,0
+3,male,0,S,Mr. ,30.5,0,0,0,0
+1,male,0,S,Mr. ,41.5,0,0,0,0
+3,female,0,S,Miss,23,0,0,0,0
+2,male,1,C,Mr. ,31,1,2,0,0
+3,male,0,S,Mr. ,43,0,0,0,0
+3,male,0,S,Mr. ,29,0,0,0,1
+3,male,3,S,Mast,10,0,0,2,0
+1,female,1,S,Mrs.,52,1,2,0,1
+3,male,0,S,Mr. ,27,0,0,0,1
+1,male,0,S,Sir,38,0,0,0,0
+3,female,0,S,Mrs.,27,0,1,0,1
+3,male,4,S,Mast,2,0,0,1,0
+3,male,0,Q,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+2,male,0,C,Mast,1,0,0,2,1
+3,male,0,Q,Mr. ,26,0,0,0,1
+3,female,0,Q,Miss,18,0,0,0,1
+1,female,0,S,Mrs.,62,0,0,0,1
+3,female,1,C,Mrs.,15,1,0,0,1
+2,male,1,S,Mast,0.83,0,0,1,1
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,23,0,0,0,0
+3,male,0,S,Mr. ,18,0,0,0,0
+1,female,1,C,Miss,39,0,0,1,1
+3,male,0,S,Mr. ,21,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,32,0,0,0,1
+1,male,1,S,Mr. ,28,0,0,0,0
+1,male,0,C,Mr. ,41.5,0,0,0,1
+3,male,0,S,Mr. ,20,0,0,0,0
+2,male,0,S,Mr. ,16,0,0,0,0
+1,female,0,C,Miss,30,0,0,0,1
+3,male,0,C,Mr. ,34.5,0,0,0,0
+3,male,0,S,Mr. ,17,0,0,0,0
+3,male,0,S,Mr. ,42,0,0,0,0
+3,male,8,S,Mr. ,26,0,0,2,0
+3,male,0,C,Mr. ,35,0,0,0,0
+2,male,0,S,Rev.,28,0,1,0,0
+2,female,0,S,Miss,17,0,0,0,1
+1,female,1,C,Mrs.,45,1,0,0,1
+3,male,4,S,Mast,4,0,0,2,0
+3,male,0,S,Mr. ,74,0,0,0,0
+3,female,1,C,Miss,9,0,0,1,0
+1,female,0,S,Miss,16,0,0,1,1
+2,female,1,S,Mrs.,44,1,0,0,0
+3,female,0,S,Mrs.,18,0,1,0,1
+1,female,1,S,Mrs.,45,1,2,0,1
+1,male,0,S,Mr. ,51,0,0,0,1
+3,female,0,C,Mrs.,24,0,1,0,1
+3,female,3,S,Mrs.,33,1,0,0,1
+3,male,0,C,Mr. ,26,0,0,0,0
+3,male,2,S,Mr. ,41,1,0,0,0
+2,male,1,S,Mr. ,21,0,0,0,0
+1,female,0,S,Mrs.,48,0,0,0,1
+3,female,8,S,Miss,18,0,0,2,0
+2,male,0,S,Mr. ,24,0,0,0,0
+2,female,0,S,Mrs.,42,0,0,0,1
+2,female,1,C,Miss,27,0,0,0,1
+1,male,0,S,Mr. ,31,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,1,S,Mr. ,16,0,0,2,0
+3,male,1,S,Mast,4,0,0,1,1
+3,male,0,S,Mr. ,26,0,0,0,0
+1,female,1,S,Mrs.,47,1,2,0,1
+1,male,0,S,Mr. ,33,0,0,0,0
+3,male,0,S,Mr. ,47,0,0,0,0
+2,female,1,C,Mrs.,28,1,0,0,1
+3,female,0,C,Miss,15,0,0,0,1
+3,male,0,S,Mr. ,20,0,0,0,0
+3,male,1,S,Mr. ,19,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,female,0,C,Mrs.,56,0,1,0,1
+2,female,0,S,Mrs.,25,0,0,1,1
+3,male,0,S,Mr. ,33,0,0,0,0
+3,female,0,S,Miss,22,0,0,0,0
+2,male,0,S,Mr. ,28,0,0,0,0
+3,male,0,S,Mr. ,25,0,0,0,0
+3,female,0,Q,Mrs.,39,0,1,0,0
+2,male,0,S,Rev.,27,0,0,0,0
+1,female,0,S,Miss,19,0,0,0,1
+3,female,1,S,Miss,18,0,0,2,0
+1,female,3,S,Miss,23,0,0,2,1
+1,male,0,C,Mr. ,26,0,0,0,1
+3,male,0,Q,Mr. ,32,0,0,0,0
+3,female,0,S,Mrs.,27,0,1,0,1
+3,male,0,S,Mr. ,24,0,0,0,0
+3,male,0,S,Mr. ,29,0,0,0,0
+3,male,0,S,Mr. ,20,0,0,0,0
+1,male,1,S,Mr. ,46,1,0,0,0
+3,male,1,S,Mr. ,26,1,2,0,0
+3,male,0,S,Mr. ,59,0,0,0,0
+3,male,0,S,Mr. ,26,0,0,0,0
+1,male,0,C,Mr. ,71,0,0,0,0
+1,male,0,C,Mr. ,23,0,0,1,1
+2,female,0,S,Mrs.,34,0,1,0,1

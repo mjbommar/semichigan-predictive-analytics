@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="5.2.006">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="5.2.006" expanded="true" name="Process">
+    <process expanded="true" height="404" width="752">
+      <operator activated="true" class="retrieve" compatibility="5.2.006" expanded="true" height="60" name="Retrieve" width="90" x="45" y="30">
+        <parameter key="repository_entry" value="//Meetup/Kaggle-Titanic/Data/Family-training"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="5.2.006" expanded="true" height="76" name="Select Attributes" width="90" x="45" y="120">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attributes" value="survived|age|brothers|child|embarked|moniker|offspring|parch|parent|pclass|sex|sibsp|sisters|spouse|together"/>
+      </operator>
+      <operator activated="true" class="discretize_by_user_specification" compatibility="5.2.006" expanded="true" height="94" name="Discretize" width="90" x="45" y="210">
+        <parameter key="attribute_filter_type" value="regular_expression"/>
+        <parameter key="regular_expression" value="survived"/>
+        <parameter key="include_special_attributes" value="true"/>
+        <list key="classes">
+          <parameter key="Yes" value="1.0"/>
+          <parameter key="No" value="0.0"/>
+        </list>
+      </operator>
+      <operator activated="true" class="multiply" compatibility="5.2.006" expanded="true" height="76" name="Multiply" width="90" x="179" y="30"/>
+      <operator activated="true" class="split_validation" compatibility="5.2.006" expanded="true" height="112" name="Validation (2)" width="90" x="389" y="22">
+        <parameter key="split_ratio" value="0.75"/>
+        <parameter key="sampling_type" value="stratified sampling"/>
+        <process expanded="true" height="381" width="342">
+          <operator activated="true" class="decision_tree" compatibility="5.2.006" expanded="true" height="76" name="Decision Tree (2)" width="90" x="106" y="183">
+            <parameter key="minimal_size_for_split" value="20"/>
+            <parameter key="minimal_leaf_size" value="16"/>
+            <parameter key="minimal_gain" value="0.05"/>
+            <parameter key="maximal_depth" value="17"/>
+          </operator>
+          <connect from_port="training" to_op="Decision Tree (2)" to_port="training set"/>
+          <connect from_op="Decision Tree (2)" from_port="model" to_port="model"/>
+          <portSpacing port="source_training" spacing="0"/>
+          <portSpacing port="sink_model" spacing="0"/>
+          <portSpacing port="sink_through 1" spacing="0"/>
+        </process>
+        <process expanded="true" height="381" width="342">
+          <operator activated="true" class="apply_model" compatibility="5.2.006" expanded="true" height="76" name="Apply Model (2)" width="90" x="84" y="32">
+            <list key="application_parameters"/>
+          </operator>
+          <operator activated="true" class="performance_classification" compatibility="5.2.006" expanded="true" height="76" name="Performance (2)" width="90" x="164" y="142">
+            <list key="class_weights"/>
+          </operator>
+          <connect from_port="model" to_op="Apply Model (2)" to_port="model"/>
+          <connect from_port="test set" to_op="Apply Model (2)" to_port="unlabelled data"/>
+          <connect from_op="Apply Model (2)" from_port="labelled data" to_op="Performance (2)" to_port="labelled data"/>
+          <connect from_op="Performance (2)" from_port="performance" to_port="averagable 1"/>
+          <portSpacing port="source_model" spacing="0"/>
+          <portSpacing port="source_test set" spacing="0"/>
+          <portSpacing port="source_through 1" spacing="0"/>
+          <portSpacing port="sink_averagable 1" spacing="0"/>
+          <portSpacing port="sink_averagable 2" spacing="0"/>
+        </process>
+      </operator>
+      <operator activated="false" class="optimize_parameters_grid" compatibility="5.2.006" expanded="true" height="130" name="Optimize Parameters (Grid)" width="90" x="179" y="165">
+        <list key="parameters">
+          <parameter key="Decision Tree.minimal_size_for_split" value="[10;200;10;linear]"/>
+          <parameter key="Decision Tree.minimal_leaf_size" value="[10;200;10;linear]"/>
+          <parameter key="Decision Tree.maximal_depth" value="[5;20;15;linear]"/>
+        </list>
+        <process expanded="true" height="399" width="752">
+          <operator activated="false" class="split_validation" compatibility="5.2.006" expanded="true" height="112" name="Validation" width="90" x="179" y="75">
+            <parameter key="split_ratio" value="0.75"/>
+            <parameter key="sampling_type" value="stratified sampling"/>
+            <process expanded="true" height="399" width="351">
+              <operator activated="false" class="decision_tree" compatibility="5.2.006" expanded="true" height="76" name="Decision Tree" width="90" x="112" y="30">
+                <parameter key="criterion" value="information_gain"/>
+                <parameter key="minimal_size_for_split" value="200"/>
+                <parameter key="minimal_leaf_size" value="200"/>
+                <parameter key="minimal_gain" value="0.025"/>
+              </operator>
+              <connect from_port="training" to_op="Decision Tree" to_port="training set"/>
+              <connect from_op="Decision Tree" from_port="model" to_port="model"/>
+              <portSpacing port="source_training" spacing="0"/>
+              <portSpacing port="sink_model" spacing="0"/>
+              <portSpacing port="sink_through 1" spacing="0"/>
+            </process>
+            <process expanded="true" height="399" width="351">
+              <operator activated="false" class="apply_model" compatibility="5.2.006" expanded="true" height="76" name="Apply Model" width="90" x="45" y="30">
+                <list key="application_parameters"/>
+              </operator>
+              <operator activated="false" class="performance_classification" compatibility="5.2.006" expanded="true" height="76" name="Performance" width="90" x="198" y="30">
+                <list key="class_weights"/>
+              </operator>
+              <connect from_port="model" to_op="Apply Model" to_port="model"/>
+              <connect from_port="test set" to_op="Apply Model" to_port="unlabelled data"/>
+              <connect from_op="Apply Model" from_port="labelled data" to_op="Performance" to_port="labelled data"/>
+              <connect from_op="Performance" from_port="performance" to_port="averagable 1"/>
+              <portSpacing port="source_model" spacing="0"/>
+              <portSpacing port="source_test set" spacing="0"/>
+              <portSpacing port="source_through 1" spacing="0"/>
+              <portSpacing port="sink_averagable 1" spacing="0"/>
+              <portSpacing port="sink_averagable 2" spacing="0"/>
+            </process>
+          </operator>
+          <operator activated="false" class="log" compatibility="5.2.006" expanded="true" height="76" name="Log" width="90" x="246" y="210">
+            <list key="log">
+              <parameter key="run" value="operator.Apply Model.value.applycount"/>
+              <parameter key="accuracy" value="operator.Performance.value.accuracy"/>
+              <parameter key="tree.size" value="operator.Decision Tree.parameter.maximal_depth"/>
+              <parameter key="min.leaf.size" value="operator.Decision Tree.parameter.minimal_leaf_size"/>
+              <parameter key="min.size.split" value="operator.Decision Tree.parameter.minimal_size_for_split"/>
+            </list>
+          </operator>
+          <connect from_port="input 1" to_op="Validation" to_port="training"/>
+          <connect from_port="input 2" to_op="Log" to_port="through 1"/>
+          <connect from_op="Validation" from_port="model" to_port="result 1"/>
+          <connect from_op="Validation" from_port="averagable 1" to_port="performance"/>
+          <connect from_op="Log" from_port="through 1" to_port="result 2"/>
+          <portSpacing port="source_input 1" spacing="0"/>
+          <portSpacing port="source_input 2" spacing="0"/>
+          <portSpacing port="source_input 3" spacing="0"/>
+          <portSpacing port="sink_performance" spacing="0"/>
+          <portSpacing port="sink_result 1" spacing="0"/>
+          <portSpacing port="sink_result 2" spacing="0"/>
+          <portSpacing port="sink_result 3" spacing="0"/>
+        </process>
+      </operator>
+      <connect from_op="Retrieve" from_port="output" to_op="Select Attributes" to_port="example set input"/>
+      <connect from_op="Select Attributes" from_port="example set output" to_op="Discretize" to_port="example set input"/>
+      <connect from_op="Discretize" from_port="example set output" to_op="Multiply" to_port="input"/>
+      <connect from_op="Multiply" from_port="output 1" to_op="Validation (2)" to_port="training"/>
+      <connect from_op="Validation (2)" from_port="model" to_port="result 1"/>
+      <connect from_op="Validation (2)" from_port="averagable 1" to_port="result 2"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+    </process>
+  </operator>
+</process>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>My Grid</title>
+
+    <script src="https://www.quickbase.com/js/jquery-1.7.2.min.js"></script>
+    <script src="https://www.quickbase.com/db/bhgs3bsfs?a=dbpage&pagename=jquery.handsontable.js"></script>
+
+    <link rel="stylesheet" media="screen" href="https://www.quickbase.com/db/bhgs3bsfs?a=dbpage&pagename=jquery.handsontable.css">
+    <link rel="stylesheet" media="screen" href="https://www.quickbase.com/db/bhgs3bsfs?a=dbpage&pagename=bootstrap.css">
+
+    <script>
+      $(function () {
+
+        $("#example1grid").handsontable({
+          rows: 9,
+          cols: 7,
+          minSpareCols: 0,
+          minSpareRows: 0,
+          contextMenu: false,
+          fillHandle: false,
+          onBeforeChange: function(changes) {
+            //alert(changes);
+          }
+        });
+
+        var data = [
+          ["Day", "Date", "Scope 1", "Scope 2", "Scope 3", "Scope 4", "Notes"],
+          ["Sat", "2/24/2012", 10, 11, 12, 134, "Lorem Ipsum"],
+          ["Sun", "2/25/2012", 20, 13, 15, 130, "Bacon Ipsum"],
+          ["Mon", "2/26/2012", 20, 25, 56,   0, "Hipster Ipsum"],
+          ["Tue", "2/27/2012", 30,  5,  0,  13, "Bacon Ipsum"],
+          ["Wed", "2/28/2012", 30, 15,  0,  99, "Hipster Ipsum"],
+          ["Thu", "2/29/2012", 45, 15, 12,  13, "Bacon Ipsum"],
+          ["Fri", "2/30/2012", 50, 15, 12,  13, "Lorem Ipsum"],
+          ["Totals", "", 50, 15, 12,  13, ""],
+        ];
+
+        $("#example1grid").handsontable("loadData", data);
+        $("#example1grid").handsontable("setCellReadOnly",0,0);
+        $("#example1grid").handsontable("setCellReadOnly",0,1);
+        $("#example1grid").handsontable("setCellReadOnly",0,2);
+        $("#example1grid").handsontable("setCellReadOnly",0,3);
+        $("#example1grid").handsontable("setCellReadOnly",0,4);
+        $("#example1grid").handsontable("setCellReadOnly",0,5);
+        $("#example1grid").handsontable("setCellReadOnly",0,6);
+
+        $("#example1grid").handsontable("setCellReadOnly",1,0);
+        $("#example1grid").handsontable("setCellReadOnly",2,0);
+        $("#example1grid").handsontable("setCellReadOnly",3,0);
+        $("#example1grid").handsontable("setCellReadOnly",4,0);
+        $("#example1grid").handsontable("setCellReadOnly",5,0);
+        $("#example1grid").handsontable("setCellReadOnly",6,0);
+        $("#example1grid").handsontable("setCellReadOnly",7,0);
+        $("#example1grid").handsontable("setCellReadOnly",8,0);
+
+        $("#example1grid").handsontable("setCellReadOnly",1,1);
+        $("#example1grid").handsontable("setCellReadOnly",2,1);
+        $("#example1grid").handsontable("setCellReadOnly",3,1);
+        $("#example1grid").handsontable("setCellReadOnly",4,1);
+        $("#example1grid").handsontable("setCellReadOnly",5,1);
+        $("#example1grid").handsontable("setCellReadOnly",6,1);
+        $("#example1grid").handsontable("setCellReadOnly",7,1);
+        $("#example1grid").handsontable("setCellReadOnly",8,1);
+
+        $("#example1grid").handsontable("setCellReadOnly",8,6);
+      });
+    </script>
+  </head>
+
+  <body>
+  
+  	<div class="container">
+      <form class="form-horizontal">
+        <fieldset>
+        <legend>Inspection Data Entry Form</legend>
+
+          <div class="control-group">
+            <label class="control-label" for="ClientName">Client Name</label>
+
+            <div class="controls">
+            <select class="input-xlarge" id="ClientName" >
+              <option>Alpha</option>
+              <option>Beta</option>
+              <option>Gamma</option>
+              <option>Delta</option>
+            </select>
+
+            <p class="help-block">Lorem Ipsum</p>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="ProjectName">Project Name</label>
+
+            <div class="controls">
+            <select class="input-xlarge" id="ProjectName" >
+              <option>Alpha</option>
+              <option>Beta</option>
+              <option>Gamma</option>
+              <option>Delta</option>
+            </select>
+
+            <p class="help-block">Lorem Ipsum</p>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="Dummy"></label>
+              <div class="controls">
+                <button class="btn btn-default btn-primary" type="button"><i class="icon-hand-left"></i> Previous Week</button>
+              <button class="btn btn-default btn-primary" type="button"><i class="icon-hand-right"></i> Next Week</button>
+              <button type="submit" class="btn btn-primary" id="save">Save Changes</button>
+            </div>
+          </div>
+          
+          <div class="control-group">
+            <label class="control-label" for="Grid"></label>
+            <div class="controls">
+              <div id="example1grid" class="dataTable"></div>
+            </div>
+          </div>
+        
+        </fieldset>
+      </form>
+	  </div>
+  
+  </body>
+</html>
