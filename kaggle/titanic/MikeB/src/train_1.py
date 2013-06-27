@@ -205,8 +205,8 @@ def preprocess_data(data):
         'ticket_char_3', 'ticket_char_2', 'ticket_char_A', 'ticket_char_S', 'ticket_char_P', 'ticket_char_C', 'ticket_char_1',
         'has_family_peer', 'has_family_nonpeer', 'has_all_family'
         ]
-    #feature_columns = 
-    normalize_columns = ['pclass', 'age', 'fare', 'sibsp', 'parch']
+
+    normalize_columns = feature_columns
     
     data_features = data[feature_columns]
     
@@ -239,7 +239,7 @@ data_train = pandas.read_csv('data/train.csv')
 data_test_kaggle = pandas.read_csv('data/test.csv')
 
 # Split into test and train
-test_ratio = 0.15
+test_ratio = 0.4
 test_rows = random.choice(data_train.index, int(test_ratio * len(data_train.index)))
 data_test = data_train.ix[test_rows]
 data_train = data_train.drop(test_rows)
@@ -261,7 +261,7 @@ for column_name in data_train_features.columns:
 #print(data_train_features.abs().sum())
 
 # Train
-model_train = sklearn.svm.SVC(kernel='rbf')
+model_train = sklearn.svm.SVC(C=0.25, kernel='linear')
 model_train.fit(data_train_features, data_train_target)
 
 # Test
@@ -272,8 +272,9 @@ print('Summary')
 print(sklearn.metrics.classification_report(data_test_target['survived'], data_test_target['model']))
 
 # Cross-validate
-train_scores = sklearn.cross_validation.cross_val_score(model_train, data_test_features, data_test_target['survived'], cv=10)
+train_scores = sklearn.cross_validation.cross_val_score(model_train, data_test_features, data_test_target['survived'], cv=50)
 print(train_scores)
+print(train_scores.mean())
 
 # <codecell>
 
