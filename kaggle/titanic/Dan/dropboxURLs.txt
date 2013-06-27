@@ -1,0 +1,5 @@
+https://dl.dropbox.com/sh/2wmdzn9nrxfzj36/STQT_lv0KB/train.csv
+https://dl.dropbox.com/sh/2wmdzn9nrxfzj36/AjFoYHQ4qp/test.csv
+https://dl.dropbox.com/sh/2wmdzn9nrxfzj36/tPqtqUNhbl/myfirstforest.csv
+https://dl.dropbox.com/sh/2wmdzn9nrxfzj36/HsyxuCF_05/gendermodel.csv
+https://dl.dropbox.com/sh/2wmdzn9nrxfzj36/qm19AD0EIT/genderclassmodel.csv

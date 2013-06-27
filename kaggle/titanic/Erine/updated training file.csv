@@ -1,0 +1,892 @@
+Dataset,pclass,name,sex,age,sibsp,spouse,sisters,brothers,parch,parent,offspring,child,ticket,fare,cabin,embarked,cabin letter,last name,moniker,Nickname,ticket type,ticket number,together,group,age by group,age by demographics,child_adult with est,child_adult_no_est,child_adult_senior,survived
+TRAINING-1,3,"Braund, Mr. Owen Harris",male,22,1,0,0,1,0,0,0,0,A/5 21171,7.25,,S,,Braund,Mr. ,no,A/5 or A/4,21171,T,Braund,22,22,adult,adult,adult,0
+TRAINING-10,2,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,1,1,0,0,0,0,0,0,237736,30.0708,,C,,Nasser,Mrs.,no,6 digit,237736,T,Nasser,14,14,adult,adult,adult,1
+TRAINING-100,2,"Kantor, Mr. Sinai",male,34,1,1,0,0,0,0,0,0,244367,26,,S,,Kantor,Mr. ,no,6 digit,244367,T,Kantor,34,34,adult,adult,adult,0
+TRAINING-101,3,"Petranec, Miss. Matilda",female,28,0,0,0,0,0,0,0,0,349245,7.8958,,S,,Petranec,Miss,no,6 digit,349245,A,,28,28,adult,adult,adult,0
+TRAINING-102,3,"Petroff, Mr. Pastcho Pentcho",male,,1,0,0,1,0,0,0,0,349215,7.8958,,S,,Petroff,Mr. ,yes,6 digit,349215,T,Petroff,26,26,adult,adult,,0
+TRAINING-103,1,"White, Mr. Richard Frasar",male,21,0,0,0,0,1,0,0,1,35281,77.2875,D26,S,D,White,Mr. ,no,5 digit,35281,T,White,21,21,adult,adult,adult,0
+TRAINING-104,3,"Johansson, Mr. Gustaf Joel",male,33,0,0,0,0,0,0,0,0,7540,8.6542,,S,,Johansson,Mr. ,no,4 digit,7540,U,,33,33,adult,adult,adult,0
+TRAINING-105,3,"Gustafsson, Mr. Anders Vilhelm",male,37,2,0,1,1,0,0,0,0,3101276,7.925,,S,,Gustafsson,Mr. ,no,7 digit,3101276,T,Backstrom-Gustafsson,37,37,adult,adult,adult,0
+TRAINING-106,3,"Mionoff, Mr. Stoytcho",male,28,0,0,0,0,0,0,0,0,349207,7.8958,,S,,Mionoff,Mr. ,no,6 digit,349207,U,,28,28,adult,adult,adult,0
+TRAINING-107,3,"Salkjelsvik, Miss. Anna Kristine",female,21,0,0,0,0,0,0,0,0,343120,7.65,,S,,Salkjelsvik,Miss,no,6 digit,343120,A,,21,21,adult,adult,adult,1
+TRAINING-108,3,"Moss, Mr. Albert Johan",male,,0,0,0,0,0,0,0,0,312991,7.775,,S,,Moss,Mr. ,no,6 digit,312991,A,,26,26,adult,adult,,1
+TRAINING-109,3,"Rekic, Mr. Tido",male,38,0,0,0,0,0,0,0,0,349249,7.8958,,S,,Rekic,Mr. ,no,6 digit,349249,A,,38,38,adult,adult,adult,0
+TRAINING-11,3,"Sandstrom, Miss. Marguerite Rut",female,4,1,0,1,0,1,0,0,1,PP 9549,16.7,G6,S,G,Sandstrom,Miss,no,PP,9549,T,Sandstrom,4,4,child,child,child,1
+TRAINING-110,3,"Moran, Miss. Bertha",female,,1,0,0,1,0,0,0,0,371110,24.15,,Q,,Moran,Miss,no,6 digit,371110,T,Moran-371110,18,18,adult,,,1
+TRAINING-111,1,"Porter, Mr. Walter Chamberlain",male,47,0,0,0,0,0,0,0,0,110465,52,C110,S,C,Porter,Mr. ,no,6 digit,110465,T,110465,47,47,adult,adult,adult,0
+TRAINING-112,3,"Zabour, Miss. Hileni",female,14.5,1,0,1,0,0,0,0,0,2665,14.4542,,C,,Zabour,Miss,no,4 digit,2665,T,Zabour,14.5,14.5,adult,adult,adult,0
+TRAINING-113,3,"Barton, Mr. David John",male,22,0,0,0,0,0,0,0,0,324669,8.05,,S,,Barton,Mr. ,no,6 digit,324669,A,,22,22,adult,adult,adult,0
+TRAINING-114,3,"Jussila, Miss. Katriina",female,20,1,0,1,0,0,0,0,0,4136,9.825,,S,,Jussila,Miss,no,4 digit,4136,T,Jussila,20,20,adult,adult,adult,0
+TRAINING-115,3,"Attalah, Miss. Malake",female,17,0,0,0,0,0,0,0,0,2627,14.4583,,C,,Attalah,Miss,no,4 digit,2627,T,2627,17,17,adult,adult,adult,0
+TRAINING-116,3,"Pekoniemi, Mr. Edvard",male,21,0,0,0,0,0,0,0,0,STON/O 2. 3101294,7.925,,S,,Pekoniemi,Mr. ,no,STON/O2.,3101294,A,,21,21,adult,adult,adult,0
+TRAINING-117,3,"Connors, Mr. Patrick",male,70.5,0,0,0,0,0,0,0,0,370369,7.75,,Q,,Connors,Mr. ,no,6 digit,370369,A,,70.5,70.5,adult,adult,senior,0
+TRAINING-118,2,"Turpin, Mr. William John Robert",male,29,1,1,0,0,0,0,0,0,11668,21,,S,,Turpin,Mr. ,no,5 digit,11668,T,Turpin,29,29,adult,adult,adult,0
+TRAINING-119,1,"Baxter, Mr. Quigg Edmond",male,24,0,0,0,0,1,0,0,1,PC 17558,247.5208,B58 B60,C,B,Baxter,Mr. ,no,PC,17558,T,Baxter-17558,24,24,adult,adult,adult,0
+TRAINING-12,1,"Bonnell, Miss. Elizabeth",female,58,0,0,0,0,0,0,0,0,113783,26.55,C103,S,C,Bonnell,Miss,no,6 digit,113783,A,,58,58,adult,adult,adult,1
+TRAINING-120,3,"Andersson, Miss. Ellis Anna Maria",female,2,4,0,3,1,2,0,0,2,347082,31.275,,S,,Andersson,Miss,no,6 digit,347082,T,Andersson-347082,2,2,child,child,child,0
+TRAINING-121,2,"Hickman, Mr. Stanley George",male,21,2,0,0,2,0,0,0,0,S.O.C. 14879,73.5,,S,,Hickman,Mr. ,no,S.O.C.,14879,T,Hickman-14879,21,21,adult,adult,adult,0
+TRAINING-122,3,"Moore, Mr. Leonard Charles",male,,0,0,0,0,0,0,0,0,A4. 54510,8.05,,S,,Moore,Mr. ,no,A/5 or A/4,54510,A,,26,26,adult,adult,,0
+TRAINING-123,2,"Nasser, Mr. Nicholas",male,32.5,1,1,0,0,0,0,0,0,237736,30.0708,,C,,Nasser,Mr. ,no,6 digit,237736,T,Nasser,32.5,32.5,adult,adult,adult,0
+TRAINING-124,2,"Webber, Miss. Susan",female,32.5,0,0,0,0,0,0,0,0,27267,13,E101,S,E,Webber,Miss,no,5 digit,27267,T,E101,32.5,32.5,adult,adult,adult,1
+TRAINING-125,1,"White, Mr. Percival Wayland",male,54,0,0,0,0,1,1,1,0,35281,77.2875,D26,S,D,White,Mr. ,no,5 digit,35281,T,White,54,54,adult,adult,adult,0
+TRAINING-126,3,"Nicola-Yarred, Master. Elias",male,12,1,0,1,0,0,0,0,0,2651,11.2417,,C,,Nicola-Yarred,Mast,no,4 digit,2651,T,Nicola-Yarred,12,12,child,child,child,1
+TRAINING-127,3,"McMahon, Mr. Martin",male,,0,0,0,0,0,0,0,0,370372,7.75,,Q,,McMahon,Mr. ,no,6 digit,370372,A,,26,26,adult,adult,,0
+TRAINING-128,3,"Madsen, Mr. Fridtjof Arne",male,24,0,0,0,0,0,0,0,0,C 17369,7.1417,,S,,Madsen,Mr. ,no,C number,17369,A,,24,24,adult,adult,adult,1
+TRAINING-129,3,"Peter, Miss. Anna",female,,1,0,0,1,1,0,0,1,2668,22.3583,F E69,C,F,Peter,Miss,no,4 digit,2668,T,Peter,18,18,adult,,,1
+TRAINING-13,3,"Saundercock, Mr. William Henry",male,20,0,0,0,0,0,0,0,0,A/5. 2151,8.05,,S,,Saundercock,Mr. ,no,A/5 or A/4,2151,A,,20,20,adult,adult,adult,0
+TRAINING-130,3,"Ekstrom, Mr. Johan",male,45,0,0,0,0,0,0,0,0,347061,6.975,,S,,Ekstrom,Mr. ,no,6 digit,347061,A,,45,45,adult,adult,adult,0
+TRAINING-131,3,"Drazenoic, Mr. Jozef",male,33,0,0,0,0,0,0,0,0,349241,7.8958,,C,,Drazenoic,Mr. ,no,6 digit,349241,A,,33,33,adult,adult,adult,0
+TRAINING-132,3,"Coelho, Mr. Domingos Fernandeo",male,20,0,0,0,0,0,0,0,0,SOTON/O.Q. 3101307,7.05,,S,,Coelho,Mr. ,no,SOTON/OQ,3101307,A,,20,20,adult,adult,adult,0
+TRAINING-133,3,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,1,1,0,0,0,0,0,0,A/5. 3337,14.5,,S,,Robins,Mrs.,no,A/5 or A/4,3337,T,Robins,47,47,adult,adult,adult,0
+TRAINING-134,2,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,1,1,0,0,0,0,0,0,228414,26,,S,,Weisz,Mrs.,no,6 digit,228414,T,Weisz,29,29,adult,adult,adult,1
+TRAINING-135,2,"Sobey, Mr. Samuel James Hayden",male,25,0,0,0,0,0,0,0,0,C.A. 29178,13,,S,,Sobey,Mr. ,no,CA,29178,A,,25,25,adult,adult,adult,0
+TRAINING-136,2,"Richard, Mr. Emile",male,23,0,0,0,0,0,0,0,0,SC/PARIS 2133,15.0458,,C,,Richard,Mr. ,no,SC/Paris,2133,A,,23,23,adult,adult,adult,0
+TRAINING-137,1,"Newsom, Miss. Helen Monypeny",female,19,0,0,0,0,2,0,0,2,11752,26.2833,D47,S,D,Newsom,Miss,no,5 digit,11752,T,Beckwith-Monypeny,19,19,adult,adult,adult,1
+TRAINING-138,1,"Futrelle, Mr. Jacques Heath",male,37,1,1,0,0,0,0,0,0,113803,53.1,C123,S,C,Futrelle,Mr. ,no,6 digit,113803,T,Futrelle,37,37,adult,adult,adult,0
+TRAINING-139,3,"Osen, Mr. Olaf Elon",male,16,0,0,0,0,0,0,0,0,7534,9.2167,,S,,Osen,Mr. ,no,4 digit,7534,T,7534,16,16,adult,adult,adult,0
+TRAINING-14,3,"Andersson, Mr. Anders Johan",male,39,1,1,0,0,5,2,5,0,347082,31.275,,S,,Andersson,Mr. ,no,6 digit,347082,T,Andersson-347082,39,39,adult,adult,adult,0
+TRAINING-140,1,"Giglio, Mr. Victor",male,24,0,0,0,0,0,0,0,0,PC 17593,79.2,B86,C,B,Giglio,Mr. ,no,PC,17593,T,17593,24,24,adult,adult,adult,0
+TRAINING-141,3,"Boulos, Mrs. Joseph (Sultana)",female,,0,0,0,0,2,1,2,0,2678,15.2458,,C,,Boulos,Mrs.,no,4 digit,2678,T,Boulos,29,31,adult,adult,,0
+TRAINING-142,3,"Nysten, Miss. Anna Sofia",female,22,0,0,0,0,0,0,0,0,347081,7.75,,S,,Nysten,Miss,no,6 digit,347081,A,,22,22,adult,adult,adult,1
+TRAINING-143,3,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,1,1,0,0,0,0,0,0,STON/O2. 3101279,15.85,,S,,Hakkarainen,Mrs.,no,STON/O2.,3101279,T,Hakkarainen,24,24,adult,adult,adult,1
+TRAINING-144,3,"Burke, Mr. Jeremiah",male,19,0,0,0,0,0,0,0,0,365222,6.75,,Q,,Burke,Mr. ,no,6 digit,365222,A,,19,19,adult,adult,adult,0
+TRAINING-145,2,"Andrew, Mr. Edgardo Samuel",male,18,0,0,0,0,0,0,0,0,231945,11.5,,S,,Andrew,Mr. ,no,6 digit,231945,U,,18,18,adult,adult,adult,0
+TRAINING-146,2,"Nicholls, Mr. Joseph Charles",male,19,1,0,0,0,1,0,0,0,C.A. 33112,36.75,,S,,Nicholls,Mr. ,no,CA,33112,T,33112,19,19,adult,adult,adult,0
+TRAINING-147,3,"Andersson, Mr. August Edvard Wennerstrom",male,27,0,0,0,0,0,0,0,0,350043,7.7958,,S,,Andersson,Mr. ,yes,6 digit,350043,U,,27,27,adult,adult,adult,1
+TRAINING-148,3,"Ford, Miss. Robina Maggie  Ruby ",female,9,2,0,1,1,2,0,0,2,W./C. 6608,34.375,,S,,Ford,Miss,yes,W./C. ,6608,T,Ford-Johnston-Watson,9,9,child,child,child,0
+TRAINING-149,2,"Navratil, Mr. Michel Louis M Hoffman",male,36.5,0,0,0,0,2,1,2,0,230080,26,F2,S,F,Navratil,Mr. ,yes,6 digit,230080,T,Navratil-F2,36.5,36.5,adult,adult,adult,0
+TRAINING-15,3,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,0,0,0,0,0,0,0,0,350406,7.8542,,S,,Vestrom,Miss,no,6 digit,350406,U,,14,14,adult,adult,adult,0
+TRAINING-150,2,"Byles, Rev. Thomas Roussel Davids",male,42,0,0,0,0,0,0,0,0,244310,13,,S,,Byles,Rev.,no,6 digit,244310,A,,42,42,adult,adult,adult,0
+TRAINING-151,2,"Bateman, Rev. Robert James",male,51,0,0,0,0,0,0,0,0,S.O.P. 1166,12.525,,S,,Bateman,Rev.,no,Other,1166,A,,51,51,adult,adult,adult,0
+TRAINING-152,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,1,1,0,0,0,0,0,0,113776,66.6,C2,S,C,Pears,Mrs.,no,6 digit,113776,T,Pears,22,22,adult,adult,adult,1
+TRAINING-153,3,"Meo, Mr. Alfonzo",male,55.5,0,0,0,0,0,0,0,0,A.5. 11206,8.05,,S,,Meo,Mr. ,no,A/5 or A/4,11206,A,,55.5,55.5,adult,adult,adult,0
+TRAINING-154,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,0,0,0,2,1,2,0,A/5. 851,14.5,,S,,van Billiard,Mr. ,no,A/5 or A/4,851,T,van Billiard,40.5,40.5,adult,adult,adult,0
+TRAINING-155,3,"Olsen, Mr. Ole Martin",male,,0,0,0,0,0,0,0,0,Fa 265302,7.3125,,S,,Olsen,Mr. ,no,Other,265302,A,,26,26,adult,adult,,0
+TRAINING-156,1,"Williams, Mr. Charles Duane",male,51,0,0,0,0,1,1,1,0,PC 17597,61.3792,,C,,Williams,Mr. ,no,PC,17597,T,Williams,51,51,adult,adult,adult,0
+TRAINING-157,3,"Gilnagh, Miss. Katherine  Katie ",female,16,0,0,0,0,0,0,0,0,35851,7.7333,,Q,,Gilnagh,Miss,yes,5 digit,35851,A,,16,16,adult,adult,adult,1
+TRAINING-158,3,"Corn, Mr. Harry",male,30,0,0,0,0,0,0,0,0,SOTON/OQ 392090,8.05,,S,,Corn,Mr. ,no,SOTON/OQ,392090,A,,30,30,adult,adult,adult,0
+TRAINING-159,3,"Smiljanic, Mr. Mile",male,,0,0,0,0,0,0,0,0,315037,8.6625,,S,,Smiljanic,Mr. ,no,6 digit,315037,A,,26,26,adult,adult,,0
+TRAINING-16,2,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,0,0,0,0,0,0,0,0,248706,16,,S,,Hewlett,Mrs.,no,6 digit,248706,A,,55,55,adult,adult,adult,1
+TRAINING-160,3,"Sage, Master. Thomas Henry",male,,8,0,4,4,2,0,0,2,CA. 2343,69.55,,S,,Sage,Mast,no,CA,2343,T,Sage,14.5,6,child,child,child,0
+TRAINING-161,3,"Cribb, Mr. John Hatfield",male,44,0,0,0,0,1,1,1,0,371362,16.1,,S,,Cribb,Mr. ,no,6 digit,371362,T,Cribb,44,44,adult,adult,adult,0
+TRAINING-162,2,"Watt, Mrs. James (Elizabeth Bessie Inglis Milne)",female,40,0,0,0,0,1,1,1,0,C.A. 33595,15.75,,S,,Watt,Mrs.,yes,CA,33595,T,Watt,40,40,adult,adult,adult,1
+TRAINING-163,3,"Bengtsson, Mr. John Viktor",male,26,0,0,0,0,0,0,0,0,347068,7.775,,S,,Bengtsson,Mr. ,no,6 digit,347068,A,,26,26,adult,adult,adult,0
+TRAINING-164,3,"Calic, Mr. Jovo",male,17,1,0,0,1,0,0,0,0,315093,8.6625,,S,,Calic,Mr. ,no,6 digit,315093,T,Calic,17,17,adult,adult,adult,0
+TRAINING-165,3,"Panula, Master. Eino Viljami",male,1,4,0,0,4,1,0,0,1,3101295,39.6875,,S,,Panula,Mast,no,7 digit,3101295,T,Panula-3101295,1,1,child,child,child,0
+TRAINING-166,3,"Goldsmith, Master. Frank John William Frankie",male,9,0,0,0,0,2,0,0,2,363291,20.525,,S,,Goldsmith,Mast,yes,6 digit,363291,T,Goldsmith,9,9,child,child,child,1
+TRAINING-167,1,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,0,0,0,0,1,1,1,0,113505,55,E33,S,E,Chibnall,Mrs.,no,6 digit,113505,T,Bowerman-113505,42,45,adult,adult,,1
+TRAINING-168,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,1,1,0,0,4,2,4,0,347088,27.9,,S,,Skoog,Mrs.,no,6 digit,347088,T,Skoog,45,45,adult,adult,adult,0
+TRAINING-169,1,"Baumann, Mr. John D",male,,0,0,0,0,0,0,0,0,PC 17318,25.925,,S,,Baumann,Mr. ,no,PC,17318,A,,41.5,41.5,adult,adult,,0
+TRAINING-17,3,"Rice, Master. Eugene",male,2,4,0,0,4,1,0,0,1,382652,29.125,,Q,,Rice,Mast,no,6 digit,382652,T,Rice,2,2,child,child,child,0
+TRAINING-170,3,"Ling, Mr. Lee",male,28,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Ling,Mr. ,no,4 digit,1601,T,1601,28,28,adult,adult,adult,0
+TRAINING-171,1,"Van der hoef, Mr. Wyckoff",male,61,0,0,0,0,0,0,0,0,111240,33.5,B19,S,B,Van der hoef,Mr. ,no,6 digit,111240,A,,61,61,adult,adult,senior,0
+TRAINING-172,3,"Rice, Master. Arthur",male,4,4,0,0,4,1,0,0,1,382652,29.125,,Q,,Rice,Mast,no,6 digit,382652,T,Rice,4,4,child,child,child,0
+TRAINING-173,3,"Johnson, Miss. Eleanor Ileen",female,1,1,0,0,1,1,0,0,1,347742,11.1333,,S,,Johnson,Miss,no,6 digit,347742,T,Johnson,1,1,child,child,child,1
+TRAINING-174,3,"Sivola, Mr. Antti Wilhelm",male,21,0,0,0,0,0,0,0,0,STON/O 2. 3101280,7.925,,S,,Sivola,Mr. ,no,STON/O2.,3101280,A,,21,21,adult,adult,adult,0
+TRAINING-175,1,"Smith, Mr. James Clinch",male,56,0,0,0,0,0,0,0,0,17764,30.6958,A7,C,A,Smith,Mr. ,no,5 digit,17764,A,,56,56,adult,adult,adult,0
+TRAINING-176,3,"Klasen, Mr. Klas Albin",male,18,1,0,1,0,1,0,0,1,350404,7.8542,,S,,Klasen,Mr. ,no,6 digit,350404,T,Klasen,18,18,adult,adult,adult,0
+TRAINING-177,3,"Lefebre, Master. Henry Forbes",male,,3,0,3,0,1,0,0,1,4133,25.4667,,S,,Lefebre,Mast,no,4 digit,4133,T,Lefebre,6,6,child,child,child,0
+TRAINING-178,1,"Isham, Miss. Ann Elizabeth",female,50,0,0,0,0,0,0,0,0,PC 17595,28.7125,C49,C,C,Isham,Miss,no,PC,17595,A,,50,50,adult,adult,adult,0
+TRAINING-179,2,"Hale, Mr. Reginald",male,30,0,0,0,0,0,0,0,0,250653,13,,S,,Hale,Mr. ,no,6 digit,250653,U,,30,30,adult,adult,adult,0
+TRAINING-18,2,"Williams, Mr. Charles Eugene",male,,0,0,0,0,0,0,0,0,244373,13,,S,,Williams,Mr. ,no,6 digit,244373,A,,30,30,adult,adult,,1
+TRAINING-180,3,"Leonard, Mr. Lionel",male,36,0,0,0,0,0,0,0,0,LINE,0,,S,,Leonard,Mr. ,no,LINE,0,U,,36,36,adult,adult,adult,0
+TRAINING-181,3,"Sage, Miss. Constance Gladys",female,,8,0,3,5,2,0,0,2,CA. 2343,69.55,,S,,Sage,Miss,no,CA,2343,T,Sage,18,18,adult,,,0
+TRAINING-182,2,"Pernot, Mr. Rene",male,,0,0,0,0,0,0,0,0,SC/PARIS 2131,15.05,,C,,Pernot,Mr. ,no,SC/Paris,2131,A,,30,30,adult,adult,,0
+TRAINING-183,3,"Asplund, Master. Clarence Gustaf Hugo",male,9,4,0,1,3,2,0,0,2,347077,31.3875,,S,,Asplund,Mast,no,6 digit,347077,T,Asplund,9,9,child,child,child,0
+TRAINING-184,2,"Becker, Master. Richard F",male,1,2,0,2,0,1,0,0,1,230136,39,F4,S,F,Becker,Mast,no,6 digit,230136,T,Becker,1,1,child,child,child,1
+TRAINING-185,3,"Kink-Heilmann, Miss. Luise Gretchen",female,4,0,0,0,0,2,0,0,2,315153,22.025,,S,,Kink-Heilmann,Miss,no,6 digit,315153,T,Kink-Heilmann,4,4,child,child,child,1
+TRAINING-186,1,"Rood, Mr. Hugh Roscoe",male,,0,0,0,0,0,0,0,0,113767,50,A32,S,A,Rood,Mr. ,no,6 digit,113767,A,,41.5,41.5,adult,adult,,0
+TRAINING-187,3,"O'Brien, Mrs. Thomas (Johanna  Hannah  Godfrey)",female,,1,1,0,0,0,0,0,0,370365,15.5,,Q,,O'Brien,Mrs.,yes,6 digit,370365,T,O'Brien,31,31,adult,adult,,1
+TRAINING-188,1,"Romaine, Mr. Charles Hallace ( Mr C Rolmane )",male,45,0,0,0,0,0,0,0,0,111428,26.55,,S,,Romaine,Mr. ,yes,6 digit,111428,U,,45,45,adult,adult,adult,1
+TRAINING-189,3,"Bourke, Mr. John",male,40,1,1,0,0,1,2,1,0,364849,15.5,,Q,,Bourke,Mr. ,no,6 digit,364849,T,Bourke,40,40,adult,adult,adult,0
+TRAINING-19,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,1,1,0,0,0,0,0,0,345763,18,,S,,Vander Planke,Mrs.,no,6 digit,345763,T,Vander Planke,31,31,adult,adult,adult,0
+TRAINING-190,3,"Turcin, Mr. Stjepan",male,36,0,0,0,0,0,0,0,0,349247,7.8958,,S,,Turcin,Mr. ,no,6 digit,349247,A,,36,36,adult,adult,adult,0
+TRAINING-191,2,"Pinsky, Mrs. (Rosa)",female,32,0,0,0,0,0,0,0,0,234604,13,,S,,Pinsky,Mrs.,no,6 digit,234604,A,,32,32,adult,adult,adult,1
+TRAINING-192,2,"Carbines, Mr. William",male,19,0,0,0,0,0,0,0,0,28424,13,,S,,Carbines,Mr. ,no,5 digit,28424,U,,19,19,adult,adult,adult,0
+TRAINING-193,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,1,0,0,1,0,0,0,0,350046,7.8542,,S,,Andersen-Jensen,Miss,no,6 digit,350046,T,Jensen,19,19,adult,adult,adult,1
+TRAINING-194,2,"Navratil, Master. Michel M",male,3,1,0,0,1,1,0,0,1,230080,26,F2,S,F,Navratil,Mast,no,6 digit,230080,T,Navratil-F2,3,3,child,child,child,1
+TRAINING-195,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,0,0,0,0,0,0,0,PC 17610,27.7208,B4,C,B,Brown,Mrs.,no,PC,17610,A,,44,44,adult,adult,adult,1
+TRAINING-196,1,"Lurette, Miss. Elise",female,58,0,0,0,0,0,0,0,0,PC 17569,146.5208,B80,C,B,Lurette,Miss,no,PC,17569,T,Spencer-17569,58,58,adult,adult,adult,1
+TRAINING-197,3,"Mernagh, Mr. Robert",male,,0,0,0,0,0,0,0,0,368703,7.75,,Q,,Mernagh,Mr. ,no,6 digit,368703,A,,26,26,adult,adult,,0
+TRAINING-198,3,"Olsen, Mr. Karl Siegwart Andreas",male,42,0,0,0,0,1,1,1,0,4579,8.4042,,S,,Olsen,Mr. ,no,4 digit,4579,T,Olsen,42,42,adult,adult,adult,0
+TRAINING-199,3,"Madigan, Miss. Margaret  Maggie ",female,,0,0,0,0,0,0,0,0,370370,7.75,,Q,,Madigan,Miss,yes,6 digit,370370,A,,18,18,adult,,,1
+TRAINING-2,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,1,0,0,0,0,0,0,PC 17599,71.2833,C85,C,C,Cumings,Mrs.,no,PC,17599,T,Cumings,38,38,adult,adult,adult,1
+TRAINING-20,3,"Masselmani, Mrs. Fatima",female,,0,0,0,0,0,0,0,0,2649,7.225,,C,,Masselmani,Mrs.,no,4 digit,2649,A,,31,31,adult,adult,,1
+TRAINING-200,2,"Yrois, Miss. Henriette ( Mrs Harbeck )",female,24,0,0,0,0,0,0,0,0,248747,13,,S,,Yrois,Miss,yes,6 digit,248747,T,Harbeck,24,24,adult,adult,adult,0
+TRAINING-201,3,"Vande Walle, Mr. Nestor Cyriel",male,28,0,0,0,0,0,0,0,0,345770,9.5,,S,,Vande Walle,Mr. ,no,6 digit,345770,A,,28,28,adult,adult,adult,0
+TRAINING-202,3,"Sage, Mr. Frederick",male,,8,0,4,4,2,0,0,2,CA. 2343,69.55,,S,,Sage,Mr. ,no,CA,2343,T,Sage,26,26,adult,adult,,0
+TRAINING-203,3,"Johanson, Mr. Jakob Alfred",male,34,0,0,0,0,0,0,0,0,3101264,6.4958,,S,,Johanson,Mr. ,no,7 digit,3101264,A,,34,34,adult,adult,adult,0
+TRAINING-204,3,"Youseff, Mr. Gerious",male,45.5,0,0,0,0,0,0,0,0,2628,7.225,,C,,Youseff,Mr. ,no,4 digit,2628,U,,45.5,45.5,adult,adult,adult,0
+TRAINING-205,3,"Cohen, Mr. Gurshon  Gus ",male,18,0,0,0,0,0,0,0,0,A/5 3540,8.05,,S,,Cohen,Mr. ,yes,A/5 or A/4,3540,A,,18,18,adult,adult,adult,1
+TRAINING-206,3,"Strom, Miss. Telma Matilda",female,2,0,0,0,0,1,0,0,1,347054,10.4625,G6,S,G,Strom,Miss,no,6 digit,347054,T,Strom-Persson,2,2,child,child,child,0
+TRAINING-207,3,"Backstrom, Mr. Karl Alfred",male,32,1,1,0,0,0,0,0,0,3101278,15.85,,S,,Backstrom,Mr. ,no,7 digit,3101278,T,Backstrom-Gustafsson,32,32,adult,adult,adult,0
+TRAINING-208,3,"Albimona, Mr. Nassef Cassem",male,26,0,0,0,0,0,0,0,0,2699,18.7875,,C,,Albimona,Mr. ,no,4 digit,2699,T,2699,26,26,adult,adult,adult,1
+TRAINING-209,3,"Carr, Miss. Helen  Ellen ",female,16,0,0,0,0,0,0,0,0,367231,7.75,,Q,,Carr,Miss,yes,6 digit,367231,T,Carr,16,16,adult,adult,adult,1
+TRAINING-21,2,"Fynney, Mr. Joseph J",male,35,0,0,0,0,0,0,0,0,239865,26,,S,,Fynney,Mr. ,no,6 digit,239865,T,239865,35,35,adult,adult,adult,0
+TRAINING-210,1,"Blank, Mr. Henry",male,40,0,0,0,0,0,0,0,0,112277,31,A31,C,A,Blank,Mr. ,no,6 digit,112277,T,112277,40,40,adult,adult,adult,1
+TRAINING-211,3,"Ali, Mr. Ahmed",male,24,1,0,0,1,0,0,0,0,SOTON/O.Q. 3101311,7.05,,S,,Ali,Mr. ,no,SOTON/OQ,3101311,T,Ali,24,24,adult,adult,adult,0
+TRAINING-212,2,"Cameron, Miss. Clear Annie",female,35,0,0,0,0,0,0,0,0,F.C.C. 13528,21,,S,,Cameron,Miss,no,F.C.C,13528,T,13528,35,35,adult,adult,adult,1
+TRAINING-213,3,"Perkin, Mr. John Henry",male,22,0,0,0,0,0,0,0,0,A/5 21174,7.25,,S,,Perkin,Mr. ,no,A/5 or A/4,21174,A,,22,22,adult,adult,adult,0
+TRAINING-214,2,"Givard, Mr. Hans Kristensen",male,30,0,0,0,0,0,0,0,0,250646,13,,S,,Givard,Mr. ,no,6 digit,250646,A,,30,30,adult,adult,adult,0
+TRAINING-215,3,"Kiernan, Mr. Philip",male,,1,0,0,1,0,0,0,0,367229,7.75,,Q,,Kiernan,Mr. ,no,6 digit,367229,T,Kiernan,26,26,adult,adult,,0
+TRAINING-216,1,"Newell, Miss. Madeleine",female,31,1,0,1,0,0,0,0,0,35273,113.275,D36,C,D,Newell,Miss,no,5 digit,35273,T,Newell,31,31,adult,adult,adult,1
+TRAINING-217,3,"Honkanen, Miss. Eliina",female,27,0,0,0,0,0,0,0,0,STON/O2. 3101283,7.925,,S,,Honkanen,Miss,no,STON/O2.,3101283,A,,27,27,adult,adult,adult,1
+TRAINING-218,2,"Jacobsohn, Mr. Sidney Samuel",male,42,1,1,0,0,0,0,0,0,243847,27,,S,,Jacobsohn,Mr. ,no,6 digit,243847,T,Christy-Jacobson,42,42,adult,adult,adult,0
+TRAINING-219,1,"Bazzani, Miss. Albina",female,32,0,0,0,0,0,0,0,0,11813,76.2917,D15,C,D,Bazzani,Miss,no,5 digit,11813,T,11813,32,32,adult,adult,adult,1
+TRAINING-22,2,"Beesley, Mr. Lawrence",male,34,0,0,0,0,0,0,0,0,248698,13,D56,S,D,Beesley,Mr. ,no,6 digit,248698,A,,34,34,adult,adult,adult,1
+TRAINING-220,2,"Harris, Mr. Walter",male,30,0,0,0,0,0,0,0,0,W/C 14208,10.5,,S,,Harris,Mr. ,no,W./C. ,14208,U,,30,30,adult,adult,adult,0
+TRAINING-221,3,"Sunderland, Mr. Victor Francis",male,16,0,0,0,0,0,0,0,0,SOTON/OQ 392089,8.05,,S,,Sunderland,Mr. ,no,SOTON/OQ,392089,A,,16,16,adult,adult,adult,1
+TRAINING-222,2,"Bracken, Mr. James H",male,27,0,0,0,0,0,0,0,0,220367,13,,S,,Bracken,Mr. ,no,6 digit,220367,A,,27,27,adult,adult,adult,0
+TRAINING-223,3,"Green, Mr. George Henry",male,51,0,0,0,0,0,0,0,0,21440,8.05,,S,,Green,Mr. ,no,5 digit,21440,A,,51,51,adult,adult,adult,0
+TRAINING-224,3,"Nenkoff, Mr. Christo",male,,0,0,0,0,0,0,0,0,349234,7.8958,,S,,Nenkoff,Mr. ,no,6 digit,349234,A,,26,26,adult,adult,,0
+TRAINING-225,1,"Hoyt, Mr. Frederick Maxfield",male,38,1,1,0,0,0,0,0,0,19943,90,C93,S,C,Hoyt,Mr. ,no,5 digit,19943,T,Hoyt,38,38,adult,adult,adult,1
+TRAINING-226,3,"Berglund, Mr. Karl Ivar Sven",male,22,0,0,0,0,0,0,0,0,PP 4348,9.35,,S,,Berglund,Mr. ,no,PP,4348,A,,22,22,adult,adult,adult,0
+TRAINING-227,2,"Mellors, Mr. William John",male,19,0,0,0,0,0,0,0,0,SW/PP 751,10.5,,S,,Mellors,Mr. ,no,PP,751,U,,19,19,adult,adult,adult,1
+TRAINING-228,3,"Lovell, Mr. John Hall ( Henry )",male,20.5,0,0,0,0,0,0,0,0,A/5 21173,7.25,,S,,Lovell,Mr. ,yes,A/5 or A/4,21173,A,,20.5,20.5,adult,adult,adult,0
+TRAINING-229,2,"Fahlstrom, Mr. Arne Jonas",male,18,0,0,0,0,0,0,0,0,236171,13,,S,,Fahlstrom,Mr. ,no,6 digit,236171,A,,18,18,adult,adult,adult,0
+TRAINING-23,3,"McGowan, Miss. Anna Annie",female,15,0,0,0,0,0,0,0,0,330923,8.0292,,Q,,McGowan,Miss,yes,6 digit,330923,U,,15,15,adult,adult,adult,1
+TRAINING-230,3,"Lefebre, Miss. Mathilde",female,,3,0,2,1,1,0,0,1,4133,25.4667,,S,,Lefebre,Miss,no,4 digit,4133,T,Lefebre,18,18,adult,,,0
+TRAINING-231,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,1,1,0,0,0,0,0,0,36973,83.475,C83,S,C,Harris,Mrs.,no,5 digit,36973,T,Harris,35,35,adult,adult,adult,1
+TRAINING-232,3,"Larsson, Mr. Bengt Edvin",male,29,0,0,0,0,0,0,0,0,347067,7.775,,S,,Larsson,Mr. ,no,6 digit,347067,U,,29,29,adult,adult,adult,0
+TRAINING-233,2,"Sjostedt, Mr. Ernst Adolf",male,59,0,0,0,0,0,0,0,0,237442,13.5,,S,,Sjostedt,Mr. ,no,6 digit,237442,A,,59,59,adult,adult,adult,0
+TRAINING-234,3,"Asplund, Miss. Lillian Gertrud",female,5,4,0,0,4,2,0,0,2,347077,31.3875,,S,,Asplund,Miss,no,6 digit,347077,T,Asplund,5,5,child,child,child,1
+TRAINING-235,2,"Leyson, Mr. Robert William Norman",male,24,0,0,0,0,0,0,0,0,C.A. 29566,10.5,,S,,Leyson,Mr. ,no,CA,29566,A,,24,24,adult,adult,adult,0
+TRAINING-236,3,"Harknett, Miss. Alice Phoebe",female,,0,0,0,0,0,0,0,0,W./C. 6609,7.55,,S,,Harknett,Miss,no,W./C. ,6609,A,,18,18,adult,,,0
+TRAINING-237,2,"Hold, Mr. Stephen",male,44,1,1,0,0,0,0,0,0,26707,26,,S,,Hold,Mr. ,no,5 digit,26707,T,Hold,44,44,adult,adult,adult,0
+TRAINING-238,2,"Collyer, Miss. Marjorie  Lottie ",female,8,0,0,0,0,2,0,0,2,C.A. 31921,26.25,,S,,Collyer,Miss,yes,CA,31921,T,Collyer,8,8,child,child,child,1
+TRAINING-239,2,"Pengelly, Mr. Frederick William",male,19,0,0,0,0,0,0,0,0,28665,10.5,,S,,Pengelly,Mr. ,no,5 digit,28665,U,,19,19,adult,adult,adult,0
+TRAINING-24,1,"Sloper, Mr. William Thompson",male,28,0,0,0,0,0,0,0,0,113788,35.5,A6,S,A,Sloper,Mr. ,no,6 digit,113788,U,,28,28,adult,adult,adult,1
+TRAINING-240,2,"Hunt, Mr. George Henry",male,33,0,0,0,0,0,0,0,0,SCO/W 1585,12.275,,S,,Hunt,Mr. ,no,Other,1585,A,,33,33,adult,adult,adult,0
+TRAINING-241,3,"Zabour, Miss. Thamine",female,,1,0,1,0,0,0,0,0,2665,14.4542,,C,,Zabour,Miss,no,4 digit,2665,T,Zabour,14.5,18,adult,,,0
+TRAINING-242,3,"Murphy, Miss. Katherine  Kate ",female,,1,0,1,0,0,0,0,0,367230,15.5,,Q,,Murphy,Miss,yes,6 digit,367230,T,Murphy,18,18,adult,,,1
+TRAINING-243,2,"Coleridge, Mr. Reginald Charles",male,29,0,0,0,0,0,0,0,0,W./C. 14263,10.5,,S,,Coleridge,Mr. ,no,W./C. ,14263,A,,29,29,adult,adult,adult,0
+TRAINING-244,3,"Maenpaa, Mr. Matti Alexanteri",male,22,0,0,0,0,0,0,0,0,STON/O 2. 3101275,7.125,,S,,Maenpaa,Mr. ,no,STON/O2.,3101275,A,,22,22,adult,adult,adult,0
+TRAINING-245,3,"Attalah, Mr. Sleiman",male,30,0,0,0,0,0,0,0,0,2694,7.225,,C,,Attalah,Mr. ,no,4 digit,2694,U,Attalah,30,30,adult,adult,adult,0
+TRAINING-246,1,"Minahan, Dr. William Edward",male,44,2,1,1,0,0,0,0,0,19928,90,C78,Q,C,Minahan,Dr. ,no,5 digit,19928,T,Minahan,44,44,adult,adult,adult,0
+TRAINING-247,3,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,0,0,0,0,0,0,0,0,347071,7.775,,S,,Lindahl,Miss,no,6 digit,347071,A,,25,25,adult,adult,adult,0
+TRAINING-248,2,"Hamalainen, Mrs. William (Anna)",female,24,0,0,0,0,2,1,2,0,250649,14.5,,S,,Hamalainen,Mrs.,no,6 digit,250649,T,Hamalainen-Hiltunen,24,24,adult,adult,adult,1
+TRAINING-249,1,"Beckwith, Mr. Richard Leonard",male,37,1,1,0,0,1,2,1,0,11751,52.5542,D35,S,D,Beckwith,Mr. ,no,5 digit,11751,T,Beckwith-Monypeny,37,37,adult,adult,adult,1
+TRAINING-25,3,"Palsson, Miss. Torborg Danira",female,8,3,0,1,2,1,0,0,1,349909,21.075,,S,,Palsson,Miss,no,6 digit,349909,T,Palsson,8,8,child,child,child,0
+TRAINING-250,2,"Carter, Rev. Ernest Courtenay",male,54,1,1,0,0,0,0,0,0,244252,26,,S,,Carter,Rev.,no,6 digit,244252,T,Carter-Hughes,54,54,adult,adult,adult,0
+TRAINING-251,3,"Reed, Mr. James George",male,,0,0,0,0,0,0,0,0,362316,7.25,,S,,Reed,Mr. ,no,6 digit,362316,A,,26,26,adult,adult,,0
+TRAINING-252,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,1,0,0,1,1,1,1,0,347054,10.4625,G6,S,G,Strom,Mrs.,no,6 digit,347054,T,Strom-Persson,29,29,adult,adult,adult,0
+TRAINING-253,1,"Stead, Mr. William Thomas",male,62,0,0,0,0,0,0,0,0,113514,26.55,C87,S,C,Stead,Mr. ,no,6 digit,113514,A,,62,62,adult,adult,senior,0
+TRAINING-254,3,"Lobb, Mr. William Arthur",male,30,1,1,0,0,0,0,0,0,A/5. 3336,16.1,,S,,Lobb,Mr. ,no,A/5 or A/4,3336,T,Lobb,30,30,adult,adult,adult,0
+TRAINING-255,3,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,0,0,0,0,2,1,2,0,370129,20.2125,,S,,Rosblom,Mrs.,no,6 digit,370129,T,Rosblom,41,41,adult,adult,adult,0
+TRAINING-256,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,0,0,0,0,2,1,2,0,2650,15.2458,,C,,Touma,Mrs.,no,4 digit,2650,T,Touma,29,29,adult,adult,adult,1
+TRAINING-257,1,"Thorne, Mrs. Gertrude Maybelle",female,,0,0,0,0,0,0,0,0,PC 17585,79.2,,C,,Thorne,Mrs.,no,PC,17585,T,17585,46,45,adult,adult,,1
+TRAINING-258,1,"Cherry, Miss. Gladys",female,30,0,0,0,0,0,0,0,0,110152,86.5,B77,S,B,Cherry,Miss,no,6 digit,110152,T,110152,30,30,adult,adult,adult,1
+TRAINING-259,1,"Ward, Miss. Anna",female,35,0,0,0,0,0,0,0,0,PC 17755,512.3292,,C,,Ward,Miss,no,PC,17755,T,Cardeza-17755,35,35,adult,adult,adult,1
+TRAINING-26,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,1,1,0,0,5,2,5,0,347077,31.3875,,S,,Asplund,Mrs.,no,6 digit,347077,T,Asplund,38,38,adult,adult,adult,1
+TRAINING-260,2,"Parrish, Mrs. (Lutie Davis)",female,50,0,0,0,0,1,1,1,0,230433,26,,S,,Parrish,Mrs.,no,6 digit,230433,T,Parrish-230433,50,50,adult,adult,adult,1
+TRAINING-261,3,"Smith, Mr. Thomas",male,,0,0,0,0,0,0,0,0,384461,7.75,,Q,,Smith,Mr. ,no,6 digit,384461,A,,26,26,adult,adult,,0
+TRAINING-262,3,"Asplund, Master. Edvin Rojj Felix",male,3,4,0,1,3,2,0,0,2,347077,31.3875,,S,,Asplund,Mast,no,6 digit,347077,T,Asplund,3,3,child,child,child,1
+TRAINING-263,1,"Taussig, Mr. Emil",male,52,1,1,0,0,1,2,1,0,110413,79.65,E67,S,E,Taussig,Mr. ,no,6 digit,110413,T,Taussig,52,52,adult,adult,adult,0
+TRAINING-264,1,"Harrison, Mr. William",male,40,0,0,0,0,0,0,0,0,112059,0,B94,S,B,Harrison,Mr. ,no,6 digit,112059,A,,40,40,adult,adult,adult,0
+TRAINING-265,3,"Henry, Miss. Delia",female,,0,0,0,0,0,0,0,0,382649,7.75,,Q,,Henry,Miss,no,6 digit,382649,A,,18,18,adult,,,0
+TRAINING-266,2,"Reeves, Mr. David",male,36,0,0,0,0,0,0,0,0,C.A. 17248,10.5,,S,,Reeves,Mr. ,no,CA,17248,A,,36,36,adult,adult,adult,0
+TRAINING-267,3,"Panula, Mr. Ernesti Arvid",male,16,4,0,0,4,1,0,0,1,3101295,39.6875,,S,,Panula,Mr. ,no,7 digit,3101295,T,Panula-3101295,16,16,adult,adult,adult,0
+TRAINING-268,3,"Persson, Mr. Ernst Ulrik",male,25,1,0,1,0,0,0,0,0,347083,7.775,,S,,Persson,Mr. ,no,6 digit,347083,T,Strom-Persson,25,25,adult,adult,adult,1
+TRAINING-269,1,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,0,0,0,0,1,1,1,0,PC 17582,153.4625,C125,S,C,Graham,Mrs.,no,PC,17582,T,Graham-17582,58,58,adult,adult,adult,1
+TRAINING-27,3,"Emir, Mr. Farred Chehab",male,,0,0,0,0,0,0,0,0,2631,7.225,,C,,Emir,Mr. ,no,4 digit,2631,A,,26,26,adult,adult,,0
+TRAINING-270,1,"Bissette, Miss. Amelia",female,35,0,0,0,0,0,0,0,0,PC 17760,135.6333,C99,S,C,Bissette,Miss,no,PC,17760,T,17760,35,35,adult,adult,adult,1
+TRAINING-271,1,"Cairns, Mr. Alexander",male,,0,0,0,0,0,0,0,0,113798,31,,S,,Cairns,Mr. ,no,6 digit,113798,T,113798,30,41.5,adult,adult,,0
+TRAINING-272,3,"Tornquist, Mr. William Henry",male,25,0,0,0,0,0,0,0,0,LINE,0,,S,,Tornquist,Mr. ,no,LINE,0,U,,25,25,adult,adult,adult,1
+TRAINING-273,2,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,0,0,0,0,1,1,1,0,250644,19.5,,S,,Mellinger,Mrs.,no,6 digit,250644,T,Mellinger,41,41,adult,adult,adult,1
+TRAINING-274,1,"Natsch, Mr. Charles H",male,,0,0,0,0,1,0,0,0,PC 17596,29.7,C118,C,C,Natsch,Mr. ,no,PC,17596,T,unknown,37,41.5,adult,adult,,0
+TRAINING-275,3,"Healy, Miss. Hanora  Nora ",female,,0,0,0,0,0,0,0,0,370375,7.75,,Q,,Healy,Miss,yes,6 digit,370375,A,,18,18,adult,,,1
+TRAINING-276,1,"Andrews, Miss. Kornelia Theodosia",female,63,1,0,1,0,0,0,0,0,13502,77.9583,D7,S,D,Andrews,Miss,no,5 digit,13502,T,Andrews-13502,63,63,adult,adult,senior,1
+TRAINING-277,3,"Lindblom, Miss. Augusta Charlotta",female,45,0,0,0,0,0,0,0,0,347073,7.75,,S,,Lindblom,Miss,no,6 digit,347073,A,,45,45,adult,adult,adult,0
+TRAINING-278,2,"Parkes, Mr. Francis  Frank ",male,,0,0,0,0,0,0,0,0,239853,0,,S,,Parkes,Mr. ,yes,6 digit,239853,T,239853,30,30,adult,adult,,0
+TRAINING-279,3,"Rice, Master. Eric",male,7,4,0,0,4,1,0,0,1,382652,29.125,,Q,,Rice,Mast,no,6 digit,382652,T,Rice,7,7,child,child,child,0
+TRAINING-28,1,"Fortune, Mr. Charles Alexander",male,19,3,0,3,0,2,0,0,2,19950,263,C23 C25 C27,S,C,Fortune,Mr. ,no,5 digit,19950,T,Fortune,19,19,adult,adult,adult,0
+TRAINING-280,3,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,1,1,0,0,1,1,1,0,C.A. 2673,20.25,,S,,Abbott,Mrs.,no,CA,2673,T,Abbott,35,35,adult,adult,adult,1
+TRAINING-281,3,"Duane, Mr. Frank",male,65,0,0,0,0,0,0,0,0,336439,7.75,,Q,,Duane,Mr. ,no,6 digit,336439,A,,65,65,adult,adult,senior,0
+TRAINING-282,3,"Olsson, Mr. Nils Johan Goransson",male,28,0,0,0,0,0,0,0,0,347464,7.8542,,S,,Olsson,Mr. ,no,6 digit,347464,U,,28,28,adult,adult,adult,0
+TRAINING-283,3,"de Pelsmaeker, Mr. Alfons",male,16,0,0,0,0,0,0,0,0,345778,9.5,,S,,de Pelsmaeker,Mr. ,no,6 digit,345778,A,,16,16,adult,adult,adult,0
+TRAINING-284,3,"Dorking, Mr. Edward Arthur",male,19,0,0,0,0,0,0,0,0,A/5. 10482,8.05,,S,,Dorking,Mr. ,no,A/5 or A/4,10482,A,,19,19,adult,adult,adult,1
+TRAINING-285,1,"Smith, Mr. Richard William",male,,0,0,0,0,0,0,0,0,113056,26,A19,S,A,Smith,Mr. ,no,6 digit,113056,A,,41.5,41.5,adult,adult,,0
+TRAINING-286,3,"Stankovic, Mr. Ivan",male,33,0,0,0,0,0,0,0,0,349239,8.6625,,C,,Stankovic,Mr. ,no,6 digit,349239,A,,33,33,adult,adult,adult,0
+TRAINING-287,3,"de Mulder, Mr. Theodore",male,30,0,0,0,0,0,0,0,0,345774,9.5,,S,,de Mulder,Mr. ,no,6 digit,345774,A,,30,30,adult,adult,adult,1
+TRAINING-288,3,"Naidenoff, Mr. Penko",male,22,0,0,0,0,0,0,0,0,349206,7.8958,,S,,Naidenoff,Mr. ,no,6 digit,349206,A,,22,22,adult,adult,adult,0
+TRAINING-289,2,"Hosono, Mr. Masabumi",male,42,0,0,0,0,0,0,0,0,237798,13,,S,,Hosono,Mr. ,no,6 digit,237798,A,,42,42,adult,adult,adult,1
+TRAINING-29,3,"O'Dwyer, Miss. Ellen Nellie",female,,0,0,0,0,0,0,0,0,330959,7.8792,,Q,,O'Dwyer,Miss,yes,6 digit,330959,A,,18,18,adult,,,1
+TRAINING-290,3,"Connolly, Miss. Kate",female,22,0,0,0,0,0,0,0,0,370373,7.75,,Q,,Connolly,Miss,no,6 digit,370373,U,,22,22,adult,adult,adult,1
+TRAINING-291,1,"Barber, Miss. Ellen  Nellie ",female,26,0,0,0,0,0,0,0,0,19877,78.85,,S,,Barber,Miss,yes,5 digit,19877,T,Cavendish-19877,26,26,adult,adult,adult,1
+TRAINING-292,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,1,1,0,0,0,0,0,0,11967,91.0792,B49,C,B,Bishop,Mrs.,no,5 digit,11967,T,Bishop,19,19,adult,adult,adult,1
+TRAINING-293,2,"Levy, Mr. Rene Jacques",male,36,0,0,0,0,0,0,0,0,SC/Paris 2163,12.875,D,C,D,Levy,Mr. ,no,SC/Paris,2163,A,,30,36,adult,adult,adult,0
+TRAINING-294,3,"Haas, Miss. Aloisia",female,24,0,0,0,0,0,0,0,0,349236,8.85,,S,,Haas,Miss,no,6 digit,349236,A,,24,24,adult,adult,adult,0
+TRAINING-295,3,"Mineff, Mr. Ivan",male,24,0,0,0,0,0,0,0,0,349233,7.8958,,S,,Mineff,Mr. ,no,6 digit,349233,A,,24,24,adult,adult,adult,0
+TRAINING-296,1,"Lewy, Mr. Ervin G",male,,0,0,0,0,0,0,0,0,PC 17612,27.7208,,C,,Lewy,Mr. ,no,PC,17612,U,,41.5,41.5,adult,adult,,0
+TRAINING-297,3,"Hanna, Mr. Mansour",male,23.5,0,0,0,0,0,0,0,0,2693,7.2292,,C,,Hanna,Mr. ,no,4 digit,2693,A,,23.5,23.5,adult,adult,adult,0
+TRAINING-298,1,"Allison, Miss. Helen Loraine",female,2,1,0,0,1,2,0,0,2,113781,151.55,C22 C26,S,C,Allison,Miss,no,6 digit,113781,T,Allison-113781,2,2,child,child,child,0
+TRAINING-299,1,"Saalfeld, Mr. Adolphe",male,,0,0,0,0,0,0,0,0,19988,30.5,C106,S,C,Saalfeld,Mr. ,no,5 digit,19988,T,C106,30,41.5,adult,adult,,1
+TRAINING-3,3,"Heikkinen, Miss. Laina",female,26,0,0,0,0,0,0,0,0,STON/O2. 3101282,7.925,,S,,Heikkinen,Miss,no,STON/O2.,3101282,U,,26,26,adult,adult,adult,1
+TRAINING-30,3,"Todoroff, Mr. Lalio",male,,0,0,0,0,0,0,0,0,349216,7.8958,,S,,Todoroff,Mr. ,no,6 digit,349216,A,,26,26,adult,adult,,0
+TRAINING-300,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,1,0,1,0,1,1,1,0,PC 17558,247.5208,B58 B60,C,B,Baxter,Mrs.,no,PC,17558,T,Baxter-17558,50,50,adult,adult,adult,1
+TRAINING-301,3,"Kelly, Miss. Anna Katherine  Annie Kate ",female,,0,0,0,0,0,0,0,0,9234,7.75,,Q,,Kelly,Miss,yes,4 digit,9234,U,,18,18,adult,,,1
+TRAINING-302,3,"McCoy, Mr. Bernard",male,,2,0,2,0,0,0,0,0,367226,23.25,,Q,,McCoy,Mr. ,no,6 digit,367226,T,McCoy,26,26,adult,adult,,1
+TRAINING-303,3,"Johnson, Mr. William Cahoone Jr",male,19,0,0,0,0,0,0,0,0,LINE,0,,S,,Johnson,Mr. ,no,LINE,0,U,,19,19,adult,adult,adult,0
+TRAINING-304,2,"Keane, Miss. Nora A",female,,0,0,0,0,0,0,0,0,226593,12.35,E101,Q,E,Keane,Miss,no,6 digit,226593,T,E101,29.75,20,adult,,,1
+TRAINING-305,3,"Williams, Mr. Howard Hugh  Harry ",male,,0,0,0,0,0,0,0,0,A/5 2466,8.05,,S,,Williams,Mr. ,yes,A/5 or A/4,2466,U,,26,26,adult,adult,,0
+TRAINING-306,1,"Allison, Master. Hudson Trevor",male,0.92,1,0,1,0,2,0,0,2,113781,151.55,C22 C26,S,C,Allison,Mast,no,6 digit,113781,T,Allison-113781,0.92,0.92,child,child,child,1
+TRAINING-307,1,"Fleming, Miss. Margaret",female,,0,0,0,0,0,0,0,0,17421,110.8833,,C,,Fleming,Miss,no,5 digit,17421,T,Thayer-17421,30,30,adult,,,1
+TRAINING-308,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,1,1,0,0,0,0,0,0,PC 17758,108.9,C65,C,C,Penasco y Castellana,Mrs.,no,PC,17758,T,y-17758,17,17,adult,adult,adult,1
+TRAINING-309,2,"Abelson, Mr. Samuel",male,30,1,1,0,0,0,0,0,0,P/PP 3381,24,,C,,Abelson,Mr. ,no,PP,3381,T,Abelson,30,30,adult,adult,adult,0
+TRAINING-31,1,"Uruchurtu, Don. Manuel E",male,40,0,0,0,0,0,0,0,0,PC 17601,27.7208,,C,,Uruchurtu,Sir,no,PC,17601,A,,40,40,adult,adult,adult,0
+TRAINING-310,1,"Francatelli, Miss. Laura Mabel",female,30,0,0,0,0,0,0,0,0,PC 17485,56.9292,E36,C,E,Francatelli,Miss,no,PC,17485,T,Duff Gordon 17485,30,30,adult,adult,adult,1
+TRAINING-311,1,"Hays, Miss. Margaret Bechstein",female,24,0,0,0,0,0,0,0,0,11767,83.1583,C54,C,C,Hays,Miss,no,5 digit,11767,T,Potter-11767,24,24,adult,adult,adult,1
+TRAINING-312,1,"Ryerson, Miss. Emily Borie",female,18,2,0,1,1,2,0,0,2,PC 17608,262.375,B57 B59 B63 B66,C,B,Ryerson,Miss,no,PC,17608,T,Ryerson-17608,18,18,adult,adult,adult,1
+TRAINING-313,2,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,1,1,0,0,1,2,1,0,250651,26,,S,,Lahtinen,Mrs.,no,6 digit,250651,T,Lahtinen-Silven,26,26,adult,adult,adult,0
+TRAINING-314,3,"Hendekovic, Mr. Ignjac",male,28,0,0,0,0,0,0,0,0,349243,7.8958,,S,,Hendekovic,Mr. ,no,6 digit,349243,A,,28,28,adult,adult,adult,0
+TRAINING-315,2,"Hart, Mr. Benjamin",male,43,1,1,0,0,1,2,1,0,F.C.C. 13529,26.25,,S,,Hart,Mr. ,no,F.C.C,13529,T,Hart,43,43,adult,adult,adult,0
+TRAINING-316,3,"Nilsson, Miss. Helmina Josefina",female,26,0,0,0,0,0,0,0,0,347470,7.8542,,S,,Nilsson,Miss,no,6 digit,347470,U,,26,26,adult,adult,adult,1
+TRAINING-317,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,1,1,0,0,0,0,0,0,244367,26,,S,,Kantor,Mrs.,no,6 digit,244367,T,Kantor,24,24,adult,adult,adult,1
+TRAINING-318,2,"Moraweck, Dr. Ernest",male,54,0,0,0,0,0,0,0,0,29011,14,,S,,Moraweck,Dr. ,no,5 digit,29011,A,,54,54,adult,adult,adult,0
+TRAINING-319,1,"Wick, Miss. Mary Natalie",female,31,0,0,0,0,2,0,0,2,36928,164.8667,C7,S,C,Wick,Miss,no,5 digit,36928,T,Wick-36928,31,31,adult,adult,adult,1
+TRAINING-32,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,1,1,0,0,0,0,0,0,PC 17569,146.5208,B78,C,B,Spencer,Mrs.,no,PC,17569,T,Spencer-17569,56,45,adult,adult,,1
+TRAINING-320,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,1,1,0,0,1,2,1,0,16966,134.5,E34,C,E,Spedden,Mrs.,no,5 digit,16966,T,Spedden-16966,40,40,adult,adult,adult,1
+TRAINING-321,3,"Dennis, Mr. Samuel",male,22,0,0,0,0,0,0,0,0,A/5 21172,7.25,,S,,Dennis,Mr. ,no,A/5 or A/4,21172,U,,22,22,adult,adult,adult,0
+TRAINING-322,3,"Danoff, Mr. Yoto",male,27,0,0,0,0,0,0,0,0,349219,7.8958,,S,,Danoff,Mr. ,no,6 digit,349219,A,,27,27,adult,adult,adult,0
+TRAINING-323,2,"Slayter, Miss. Hilda Mary",female,30,0,0,0,0,0,0,0,0,234818,12.35,,Q,,Slayter,Miss,no,6 digit,234818,A,,30,30,adult,adult,adult,1
+TRAINING-324,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,1,1,0,0,1,2,1,0,248738,29,,S,,Caldwell,Mrs.,no,6 digit,248738,T,Caldwell,22,22,adult,adult,adult,1
+TRAINING-325,3,"Sage, Mr. George John Jr",male,,8,0,4,4,2,0,0,2,CA. 2343,69.55,,S,,Sage,Mr. ,no,CA,2343,T,Sage,26,26,adult,adult,,0
+TRAINING-326,1,"Young, Miss. Marie Grice",female,36,0,0,0,0,0,0,0,0,PC 17760,135.6333,C32,C,C,Young,Miss,no,PC,17760,T,17760,36,36,adult,adult,adult,1
+TRAINING-327,3,"Nysveen, Mr. Johan Hansen",male,61,0,0,0,0,0,0,0,0,345364,6.2375,,S,,Nysveen,Mr. ,no,6 digit,345364,A,,61,61,adult,adult,senior,0
+TRAINING-328,2,"Ball, Mrs. (Ada E Hall)",female,36,0,0,0,0,0,0,0,0,28551,13,D,S,D,Ball,Mrs.,no,5 digit,28551,A,,36,36,adult,adult,adult,1
+TRAINING-329,3,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,1,1,0,0,1,2,1,0,363291,20.525,,S,,Goldsmith,Mrs.,no,6 digit,363291,T,Goldsmith,31,31,adult,adult,adult,1
+TRAINING-33,3,"Glynn, Miss. Mary Agatha",female,,0,0,0,0,0,0,0,0,335677,7.75,,Q,,Glynn,Miss,no,6 digit,335677,A,,18,18,adult,,,1
+TRAINING-330,1,"Hippach, Miss. Jean Gertrude",female,16,0,0,0,0,1,0,0,1,111361,57.9792,B18,C,B,Hippach,Miss,no,6 digit,111361,T,Hippach,16,16,adult,adult,adult,1
+TRAINING-331,3,"McCoy, Miss. Agnes",female,,2,0,1,1,0,0,0,0,367226,23.25,,Q,,McCoy,Miss,no,6 digit,367226,T,McCoy,18,18,adult,,,1
+TRAINING-332,1,"Partner, Mr. Austen",male,45.5,0,0,0,0,0,0,0,0,113043,28.5,C124,S,C,Partner,Mr. ,no,6 digit,113043,T,C124,45.5,45.5,adult,adult,adult,0
+TRAINING-333,1,"Graham, Mr. George Edward",male,38,0,0,0,0,1,0,0,1,PC 17582,153.4625,C91,S,C,Graham,Mr. ,no,PC,17582,T,Graham-17582,38,38,adult,adult,adult,0
+TRAINING-334,3,"Vander Planke, Mr. Leo Edmondus",male,16,2,0,1,1,0,0,0,0,345764,18,,S,,Vander Planke,Mr. ,no,6 digit,345764,T,Vander Planke,16,16,adult,adult,adult,0
+TRAINING-335,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,1,0,0,0,0,0,0,PC 17611,133.65,,S,,Frauenthal,Mrs.,no,PC,17611,T,Frauenthal,48,45,adult,adult,,1
+TRAINING-336,3,"Denkoff, Mr. Mitto",male,,0,0,0,0,0,0,0,0,349225,7.8958,,S,,Denkoff,Mr. ,no,6 digit,349225,A,,26,26,adult,adult,,0
+TRAINING-337,1,"Pears, Mr. Thomas Clinton",male,29,1,1,0,0,0,0,0,0,113776,66.6,C2,S,C,Pears,Mr. ,no,6 digit,113776,T,Pears,29,29,adult,adult,adult,0
+TRAINING-338,1,"Burns, Miss. Elizabeth Margaret",female,41,0,0,0,0,0,0,0,0,16966,134.5,E40,C,E,Burns,Miss,no,5 digit,16966,T,Spedden-16966,41,41,adult,adult,adult,1
+TRAINING-339,3,"Dahl, Mr. Karl Edwart",male,45,0,0,0,0,0,0,0,0,7598,8.05,,S,,Dahl,Mr. ,no,4 digit,7598,A,,45,45,adult,adult,adult,1
+TRAINING-34,2,"Wheadon, Mr. Edward H",male,66,0,0,0,0,0,0,0,0,C.A. 24579,10.5,,S,,Wheadon,Mr. ,no,CA,24579,U,,66,66,adult,adult,senior,0
+TRAINING-340,1,"Blackwell, Mr. Stephen Weart",male,45,0,0,0,0,0,0,0,0,113784,35.5,T,S,,Blackwell,Mr. ,no,6 digit,113784,A,,45,45,adult,adult,adult,0
+TRAINING-341,2,"Navratil, Master. Edmond Roger",male,2,1,0,0,1,1,0,0,1,230080,26,F2,S,F,Navratil,Mast,no,6 digit,230080,T,Navratil-F2,2,2,child,child,child,1
+TRAINING-342,1,"Fortune, Miss. Alice Elizabeth",female,24,3,0,2,1,2,0,0,2,19950,263,C23 C25 C27,S,C,Fortune,Miss,no,5 digit,19950,T,Fortune,24,24,adult,adult,adult,1
+TRAINING-343,2,"Collander, Mr. Erik Gustaf",male,28,0,0,0,0,0,0,0,0,248740,13,,S,,Collander,Mr. ,no,6 digit,248740,A,,28,28,adult,adult,adult,0
+TRAINING-344,2,"Sedgwick, Mr. Charles Frederick Waddington",male,25,0,0,0,0,0,0,0,0,244361,13,,S,,Sedgwick,Mr. ,no,6 digit,244361,A,,25,25,adult,adult,adult,0
+TRAINING-345,2,"Fox, Mr. Stanley Hubert",male,36,0,0,0,0,0,0,0,0,229236,13,,S,,Fox,Mr. ,no,6 digit,229236,A,,36,36,adult,adult,adult,0
+TRAINING-346,2,"Brown, Miss. Amelia  Mildred ",female,24,0,0,0,0,0,0,0,0,248733,13,F33,S,F,Brown,Miss,yes,6 digit,248733,T,F33,24,24,adult,adult,adult,1
+TRAINING-347,2,"Smith, Miss. Marion Elsie",female,40,0,0,0,0,0,0,0,0,31418,13,,S,,Smith,Miss,no,5 digit,31418,A,,40,40,adult,adult,adult,1
+TRAINING-348,3,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,1,1,0,0,0,0,0,0,386525,16.1,,S,,Davison,Mrs.,no,6 digit,386525,T,Davison,31,31,adult,adult,,1
+TRAINING-349,3,"Coutts, Master. William Loch  William ",male,3,1,0,0,1,1,0,0,1,C.A. 37671,15.9,,S,,Coutts,Mast,yes,CA,37671,T,Coutts,3,3,child,child,child,1
+TRAINING-35,1,"Meyer, Mr. Edgar Joseph",male,28,1,1,0,0,0,0,0,0,PC 17604,82.1708,,C,,Meyer,Mr. ,no,PC,17604,T,Meyer,28,28,adult,adult,adult,0
+TRAINING-350,3,"Dimic, Mr. Jovan",male,42,0,0,0,0,0,0,0,0,315088,8.6625,,S,,Dimic,Mr. ,no,6 digit,315088,A,,42,42,adult,adult,adult,0
+TRAINING-351,3,"Odahl, Mr. Nils Martin",male,23,0,0,0,0,0,0,0,0,7267,9.225,,S,,Odahl,Mr. ,no,4 digit,7267,A,,23,23,adult,adult,adult,0
+TRAINING-352,1,"Williams-Lambert, Mr. Fletcher Fellows",male,,0,0,0,0,0,0,0,0,113510,35,C128,S,C,Williams-Lambert,Mr. ,no,6 digit,113510,A,,41.5,41.5,adult,adult,,0
+TRAINING-353,3,"Elias, Mr. Tannous",male,15,1,0,0,1,1,0,0,1,2695,7.2292,,C,,Elias,Mr. ,no,4 digit,2695,T,Elias,15,15,adult,adult,adult,0
+TRAINING-354,3,"Arnold-Franchi, Mr. Josef",male,25,1,1,0,0,0,0,0,0,349237,17.8,,S,,Arnold-Franchi,Mr. ,no,6 digit,349237,T,Arnold-Franchi,25,25,adult,adult,adult,0
+TRAINING-355,3,"Yousif, Mr. Wazli",male,,0,0,0,0,0,0,0,0,2647,7.225,,C,,Yousif,Mr. ,no,4 digit,2647,U,,26,26,adult,adult,,0
+TRAINING-356,3,"Vanden Steen, Mr. Leo Peter",male,28,0,0,0,0,0,0,0,0,345783,9.5,,S,,Vanden Steen,Mr. ,no,6 digit,345783,A,,28,28,adult,adult,adult,0
+TRAINING-357,1,"Bowerman, Miss. Elsie Edith",female,22,0,0,0,0,1,0,0,1,113505,55,E33,S,E,Bowerman,Miss,no,6 digit,113505,T,Bowerman-113505,22,22,adult,adult,adult,1
+TRAINING-358,2,"Funk, Miss. Annie Clemmer",female,38,0,0,0,0,0,0,0,0,237671,13,,S,,Funk,Miss,no,6 digit,237671,A,,38,38,adult,adult,adult,0
+TRAINING-359,3,"McGovern, Miss. Mary",female,,0,0,0,0,0,0,0,0,330931,7.8792,,Q,,McGovern,Miss,no,6 digit,330931,U,,18,18,adult,,,1
+TRAINING-36,1,"Holverson, Mr. Alexander Oskar",male,42,1,1,0,0,0,0,0,0,113789,52,,S,,Holverson,Mr. ,no,6 digit,113789,T,Holverson,42,42,adult,adult,adult,0
+TRAINING-360,3,"Mockler, Miss. Helen Mary  Ellie ",female,,0,0,0,0,0,0,0,0,330980,7.8792,,Q,,Mockler,Miss,yes,6 digit,330980,A,,18,18,adult,,,1
+TRAINING-361,3,"Skoog, Mr. Wilhelm",male,40,1,1,0,0,4,2,4,0,347088,27.9,,S,,Skoog,Mr. ,no,6 digit,347088,T,Skoog,40,40,adult,adult,adult,0
+TRAINING-362,2,"del Carlo, Mr. Sebastiano",male,29,1,1,0,0,0,0,0,0,SC/PARIS 2167,27.7208,,C,,del Carlo,Mr. ,no,SC/Paris,2167,T,del Carlo,30,29,adult,adult,adult,0
+TRAINING-363,3,"Barbara, Mrs. (Catherine David)",female,45,0,0,0,0,1,1,1,0,2691,14.4542,,C,,Barbara,Mrs.,no,4 digit,2691,T,Barbara,45,45,adult,adult,adult,0
+TRAINING-364,3,"Asim, Mr. Adola",male,35,0,0,0,0,0,0,0,0,SOTON/O.Q. 3101310,7.05,,S,,Asim,Mr. ,no,SOTON/OQ,3101310,U,,35,35,adult,adult,adult,0
+TRAINING-365,3,"O'Brien, Mr. Thomas",male,,1,1,0,0,0,0,0,0,370365,15.5,,Q,,O'Brien,Mr. ,no,6 digit,370365,T,O'Brien,26,26,adult,adult,,0
+TRAINING-366,3,"Adahl, Mr. Mauritz Nils Martin",male,30,0,0,0,0,0,0,0,0,C 7076,7.25,,S,,Adahl,Mr. ,no,C number,7076,A,,30,30,adult,adult,adult,0
+TRAINING-367,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,1,1,0,0,0,0,0,0,110813,75.25,D37,C,D,Warren,Mrs.,no,6 digit,110813,T,Warren,60,60,adult,adult,adult,1
+TRAINING-368,3,"Moussa, Mrs. (Mantoura Boulos)",female,,0,0,0,0,0,0,0,0,2626,7.2292,,C,,Moussa,Mrs.,no,4 digit,2626,A,,31,31,adult,adult,,1
+TRAINING-369,3,"Jermyn, Miss. Annie",female,,0,0,0,0,0,0,0,0,14313,7.75,,Q,,Jermyn,Miss,no,5 digit,14313,A,,18,18,adult,,,1
+TRAINING-37,3,"Mamee, Mr. Hanna",male,,0,0,0,0,0,0,0,0,2677,7.2292,,C,,Mamee,Mr. ,no,4 digit,2677,A,,26,26,adult,adult,,1
+TRAINING-370,1,"Aubart, Mme. Leontine Pauline",female,24,0,0,0,0,0,0,0,0,PC 17477,69.3,B35,C,B,Aubart,Mrs.,no,PC,17477,T,17477,24,24,adult,adult,adult,1
+TRAINING-371,1,"Harder, Mr. George Achilles",male,25,1,1,0,0,0,0,0,0,11765,55.4417,E50,C,E,Harder,Mr. ,no,5 digit,11765,T,Harder,25,25,adult,adult,adult,1
+TRAINING-372,3,"Wiklund, Mr. Jakob Alfred",male,18,1,1,0,0,0,0,0,0,3101267,6.4958,,S,,Wiklund,Mr. ,no,7 digit,3101267,T,Wiklund,18,18,adult,adult,adult,0
+TRAINING-373,3,"Beavan, Mr. William Thomas",male,19,0,0,0,0,0,0,0,0,323951,8.05,,S,,Beavan,Mr. ,no,6 digit,323951,A,,19,19,adult,adult,adult,0
+TRAINING-374,1,"Ringhini, Mr. Sante",male,22,0,0,0,0,0,0,0,0,PC 17760,135.6333,,C,,Ringhini,Mr. ,no,PC,17760,T,17760,22,22,adult,adult,adult,0
+TRAINING-375,3,"Palsson, Miss. Stina Viola",female,3,3,0,1,2,1,0,0,1,349909,21.075,,S,,Palsson,Miss,no,6 digit,349909,T,Palsson,3,3,child,child,child,0
+TRAINING-376,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,1,1,0,0,0,0,0,0,PC 17604,82.1708,,C,,Meyer,Mrs.,no,PC,17604,T,Meyer,26,45,adult,adult,,1
+TRAINING-377,3,"Landergren, Miss. Aurora Adelia",female,22,0,0,0,0,0,0,0,0,C 7077,7.25,,S,,Landergren,Miss,no,C number,7077,A,,22,22,adult,adult,adult,1
+TRAINING-378,1,"Widener, Mr. Harry Elkins",male,27,0,0,0,0,2,0,0,2,113503,211.5,C82,C,C,Widener,Mr. ,no,6 digit,113503,T,Widener-113503,27,27,adult,adult,adult,0
+TRAINING-379,3,"Betros, Mr. Tannous",male,20,0,0,0,0,0,1,1,0,2648,4.0125,,C,,Betros,Mr. ,no,4 digit,2648,T,Betros,20,20,adult,adult,adult,0
+TRAINING-38,3,"Cann, Mr. Ernest Charles",male,21,0,0,0,0,0,0,0,0,A./5. 2152,8.05,,S,,Cann,Mr. ,no,A/5 or A/4,2152,A,,21,21,adult,adult,adult,0
+TRAINING-380,3,"Gustafsson, Mr. Karl Gideon",male,19,0,0,0,0,0,0,0,0,347069,7.775,,S,,Gustafsson,Mr. ,no,6 digit,347069,A,,19,19,adult,adult,adult,0
+TRAINING-381,1,"Bidois, Miss. Rosalie",female,42,0,0,0,0,0,0,0,0,PC 17757,227.525,,C,,Bidois,Miss,no,PC,17757,T,17757,42,42,adult,adult,adult,1
+TRAINING-382,3,"Nakid, Miss. Maria ( Mary )",female,1,0,0,0,0,2,0,0,2,2653,15.7417,,C,,Nakid,Miss,yes,4 digit,2653,T,Nakid,1,1,child,child,child,1
+TRAINING-383,3,"Tikkanen, Mr. Juho",male,32,0,0,0,0,0,0,0,0,STON/O 2. 3101293,7.925,,S,,Tikkanen,Mr. ,no,STON/O2.,3101293,A,,32,32,adult,adult,adult,0
+TRAINING-384,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,1,1,0,0,0,0,0,0,113789,52,,S,,Holverson,Mrs.,no,6 digit,113789,T,Holverson,35,35,adult,adult,adult,1
+TRAINING-385,3,"Plotcharsky, Mr. Vasil",male,,0,0,0,0,0,0,0,0,349227,7.8958,,S,,Plotcharsky,Mr. ,no,6 digit,349227,A,,26,26,adult,adult,,0
+TRAINING-386,2,"Davies, Mr. Charles Henry",male,18,0,0,0,0,0,0,0,0,S.O.C. 14879,73.5,,S,,Davies,Mr. ,no,S.O.C.,14879,T,Hickman-14879,18,18,adult,adult,adult,0
+TRAINING-387,3,"Goodwin, Master. Sidney Leonard",male,1,5,0,2,3,2,0,0,2,CA 2144,46.9,,S,,Goodwin,Mast,no,CA,2144,T,Goodwin,1,1,child,child,child,0
+TRAINING-388,2,"Buss, Miss. Kate",female,36,0,0,0,0,0,0,0,0,27849,13,,S,,Buss,Miss,no,5 digit,27849,A,,36,36,adult,adult,adult,1
+TRAINING-389,3,"Sadlier, Mr. Matthew",male,,0,0,0,0,0,0,0,0,367655,7.7292,,Q,,Sadlier,Mr. ,no,6 digit,367655,A,,26,26,adult,adult,,0
+TRAINING-39,3,"Vander Planke, Miss. Augusta Maria",female,18,2,0,0,2,0,0,0,0,345764,18,,S,,Vander Planke,Miss,no,6 digit,345764,T,Vander Planke,18,18,adult,adult,adult,0
+TRAINING-390,2,"Lehmann, Miss. Bertha",female,17,0,0,0,0,0,0,0,0,SC 1748,12,,C,,Lehmann,Miss,no,SC ,1748,A,,17,17,adult,adult,adult,1
+TRAINING-391,1,"Carter, Mr. William Ernest",male,36,1,1,0,0,2,2,2,0,113760,120,B96 B98,S,B,Carter,Mr. ,no,6 digit,113760,T,Carter-Polk,36,36,adult,adult,adult,1
+TRAINING-392,3,"Jansson, Mr. Carl Olof",male,21,0,0,0,0,0,0,0,0,350034,7.7958,,S,,Jansson,Mr. ,no,6 digit,350034,A,,21,21,adult,adult,adult,1
+TRAINING-393,3,"Gustafsson, Mr. Johan Birger",male,28,2,0,1,1,0,0,0,0,3101277,7.925,,S,,Gustafsson,Mr. ,no,7 digit,3101277,T,Backstrom-Gustafsson,28,28,adult,adult,adult,0
+TRAINING-394,1,"Newell, Miss. Marjorie",female,23,1,0,1,0,0,0,0,0,35273,113.275,D36,C,D,Newell,Miss,no,5 digit,35273,T,Newell,23,23,adult,adult,adult,1
+TRAINING-395,3,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,0,0,0,0,2,1,2,0,PP 9549,16.7,G6,S,G,Sandstrom,Mrs.,no,PP,9549,T,Sandstrom,24,24,adult,adult,adult,1
+TRAINING-396,3,"Johansson, Mr. Erik",male,22,0,0,0,0,0,0,0,0,350052,7.7958,,S,,Johansson,Mr. ,no,6 digit,350052,A,,22,22,adult,adult,adult,0
+TRAINING-397,3,"Olsson, Miss. Elina",female,31,0,0,0,0,0,0,0,0,350407,7.8542,,S,,Olsson,Miss,no,6 digit,350407,U,,31,31,adult,adult,adult,0
+TRAINING-398,2,"McKane, Mr. Peter David",male,46,0,0,0,0,0,0,0,0,28403,26,,S,,McKane,Mr. ,no,5 digit,28403,T,28403,46,46,adult,adult,adult,0
+TRAINING-399,2,"Pain, Dr. Alfred",male,23,0,0,0,0,0,0,0,0,244278,10.5,,S,,Pain,Dr. ,no,6 digit,244278,A,,23,23,adult,adult,adult,0
+TRAINING-4,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,1,0,0,0,0,0,0,113803,53.1,C123,S,C,Futrelle,Mrs.,no,6 digit,113803,T,Futrelle,35,35,adult,adult,adult,1
+TRAINING-40,3,"Nicola-Yarred, Miss. Jamila",female,14,1,0,0,1,0,0,0,0,2651,11.2417,,C,,Nicola-Yarred,Miss,no,4 digit,2651,T,Nicola-Yarred,14,14,adult,adult,adult,1
+TRAINING-400,2,"Trout, Mrs. William H (Jessie L)",female,28,0,0,0,0,0,0,0,0,240929,12.65,,S,,Trout,Mrs.,no,6 digit,240929,A,,28,28,adult,adult,adult,1
+TRAINING-401,3,"Niskanen, Mr. Juha",male,39,0,0,0,0,0,0,0,0,STON/O 2. 3101289,7.925,,S,,Niskanen,Mr. ,no,STON/O2.,3101289,A,,39,39,adult,adult,adult,1
+TRAINING-402,3,"Adams, Mr. John",male,26,0,0,0,0,0,0,0,0,341826,8.05,,S,,Adams,Mr. ,no,6 digit,341826,A,,26,26,adult,adult,adult,0
+TRAINING-403,3,"Jussila, Miss. Mari Aina",female,21,1,0,1,0,0,0,0,0,4137,9.825,,S,,Jussila,Miss,no,4 digit,4137,T,Jussila,21,21,adult,adult,adult,0
+TRAINING-404,3,"Hakkarainen, Mr. Pekka Pietari",male,28,1,1,0,0,0,0,0,0,STON/O2. 3101279,15.85,,S,,Hakkarainen,Mr. ,no,STON/O2.,3101279,T,Hakkarainen,28,28,adult,adult,adult,0
+TRAINING-405,3,"Oreskovic, Miss. Marija",female,20,2,0,1,1,0,0,0,0,315096,8.6625,,S,,Oreskovic,Miss,no,6 digit,315096,T,Oreskovic,20,20,adult,adult,adult,0
+TRAINING-406,2,"Gale, Mr. Shadrach",male,34,1,0,0,1,0,0,0,0,28664,21,,S,,Gale,Mr. ,no,5 digit,28664,T,Gale,34,34,adult,adult,adult,0
+TRAINING-407,3,"Widegren, Mr. Carl/Charles Peter",male,51,0,0,0,0,0,0,0,0,347064,7.75,,S,,Widegren,Mr. ,no,6 digit,347064,A,,51,51,adult,adult,adult,0
+TRAINING-408,2,"Richards, Master. William Rowe",male,3,1,0,0,1,1,0,0,1,29106,18.75,,S,,Richards,Mast,no,5 digit,29106,T,Hocking-Richards,3,3,child,child,child,1
+TRAINING-409,3,"Birkeland, Mr. Hans Martin Monsen",male,21,0,0,0,0,0,0,0,0,312992,7.775,,S,,Birkeland,Mr. ,no,6 digit,312992,A,,21,21,adult,adult,adult,0
+TRAINING-41,3,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,1,0,0,1,0,0,0,0,7546,9.475,,S,,Ahlin,Mrs.,no,4 digit,7546,T,Larsson,40,40,adult,adult,adult,0
+TRAINING-410,3,"Lefebre, Miss. Ida",female,,3,0,2,1,1,0,0,1,4133,25.4667,,S,,Lefebre,Miss,no,4 digit,4133,T,Lefebre,18,18,adult,,,0
+TRAINING-411,3,"Sdycoff, Mr. Todor",male,,0,0,0,0,0,0,0,0,349222,7.8958,,S,,Sdycoff,Mr. ,no,6 digit,349222,A,,26,26,adult,adult,,0
+TRAINING-412,3,"Hart, Mr. Henry",male,,0,0,0,0,0,0,0,0,394140,6.8583,,Q,,Hart,Mr. ,no,6 digit,394140,A,,26,26,adult,adult,,0
+TRAINING-413,1,"Minahan, Miss. Daisy E",female,33,1,0,0,1,0,0,0,0,19928,90,C78,Q,C,Minahan,Miss,no,5 digit,19928,T,Minahan,33,33,adult,adult,adult,1
+TRAINING-414,2,"Cunningham, Mr. Alfred Fleming",male,,0,0,0,0,0,0,0,0,239853,0,,S,,Cunningham,Mr. ,no,6 digit,239853,T,239853,30,30,adult,adult,,0
+TRAINING-415,3,"Sundman, Mr. Johan Julian",male,44,0,0,0,0,0,0,0,0,STON/O 2. 3101269,7.925,,S,,Sundman,Mr. ,no,STON/O2.,3101269,A,,44,44,adult,adult,adult,1
+TRAINING-416,3,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,0,0,0,0,0,0,0,0,343095,8.05,,S,,Meek,Mrs.,no,6 digit,343095,A,,31,31,adult,adult,,0
+TRAINING-417,2,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,1,1,0,0,1,2,1,0,28220,32.5,,S,,Drew,Mrs.,no,5 digit,28220,T,Drew,34,34,adult,adult,adult,1
+TRAINING-418,2,"Silven, Miss. Lyyli Karoliina",female,18,0,0,0,0,2,0,0,2,250652,13,,S,,Silven,Miss,no,6 digit,250652,T,Lahtinen-Silven,18,18,adult,adult,adult,1
+TRAINING-419,2,"Matthews, Mr. William John",male,30,0,0,0,0,0,0,0,0,28228,13,,S,,Matthews,Mr. ,no,5 digit,28228,A,,30,30,adult,adult,adult,0
+TRAINING-42,2,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,1,1,0,0,0,0,0,0,11668,21,,S,,Turpin,Mrs.,no,5 digit,11668,T,Turpin,27,27,adult,adult,adult,0
+TRAINING-420,3,"Van Impe, Miss. Catharina",female,10,0,0,0,0,2,0,0,2,345773,24.15,,S,,Van Impe,Miss,no,6 digit,345773,T,Van Impe,10,10,child,child,child,0
+TRAINING-421,3,"Gheorgheff, Mr. Stanio",male,,0,0,0,0,0,0,0,0,349254,7.8958,,C,,Gheorgheff,Mr. ,no,6 digit,349254,A,,26,26,adult,adult,,0
+TRAINING-422,3,"Charters, Mr. David",male,21,0,0,0,0,0,0,0,0,A/5. 13032,7.7333,,Q,,Charters,Mr. ,no,A/5 or A/4,13032,A,,21,21,adult,adult,adult,0
+TRAINING-423,3,"Zimmerman, Mr. Leo",male,29,0,0,0,0,0,0,0,0,315082,7.875,,S,,Zimmerman,Mr. ,no,6 digit,315082,A,,29,29,adult,adult,adult,0
+TRAINING-424,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,1,1,0,0,1,2,1,0,347080,14.4,,S,,Danbom,Mrs.,no,6 digit,347080,T,Danbom,28,28,adult,adult,adult,0
+TRAINING-425,3,"Rosblom, Mr. Viktor Richard",male,18,1,0,1,0,1,0,0,1,370129,20.2125,,S,,Rosblom,Mr. ,no,6 digit,370129,T,Rosblom,18,18,adult,adult,adult,0
+TRAINING-426,3,"Wiseman, Mr. Phillippe",male,,0,0,0,0,0,0,0,0,A/4. 34244,7.25,,S,,Wiseman,Mr. ,no,A/5 or A/4,34244,A,,26,26,adult,adult,,0
+TRAINING-427,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,1,1,0,0,0,0,0,0,2003,26,,S,,Clarke,Mrs.,no,4 digit,2003,T,Clarke,28,28,adult,adult,adult,1
+TRAINING-428,2,"Phillips, Miss. Kate Florence ( Mrs Kate Louise Phillips Marshall )",female,19,0,0,0,0,0,0,0,0,250655,26,,S,,Phillips,Miss,yes,6 digit,250655,T,250655,19,19,adult,adult,adult,1
+TRAINING-429,3,"Flynn, Mr. James",male,,0,0,0,0,0,0,0,0,364851,7.75,,Q,,Flynn,Mr. ,no,6 digit,364851,U,,26,26,adult,adult,,0
+TRAINING-43,3,"Kraeff, Mr. Theodor",male,,0,0,0,0,0,0,0,0,349253,7.8958,,C,,Kraeff,Mr. ,no,6 digit,349253,A,,26,26,adult,adult,,0
+TRAINING-430,3,"Pickard, Mr. Berk (Berk Trembisky)",male,32,0,0,0,0,0,0,0,0,SOTON/O.Q. 392078,8.05,E10,S,E,Pickard,Mr. ,no,SOTON/OQ,392078,A,,32,32,adult,adult,adult,1
+TRAINING-431,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,0,0,0,0,0,0,0,0,110564,26.55,C52,S,C,Bjornstrom-Steffansson,Mr. ,no,6 digit,110564,T,C52,28,28,adult,adult,adult,1
+TRAINING-432,3,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,1,1,0,0,0,0,0,0,376564,16.1,,S,,Thorneycroft,Mrs.,no,6 digit,376564,T,Thorneycroft,31,31,adult,adult,,1
+TRAINING-433,2,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,1,1,0,0,0,0,0,0,SC/AH 3085,26,,S,,Louch,Mrs.,no,SC ,3085,T,Louch,42,42,adult,adult,adult,1
+TRAINING-434,3,"Kallio, Mr. Nikolai Erland",male,17,0,0,0,0,0,0,0,0,STON/O 2. 3101274,7.125,,S,,Kallio,Mr. ,no,STON/O2.,3101274,A,,17,17,adult,adult,adult,0
+TRAINING-435,1,"Silvey, Mr. William Baird",male,50,1,1,0,0,0,0,0,0,13507,55.9,E44,S,E,Silvey,Mr. ,no,5 digit,13507,T,Silvey,50,50,adult,adult,adult,0
+TRAINING-436,1,"Carter, Miss. Lucile Polk",female,14,1,0,0,1,2,0,0,2,113760,120,B96 B98,S,B,Carter,Miss,no,6 digit,113760,T,Carter-Polk,14,14,adult,adult,adult,1
+TRAINING-437,3,"Ford, Miss. Doolina Margaret  Daisy ",female,21,2,0,1,1,2,0,0,2,W./C. 6608,34.375,,S,,Ford,Miss,yes,W./C. ,6608,T,Ford-Johnston-Watson,21,21,adult,adult,adult,0
+TRAINING-438,2,"Richards, Mrs. Sidney (Emily Hocking)",female,24,2,0,1,1,3,1,2,1,29106,18.75,,S,,Richards,Mrs.,no,5 digit,29106,T,Hocking-Richards,24,24,adult,adult,adult,1
+TRAINING-439,1,"Fortune, Mr. Mark",male,64,1,1,0,0,4,2,4,0,19950,263,C23 C25 C27,S,C,Fortune,Mr. ,no,5 digit,19950,T,Fortune,64,64,adult,adult,senior,0
+TRAINING-44,2,"Laroche, Miss. Simonne Marie Anne Andree",female,3,1,0,1,0,2,0,0,2,SC/Paris 2123,41.5792,,C,,Laroche,Miss,no,SC/Paris,2123,T,Laroche,3,3,child,child,child,1
+TRAINING-440,2,"Kvillner, Mr. Johan Henrik Johannesson",male,31,0,0,0,0,0,0,0,0,C.A. 18723,10.5,,S,,Kvillner,Mr. ,no,CA,18723,A,,31,31,adult,adult,adult,0
+TRAINING-441,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,1,1,0,0,1,2,1,0,F.C.C. 13529,26.25,,S,,Hart,Mrs.,no,F.C.C,13529,T,Hart,45,45,adult,adult,adult,1
+TRAINING-442,3,"Hampe, Mr. Leon",male,20,0,0,0,0,0,0,0,0,345769,9.5,,S,,Hampe,Mr. ,no,6 digit,345769,A,,20,20,adult,adult,adult,0
+TRAINING-443,3,"Petterson, Mr. Johan Emil",male,,1,0,0,0,0,0,0,0,347076,7.775,,S,,Petterson,Mr. ,no,6 digit,347076,T,unknown,25,26,adult,adult,,0
+TRAINING-444,2,"Reynaldo, Ms. Encarnacion",female,28,0,0,0,0,0,0,0,0,230434,13,,S,,Reynaldo,Ms. ,no,6 digit,230434,A,,28,28,adult,adult,adult,1
+TRAINING-445,3,"Johannesen-Bratthammer, Mr. Bernt",male,,0,0,0,0,0,0,0,0,65306,8.1125,,S,,Johannesen-Bratthammer,Mr. ,no,5 digit,65306,A,,26,26,adult,adult,,1
+TRAINING-446,1,"Dodge, Master. Washington",male,4,0,0,0,0,2,0,0,2,33638,81.8583,A34,S,A,Dodge,Mast,no,5 digit,33638,T,Dodge,4,4,child,child,child,1
+TRAINING-447,2,"Mellinger, Miss. Madeleine Violet",female,13,0,0,0,0,1,0,0,1,250644,19.5,,S,,Mellinger,Miss,no,6 digit,250644,T,Mellinger,13,13,child,child,child,1
+TRAINING-448,1,"Seward, Mr. Frederic Kimber",male,34,0,0,0,0,0,0,0,0,113794,26.55,,S,,Seward,Mr. ,no,6 digit,113794,U,,34,34,adult,adult,adult,1
+TRAINING-449,3,"Baclini, Miss. Marie Catherine",female,5,2,0,2,0,1,0,0,1,2666,19.2583,,C,,Baclini,Miss,no,4 digit,2666,T,Baclini,5,5,child,child,child,1
+TRAINING-45,3,"Devaney, Miss. Margaret Delia",female,19,0,0,0,0,0,0,0,0,330958,7.8792,,Q,,Devaney,Miss,no,6 digit,330958,A,,19,19,adult,adult,adult,1
+TRAINING-450,1,"Peuchen, Major. Arthur Godfrey",male,52,0,0,0,0,0,0,0,0,113786,30.5,C104,S,C,Peuchen,Majo,no,6 digit,113786,U,,52,52,adult,adult,adult,1
+TRAINING-451,2,"West, Mr. Edwy Arthur",male,36,1,1,0,0,2,2,2,0,C.A. 34651,27.75,,S,,West,Mr. ,no,CA,34651,T,West,36,36,adult,adult,adult,0
+TRAINING-452,3,"Hagland, Mr. Ingvald Olai Olsen",male,,1,0,0,1,0,0,0,0,65303,19.9667,,S,,Hagland,Mr. ,no,5 digit,65303,T,Hagland,26,26,adult,adult,,0
+TRAINING-453,1,"Foreman, Mr. Benjamin Laventall",male,30,0,0,0,0,0,0,0,0,113051,27.75,C111,C,C,Foreman,Mr. ,no,6 digit,113051,A,,30,30,adult,adult,adult,0
+TRAINING-454,1,"Goldenberg, Mr. Samuel L",male,49,1,1,0,0,0,0,0,0,17453,89.1042,C92,C,C,Goldenberg,Mr. ,no,5 digit,17453,T,Goldenberg,49,49,adult,adult,adult,1
+TRAINING-455,3,"Peduzzi, Mr. Joseph",male,,0,0,0,0,0,0,0,0,A/5 2817,8.05,,S,,Peduzzi,Mr. ,no,A/5 or A/4,2817,A,,26,26,adult,adult,,0
+TRAINING-456,3,"Jalsevac, Mr. Ivan",male,29,0,0,0,0,0,0,0,0,349240,7.8958,,C,,Jalsevac,Mr. ,no,6 digit,349240,A,,29,29,adult,adult,adult,1
+TRAINING-457,1,"Millet, Mr. Francis Davis",male,65,0,0,0,0,0,0,0,0,13509,26.55,E38,S,E,Millet,Mr. ,no,5 digit,13509,A,,65,65,adult,adult,senior,0
+TRAINING-458,1,"Kenyon, Mrs. Frederick R (Marion)",female,,1,1,0,0,0,0,0,0,17464,51.8625,D21,S,D,Kenyon,Mrs.,no,5 digit,17464,T,Kenyon,39,45,adult,adult,,1
+TRAINING-459,2,"Toomey, Miss. Ellen",female,50,0,0,0,0,0,0,0,0,F.C.C. 13531,10.5,,S,,Toomey,Miss,no,F.C.C,13531,A,,50,50,adult,adult,adult,1
+TRAINING-46,3,"Rogers, Mr. William John",male,,0,0,0,0,0,0,0,0,S.C./A.4. 23567,8.05,,S,,Rogers,Mr. ,no,A/5 or A/4,23567,A,,26,26,adult,adult,,0
+TRAINING-460,3,"O'Connor, Mr. Maurice",male,,0,0,0,0,0,0,0,0,371060,7.75,,Q,,O'Connor,Mr. ,no,6 digit,371060,U,,26,26,adult,adult,,0
+TRAINING-461,1,"Anderson, Mr. Harry",male,48,0,0,0,0,0,0,0,0,19952,26.55,E12,S,E,Anderson,Mr. ,no,5 digit,19952,A,,48,48,adult,adult,adult,1
+TRAINING-462,3,"Morley, Mr. William",male,34,0,0,0,0,0,0,0,0,364506,8.05,,S,,Morley,Mr. ,no,6 digit,364506,A,,34,34,adult,adult,adult,0
+TRAINING-463,1,"Gee, Mr. Arthur H",male,47,0,0,0,0,0,0,0,0,111320,38.5,E63,S,E,Gee,Mr. ,no,6 digit,111320,A,,47,47,adult,adult,adult,0
+TRAINING-464,2,"Milling, Mr. Jacob Christian",male,48,0,0,0,0,0,0,0,0,234360,13,,S,,Milling,Mr. ,no,6 digit,234360,A,,48,48,adult,adult,adult,0
+TRAINING-465,3,"Maisner, Mr. Simon",male,,0,0,0,0,0,0,0,0,A/S 2816,8.05,,S,,Maisner,Mr. ,no,Other,2816,A,,26,26,adult,adult,,0
+TRAINING-466,3,"Goncalves, Mr. Manuel Estanslas",male,38,0,0,0,0,0,0,0,0,SOTON/O.Q. 3101306,7.05,,S,,Goncalves,Mr. ,no,SOTON/OQ,3101306,A,,38,38,adult,adult,adult,0
+TRAINING-467,2,"Campbell, Mr. William",male,,0,0,0,0,0,0,0,0,239853,0,,S,,Campbell,Mr. ,no,6 digit,239853,T,239853,30,30,adult,adult,,0
+TRAINING-468,1,"Smart, Mr. John Montgomery",male,56,0,0,0,0,0,0,0,0,113792,26.55,,S,,Smart,Mr. ,no,6 digit,113792,U,,56,56,adult,adult,adult,0
+TRAINING-469,3,"Scanlan, Mr. James",male,,0,0,0,0,0,0,0,0,36209,7.725,,Q,,Scanlan,Mr. ,no,5 digit,36209,A,,26,26,adult,adult,,0
+TRAINING-47,3,"Lennon, Mr. Denis",male,,1,0,1,0,0,0,0,0,370371,15.5,,Q,,Lennon,Mr. ,no,6 digit,370371,T,Lennon,26,26,adult,adult,,0
+TRAINING-470,3,"Baclini, Miss. Helene Barbara",female,0.75,2,0,2,0,1,0,0,1,2666,19.2583,,C,,Baclini,Miss,no,4 digit,2666,T,Baclini,0.75,0.75,child,child,child,1
+TRAINING-471,3,"Keefe, Mr. Arthur",male,,0,0,0,0,0,0,0,0,323592,7.25,,S,,Keefe,Mr. ,no,6 digit,323592,A,,26,26,adult,adult,,0
+TRAINING-472,3,"Cacic, Mr. Luka",male,38,3,0,2,1,0,0,0,0,315089,8.6625,,S,,Cacic,Mr. ,no,6 digit,315089,T,Cacic,38,38,adult,adult,adult,0
+TRAINING-473,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,1,1,0,0,2,2,2,0,C.A. 34651,27.75,,S,,West,Mrs.,no,CA,34651,T,West,33,33,adult,adult,adult,1
+TRAINING-474,2,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,0,0,0,0,0,0,0,0,SC/AH Basle 541,13.7917,D,C,D,Jerwan,Mrs.,no,SC ,541,A,,23,23,adult,adult,adult,1
+TRAINING-475,3,"Strandberg, Miss. Ida Sofia",female,22,0,0,0,0,0,0,0,0,7553,9.8375,,S,,Strandberg,Miss,no,4 digit,7553,A,,22,22,adult,adult,adult,0
+TRAINING-476,1,"Clifford, Mr. George Quincy",male,,0,0,0,0,0,0,0,0,110465,52,A14,S,A,Clifford,Mr. ,no,6 digit,110465,T,110465,47,41.5,adult,adult,,0
+TRAINING-477,2,"Renouf, Mr. Peter Henry",male,34,1,1,0,0,0,0,0,0,31027,21,,S,,Renouf,Mr. ,no,5 digit,31027,T,Renouf-Jefferys-31029,34,34,adult,adult,adult,0
+TRAINING-478,3,"Braund, Mr. Lewis Richard",male,29,1,0,0,1,0,0,0,0,3460,7.0458,,S,,Braund,Mr. ,no,4 digit,3460,T,Braund,29,29,adult,adult,adult,0
+TRAINING-479,3,"Karlsson, Mr. Nils August",male,22,0,0,0,0,0,0,0,0,350060,7.5208,,S,,Karlsson,Mr. ,no,6 digit,350060,U,,22,22,adult,adult,adult,0
+TRAINING-48,3,"O'Driscoll, Miss. Bridget",female,,0,0,0,0,0,0,0,0,14311,7.75,,Q,,O'Driscoll,Miss,no,5 digit,14311,A,,18,18,adult,,,1
+TRAINING-480,3,"Hirvonen, Miss. Hildur E",female,2,0,0,0,0,1,0,0,1,3101298,12.2875,,S,,Hirvonen,Miss,no,7 digit,3101298,T,Hirvonen-Lindqvist,2,2,child,child,child,1
+TRAINING-481,3,"Goodwin, Master. Harold Victor",male,9,5,0,2,3,2,0,0,2,CA 2144,46.9,,S,,Goodwin,Mast,no,CA,2144,T,Goodwin,9,9,child,child,child,0
+TRAINING-482,2,"Frost, Mr. Anthony Wood  Archie ",male,,0,0,0,0,0,0,0,0,239854,0,,S,,Frost,Mr. ,yes,6 digit,239854,U,,30,30,adult,adult,,0
+TRAINING-483,3,"Rouse, Mr. Richard Henry",male,50,0,0,0,0,0,0,0,0,A/5 3594,8.05,,S,,Rouse,Mr. ,no,A/5 or A/4,3594,A,,50,50,adult,adult,adult,0
+TRAINING-484,3,"Turkula, Mrs. (Hedwig)",female,63,0,0,0,0,0,0,0,0,4134,9.5875,,S,,Turkula,Mrs.,no,4 digit,4134,A,,63,63,adult,adult,senior,1
+TRAINING-485,1,"Bishop, Mr. Dickinson H",male,25,1,1,0,0,0,0,0,0,11967,91.0792,B49,C,B,Bishop,Mr. ,no,5 digit,11967,T,Bishop,25,25,adult,adult,adult,1
+TRAINING-486,3,"Lefebre, Miss. Jeannie",female,,3,0,2,1,1,0,0,1,4133,25.4667,,S,,Lefebre,Miss,no,4 digit,4133,T,Lefebre,18,18,adult,,,0
+TRAINING-487,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,1,1,0,0,0,0,0,0,19943,90,C93,S,C,Hoyt,Mrs.,no,5 digit,19943,T,Hoyt,35,35,adult,adult,adult,1
+TRAINING-488,1,"Kent, Mr. Edward Austin",male,58,0,0,0,0,0,0,0,0,11771,29.7,B37,C,B,Kent,Mr. ,no,5 digit,11771,A,,58,58,adult,adult,adult,0
+TRAINING-489,3,"Somerton, Mr. Francis William",male,30,0,0,0,0,0,0,0,0,A.5. 18509,8.05,,S,,Somerton,Mr. ,no,A/5 or A/4,18509,A,,30,30,adult,adult,adult,0
+TRAINING-49,3,"Samaan, Mr. Youssef",male,,2,0,0,2,0,0,0,0,2662,21.6792,,C,,Samaan,Mr. ,no,4 digit,2662,T,Samaan,26,26,adult,adult,,0
+TRAINING-490,3,"Coutts, Master. Eden Leslie  Neville ",male,9,1,0,0,1,1,0,0,1,C.A. 37671,15.9,,S,,Coutts,Mast,yes,CA,37671,T,Coutts,9,9,child,child,child,1
+TRAINING-491,3,"Hagland, Mr. Konrad Mathias Reiersen",male,,1,0,0,1,0,0,0,0,65304,19.9667,,S,,Hagland,Mr. ,no,5 digit,65304,T,Hagland,26,26,adult,adult,,0
+TRAINING-492,3,"Windelov, Mr. Einar",male,21,0,0,0,0,0,0,0,0,SOTON/OQ 3101317,7.25,,S,,Windelov,Mr. ,no,SOTON/OQ,3101317,A,,21,21,adult,adult,adult,0
+TRAINING-493,1,"Molson, Mr. Harry Markland",male,55,0,0,0,0,0,0,0,0,113787,30.5,C30,S,C,Molson,Mr. ,no,6 digit,113787,U,,55,55,adult,adult,adult,0
+TRAINING-494,1,"Artagaveytia, Mr. Ramon",male,71,0,0,0,0,0,0,0,0,PC 17609,49.5042,,C,,Artagaveytia,Mr. ,no,PC,17609,A,,71,71,adult,adult,senior,0
+TRAINING-495,3,"Stanley, Mr. Edward Roland",male,21,0,0,0,0,0,0,0,0,A/4 45380,8.05,,S,,Stanley,Mr. ,no,A/5 or A/4,45380,A,,21,21,adult,adult,adult,0
+TRAINING-496,3,"Yousseff, Mr. Gerious",male,,0,0,0,0,0,0,0,0,2627,14.4583,,C,,Yousseff,Mr. ,no,4 digit,2627,T,2627,17,26,adult,adult,,0
+TRAINING-497,1,"Eustis, Miss. Elizabeth Mussey",female,54,1,0,1,0,0,0,0,0,36947,78.2667,D20,C,D,Eustis,Miss,no,5 digit,36947,T,Eustis-36947,54,54,adult,adult,adult,1
+TRAINING-498,3,"Shellard, Mr. Frederick William",male,,0,0,0,0,0,0,0,0,C.A. 6212,15.1,,S,,Shellard,Mr. ,no,CA,6212,T,6212,40.5,26,adult,adult,,0
+TRAINING-499,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,1,1,0,0,2,2,2,0,113781,151.55,C22 C26,S,C,Allison,Mrs.,no,6 digit,113781,T,Allison-113781,25,25,adult,adult,adult,0
+TRAINING-5,3,"Allen, Mr. William Henry",male,35,0,0,0,0,0,0,0,0,373450,8.05,,S,,Allen,Mr. ,no,6 digit,373450,A,,35,35,adult,adult,adult,0
+TRAINING-50,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,1,1,0,0,0,0,0,0,349237,17.8,,S,,Arnold-Franchi,Mrs.,no,6 digit,349237,T,Arnold-Franchi,18,18,adult,adult,adult,0
+TRAINING-500,3,"Svensson, Mr. Olof",male,24,0,0,0,0,0,0,0,0,350035,7.7958,,S,,Svensson,Mr. ,no,6 digit,350035,U,,24,24,adult,adult,adult,0
+TRAINING-501,3,"Calic, Mr. Petar",male,17,1,0,0,1,0,0,0,0,315086,8.6625,,S,,Calic,Mr. ,no,6 digit,315086,T,Calic,17,17,adult,adult,adult,0
+TRAINING-502,3,"Canavan, Miss. Mary",female,21,0,0,0,0,0,0,0,0,364846,7.75,,Q,,Canavan,Miss,no,6 digit,364846,T,Canavan,21,21,adult,adult,adult,0
+TRAINING-503,3,"O'Sullivan, Miss. Bridget Mary",female,,0,0,0,0,0,0,0,0,330909,7.6292,,Q,,O'Sullivan,Miss,no,6 digit,330909,A,,18,18,adult,,,0
+TRAINING-504,3,"Laitinen, Miss. Kristina Sofia",female,37,0,0,0,0,0,0,0,0,4135,9.5875,,S,,Laitinen,Miss,no,4 digit,4135,A,,37,37,adult,adult,adult,0
+TRAINING-505,1,"Maioni, Miss. Roberta",female,16,0,0,0,0,0,0,0,0,110152,86.5,B79,S,B,Maioni,Miss,no,6 digit,110152,T,110152,16,16,adult,adult,adult,1
+TRAINING-506,1,"Penasco y Castellana, Mr. Victor de Satode",male,18,1,1,0,0,0,0,0,0,PC 17758,108.9,C65,C,C,Penasco y Castellana,Mr. ,no,PC,17758,T,y-17758,18,18,adult,adult,adult,0
+TRAINING-507,2,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,0,0,0,0,2,1,2,0,26360,26,,S,,Quick,Mrs.,no,5 digit,26360,T,Quick,33,33,adult,adult,adult,1
+TRAINING-508,1,"Bradley, Mr. George ( George Arthur Brayton )",male,,0,0,0,0,0,0,0,0,111427,26.55,,S,,Bradley,Mr. ,yes,6 digit,111427,U,,41.5,41.5,adult,adult,,1
+TRAINING-509,3,"Olsen, Mr. Henry Margido",male,28,0,0,0,0,0,0,0,0,C 4001,22.525,,S,,Olsen,Mr. ,no,C number,4001,T,4001,28,28,adult,adult,adult,0
+TRAINING-51,3,"Panula, Master. Juha Niilo",male,7,4,0,0,4,1,0,0,1,3101295,39.6875,,S,,Panula,Mast,no,7 digit,3101295,T,Panula-3101295,7,7,child,child,child,0
+TRAINING-510,3,"Lang, Mr. Fang",male,26,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Lang,Mr. ,no,4 digit,1601,T,1601,26,26,adult,adult,adult,1
+TRAINING-511,3,"Daly, Mr. Eugene Patrick",male,29,0,0,0,0,0,0,0,0,382651,7.75,,Q,,Daly,Mr. ,no,6 digit,382651,T,Daly,29,29,adult,adult,adult,1
+TRAINING-512,3,"Webber, Mr. James",male,,0,0,0,0,0,0,0,0,SOTON/OQ 3101316,8.05,,S,,Webber,Mr. ,no,SOTON/OQ,3101316,A,,,,adult,adult,adult,0
+TRAINING-513,1,"McGough, Mr. James Robert",male,36,0,0,0,0,0,0,0,0,PC 17473,26.2875,E25,S,E,McGough,Mr. ,no,PC,17473,T,E25,36,36,adult,adult,adult,1
+TRAINING-514,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,1,1,0,0,0,0,0,0,PC 17603,59.4,,C,,Rothschild,Mrs.,no,PC,17603,T,Rothschild,54,54,adult,adult,adult,1
+TRAINING-515,3,"Coleff, Mr. Satio",male,24,1,0,0,1,0,0,0,0,349209,7.4958,,S,,Coleff,Mr. ,no,6 digit,349209,T,Coleff,24,24,adult,adult,adult,0
+TRAINING-516,1,"Walker, Mr. William Anderson",male,47,0,0,0,0,0,0,0,0,36967,34.0208,D46,S,D,Walker,Mr. ,no,5 digit,36967,A,,47,47,adult,adult,adult,0
+TRAINING-517,2,"Lemore, Mrs. (Amelia Milley)",female,34,0,0,0,0,0,0,0,0,C.A. 34260,10.5,F33,S,F,Lemore,Mrs.,no,CA,34260,T,F33,34,34,adult,adult,adult,1
+TRAINING-518,3,"Ryan, Mr. Patrick",male,,0,0,0,0,0,0,0,0,371110,24.15,,Q,,Ryan,Mr. ,no,6 digit,371110,T,Moran-371110,26,26,adult,adult,,0
+TRAINING-519,2,"Angle, Mrs. William A (Florence  Mary  Agnes Hughes)",female,36,1,1,0,0,0,0,0,0,226875,26,,S,,Angle,Mrs.,yes,6 digit,226875,T,Angle,36,36,adult,adult,adult,1
+TRAINING-52,3,"Nosworthy, Mr. Richard Cater",male,21,0,0,0,0,0,0,0,0,A/4. 39886,7.8,,S,,Nosworthy,Mr. ,no,A/5 or A/4,39886,A,,21,21,adult,adult,adult,0
+TRAINING-520,3,"Pavlovic, Mr. Stefo",male,32,0,0,0,0,0,0,0,0,349242,7.8958,,S,,Pavlovic,Mr. ,no,6 digit,349242,A,,32,32,adult,adult,adult,0
+TRAINING-521,1,"Perreault, Miss. Anne",female,30,0,0,0,0,0,0,0,0,12749,93.5,B73,S,B,Perreault,Miss,no,5 digit,12749,T,Hays-Davidson-12749,30,30,adult,adult,adult,1
+TRAINING-522,3,"Vovk, Mr. Janko",male,22,0,0,0,0,0,0,0,0,349252,7.8958,,S,,Vovk,Mr. ,no,6 digit,349252,A,,22,22,adult,adult,adult,0
+TRAINING-523,3,"Lahoud, Mr. Sarkis",male,,0,0,0,0,0,0,0,0,2624,7.225,,C,,Lahoud,Mr. ,no,4 digit,2624,A,,26,26,adult,adult,,0
+TRAINING-524,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,0,0,0,0,1,1,1,0,111361,57.9792,B18,C,B,Hippach,Mrs.,no,6 digit,111361,T,Hippach,44,44,adult,adult,adult,1
+TRAINING-525,3,"Kassem, Mr. Fared",male,,0,0,0,0,0,0,0,0,2700,7.2292,,C,,Kassem,Mr. ,no,4 digit,2700,A,,26,26,adult,adult,,0
+TRAINING-526,3,"Farrell, Mr. James",male,40.5,0,0,0,0,0,0,0,0,367232,7.75,,Q,,Farrell,Mr. ,no,6 digit,367232,A,,40.5,40.5,adult,adult,adult,0
+TRAINING-527,2,"Ridsdale, Miss. Lucy",female,50,0,0,0,0,0,0,0,0,W./C. 14258,10.5,,S,,Ridsdale,Miss,no,W./C. ,14258,A,,50,50,adult,adult,adult,1
+TRAINING-528,1,"Farthing, Mr. John",male,,0,0,0,0,0,0,0,0,PC 17483,221.7792,C95,S,C,Farthing,Mr. ,no,PC,17483,T,Straus-17483,41.5,41.5,adult,adult,,0
+TRAINING-529,3,"Salonen, Mr. Johan Werner",male,39,0,0,0,0,0,0,0,0,3101296,7.925,,S,,Salonen,Mr. ,no,7 digit,3101296,U,,39,39,adult,adult,adult,0
+TRAINING-53,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,1,1,0,0,0,0,0,0,PC 17572,76.7292,D33,C,D,Harper,Mrs.,no,PC,17572,T,Harper-17572,49,49,adult,adult,adult,1
+TRAINING-530,2,"Hocking, Mr. Richard George",male,23,2,0,2,0,1,0,0,1,29104,11.5,,S,,Hocking,Mr. ,no,5 digit,29104,T,Hocking-Richards,23,23,adult,adult,adult,0
+TRAINING-531,2,"Quick, Miss. Phyllis May",female,2,1,0,1,0,1,0,0,1,26360,26,,S,,Quick,Miss,no,5 digit,26360,T,Quick,2,2,child,child,child,1
+TRAINING-532,3,"Toufik, Mr. Nakli",male,,0,0,0,0,0,0,0,0,2641,7.2292,,C,,Toufik,Mr. ,no,4 digit,2641,A,,26,26,adult,adult,,0
+TRAINING-533,3,"Elias, Mr. Joseph Jr",male,17,1,0,0,1,1,0,0,1,2690,7.2292,,C,,Elias,Mr. ,no,4 digit,2690,T,Elias,17,17,adult,adult,adult,0
+TRAINING-534,3,"Peter, Mrs. Catherine (Catherine Rizk)",female,,0,0,0,0,2,1,2,0,2668,22.3583,,C,,Peter,Mrs.,no,4 digit,2668,T,Peter,31,31,adult,adult,,1
+TRAINING-535,3,"Cacic, Miss. Marija",female,30,3,0,1,2,0,0,0,0,315084,8.6625,,S,,Cacic,Miss,no,6 digit,315084,T,Cacic,30,30,adult,adult,adult,0
+TRAINING-536,2,"Hart, Miss. Eva Miriam",female,7,0,0,0,0,2,0,0,2,F.C.C. 13529,26.25,,S,,Hart,Miss,no,F.C.C,13529,T,Hart,7,7,child,child,child,1
+TRAINING-537,1,"Butt, Major. Archibald Willingham",male,45,0,0,0,0,0,0,0,0,113050,26.55,B38,S,B,Butt,Majo,no,6 digit,113050,A,,45,45,adult,adult,adult,0
+TRAINING-538,1,"LeRoy, Miss. Bertha",female,30,0,0,0,0,0,0,0,0,PC 17761,106.425,,C,,LeRoy,Miss,no,PC,17761,T,Douglas-17761,30,30,adult,adult,adult,1
+TRAINING-539,3,"Risien, Mr. Samuel Beard",male,,1,1,0,0,0,0,0,0,364498,14.5,,S,,Risien,Mr. ,no,6 digit,364498,T,Risien,26,26,adult,adult,,0
+TRAINING-54,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,1,1,0,0,0,0,0,0,2926,26,,S,,Faunthorpe,Mrs.,no,4 digit,2926,T,Faunthorpe,29,29,adult,adult,adult,1
+TRAINING-540,1,"Frolicher, Miss. Hedwig Margaritha",female,22,0,0,0,0,2,0,0,2,13568,49.5,B39,C,B,Frolicher,Miss,no,5 digit,13568,T,Frolicher-Stehli,22,22,adult,adult,adult,1
+TRAINING-541,1,"Crosby, Miss. Harriet R",female,36,0,0,0,0,2,0,0,2,WE/P 5735,71,B22,S,B,Crosby,Miss,no,WEP,5735,T,Crosby,36,36,adult,adult,adult,1
+TRAINING-542,3,"Andersson, Miss. Ingeborg Constanzia",female,9,4,0,3,1,2,0,0,2,347082,31.275,,S,,Andersson,Miss,no,6 digit,347082,T,Andersson-347082,9,9,child,child,child,0
+TRAINING-543,3,"Andersson, Miss. Sigrid Elisabeth",female,11,4,0,3,1,2,0,0,2,347082,31.275,,S,,Andersson,Miss,no,6 digit,347082,T,Andersson-347082,11,11,child,child,child,0
+TRAINING-544,2,"Beane, Mr. Edward",male,32,1,1,0,0,0,0,0,0,2908,26,,S,,Beane,Mr. ,no,4 digit,2908,T,Beane,32,32,adult,adult,adult,1
+TRAINING-545,1,"Douglas, Mr. Walter Donald",male,50,1,1,0,0,0,0,0,0,PC 17761,106.425,C86,C,C,Douglas,Mr. ,no,PC,17761,T,Douglas-17761,50,50,adult,adult,adult,0
+TRAINING-546,1,"Nicholson, Mr. Arthur Ernest",male,64,0,0,0,0,0,0,0,0,693,26,,S,,Nicholson,Mr. ,no,3 digit,693,U,,64,64,adult,adult,senior,0
+TRAINING-547,2,"Beane, Mrs. Edward (Ethel Clarke)",female,19,1,1,2,0,0,0,0,0,2908,26,,S,,Beane,Mrs.,no,4 digit,2908,T,Beane,19,19,adult,adult,adult,1
+TRAINING-548,2,"Padro y Manent, Mr. Julian",male,,0,0,0,0,0,0,0,0,SC/PARIS 2146,13.8625,,C,,Padro y Manent,Mr. ,no,SC/Paris,2146,T,Duran y More,29,30,adult,adult,,1
+TRAINING-549,3,"Goldsmith, Mr. Frank John",male,33,1,1,0,0,1,2,1,0,363291,20.525,,S,,Goldsmith,Mr. ,no,6 digit,363291,T,Goldsmith,33,33,adult,adult,adult,0
+TRAINING-55,1,"Ostby, Mr. Engelhart Cornelius",male,65,0,0,0,0,1,1,1,0,113509,61.9792,B30,C,B,Ostby,Mr. ,no,6 digit,113509,T,Ostby,65,65,adult,adult,senior,0
+TRAINING-550,2,"Davies, Master. John Morgan Jr",male,8,1,0,0,0,1,0,0,1,C.A. 33112,36.75,,S,,Davies,Mast,no,CA,33112,T,Davies-33112,8,8,child,child,child,1
+TRAINING-551,1,"Thayer, Mr. John Borland Jr",male,17,0,0,0,0,2,0,0,2,17421,110.8833,C70,C,C,Thayer,Mr. ,no,5 digit,17421,T,Thayer-17421,17,17,adult,adult,adult,1
+TRAINING-552,2,"Sharp, Mr. Percival James R",male,27,0,0,0,0,0,0,0,0,244358,26,,S,,Sharp,Mr. ,no,6 digit,244358,T,244358,27,27,adult,adult,adult,0
+TRAINING-553,3,"O'Brien, Mr. Timothy",male,,0,0,0,0,0,0,0,0,330979,7.8292,,Q,,O'Brien,Mr. ,no,6 digit,330979,A,,26,26,adult,adult,,0
+TRAINING-554,3,"Leeni, Mr. Fahim ( Philip Zenni )",male,22,0,0,0,0,0,0,0,0,2620,7.225,,C,,Leeni,Mr. ,yes,4 digit,2620,A,,22,22,adult,adult,adult,1
+TRAINING-555,3,"Ohman, Miss. Velin",female,22,0,0,0,0,0,0,0,0,347085,7.775,,S,,Ohman,Miss,no,6 digit,347085,A,,22,22,adult,adult,adult,1
+TRAINING-556,1,"Wright, Mr. George",male,62,0,0,0,0,0,0,0,0,113807,26.55,,S,,Wright,Mr. ,no,6 digit,113807,A,,62,62,adult,adult,senior,0
+TRAINING-557,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) ( Mrs Morgan )",female,48,1,1,0,0,0,0,0,0,11755,39.6,A16,C,A,Duff Gordon,Lady,yes,5 digit,11755,T,Duff Gordon 17485,48,48,adult,adult,adult,1
+TRAINING-558,1,"Robbins, Mr. Victor",male,,0,0,0,0,0,0,0,0,PC 17757,227.525,,C,,Robbins,Mr. ,no,PC,17757,T,17757,47,41.5,adult,adult,,0
+TRAINING-559,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,1,1,0,0,1,2,1,0,110413,79.65,E67,S,E,Taussig,Mrs.,no,6 digit,110413,T,Taussig,39,39,adult,adult,adult,1
+TRAINING-56,1,"Woolner, Mr. Hugh",male,,0,0,0,0,0,0,0,0,19947,35.5,C52,S,C,Woolner,Mr. ,no,5 digit,19947,T,C52,28,41.5,adult,adult,,1
+TRAINING-560,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,1,1,0,0,0,0,0,0,345572,17.4,,S,,de Messemaeker,Mrs.,no,6 digit,345572,T,de Messemaeker,36,36,adult,adult,adult,1
+TRAINING-561,3,"Morrow, Mr. Thomas Rowan",male,,0,0,0,0,0,0,0,0,372622,7.75,,Q,,Morrow,Mr. ,no,6 digit,372622,A,,26,26,adult,adult,,0
+TRAINING-562,3,"Sivic, Mr. Husein",male,40,0,0,0,0,0,0,0,0,349251,7.8958,,S,,Sivic,Mr. ,no,6 digit,349251,A,,40,40,adult,adult,adult,0
+TRAINING-563,2,"Norman, Mr. Robert Douglas",male,28,0,0,0,0,0,0,0,0,218629,13.5,,S,,Norman,Mr. ,no,6 digit,218629,A,,28,28,adult,adult,adult,0
+TRAINING-564,3,"Simmons, Mr. John",male,,0,0,0,0,0,0,0,0,SOTON/OQ 392082,8.05,,S,,Simmons,Mr. ,no,SOTON/OQ,392082,A,,26,26,adult,adult,,0
+TRAINING-565,3,"Meanwell, Miss. (Marion Ogden)",female,,0,0,0,0,0,0,0,0,SOTON/O.Q. 392087,8.05,,S,,Meanwell,Miss,no,SOTON/OQ,392087,A,,18,18,adult,,,0
+TRAINING-566,3,"Davies, Mr. Alfred J",male,24,2,0,0,0,0,0,0,0,A/4 48871,24.15,,S,,Davies,Mr. ,no,A/5 or A/4,48871,T,Davies-48871,24,24,adult,adult,adult,0
+TRAINING-567,3,"Stoytcheff, Mr. Ilia",male,19,0,0,0,0,0,0,0,0,349205,7.8958,,S,,Stoytcheff,Mr. ,no,6 digit,349205,A,,19,19,adult,adult,adult,0
+TRAINING-568,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,0,0,0,0,4,1,4,0,349909,21.075,,S,,Palsson,Mrs.,no,6 digit,349909,T,Palsson,29,29,adult,adult,adult,0
+TRAINING-569,3,"Doharr, Mr. Tannous",male,,0,0,0,0,0,0,0,0,2686,7.2292,,C,,Doharr,Mr. ,no,4 digit,2686,A,,26,26,adult,adult,,0
+TRAINING-57,2,"Rugg, Miss. Emily",female,21,0,0,0,0,0,0,0,0,C.A. 31026,10.5,,S,,Rugg,Miss,no,CA,31026,U,,21,21,adult,adult,adult,1
+TRAINING-570,3,"Jonsson, Mr. Carl",male,32,0,0,0,0,0,0,0,0,350417,7.8542,,S,,Jonsson,Mr. ,no,6 digit,350417,U,,32,32,adult,adult,adult,1
+TRAINING-571,2,"Harris, Mr. George",male,62,0,0,0,0,0,0,0,0,S.W./PP 752,10.5,,S,,Harris,Mr. ,no,PP,752,U,,62,62,adult,adult,senior,1
+TRAINING-572,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,2,0,2,0,0,0,0,0,11769,51.4792,C101,S,C,Appleton,Mrs.,no,5 digit,11769,T,Lamson-11769,53,53,adult,adult,adult,1
+TRAINING-573,1,"Flynn, Mr. John Irwin ( Irving )",male,36,0,0,0,0,0,0,0,0,PC 17474,26.3875,E25,S,E,Flynn,Mr. ,yes,PC,17474,T,E25,36,36,adult,adult,adult,1
+TRAINING-574,3,"Kelly, Miss. Mary",female,,0,0,0,0,0,0,0,0,14312,7.75,,Q,,Kelly,Miss,no,5 digit,14312,U,,18,18,adult,,,1
+TRAINING-575,3,"Rush, Mr. Alfred George John",male,16,0,0,0,0,0,0,0,0,A/4. 20589,8.05,,S,,Rush,Mr. ,no,A/5 or A/4,20589,A,,16,16,adult,adult,adult,0
+TRAINING-576,3,"Patchett, Mr. George",male,19,0,0,0,0,0,0,0,0,358585,14.5,,S,,Patchett,Mr. ,no,6 digit,358585,T,358585,19,19,adult,adult,adult,0
+TRAINING-577,2,"Garside, Miss. Ethel",female,34,0,0,0,0,0,0,0,0,243880,13,,S,,Garside,Miss,no,6 digit,243880,A,,34,34,adult,adult,adult,1
+TRAINING-578,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,1,1,0,0,0,0,0,0,13507,55.9,E44,S,E,Silvey,Mrs.,no,5 digit,13507,T,Silvey,39,39,adult,adult,adult,1
+TRAINING-579,3,"Caram, Mrs. Joseph (Maria Elias)",female,,1,1,0,0,0,0,0,0,2689,14.4583,,C,,Caram,Mrs.,no,4 digit,2689,T,Caram,31,31,adult,adult,,0
+TRAINING-58,3,"Novel, Mr. Mansouer",male,28.5,0,0,0,0,0,0,0,0,2697,7.2292,,C,,Novel,Mr. ,no,4 digit,2697,A,,28.5,28.5,adult,adult,adult,0
+TRAINING-580,3,"Jussila, Mr. Eiriik",male,32,0,0,0,0,0,0,0,0,STON/O 2. 3101286,7.925,,S,,Jussila,Mr. ,no,STON/O2.,3101286,A,,32,32,adult,adult,adult,1
+TRAINING-581,2,"Christy, Miss. Julie Rachel",female,25,1,0,1,0,1,0,0,1,237789,30,,S,,Christy,Miss,no,6 digit,237789,T,Christy-Jacobson,25,25,adult,adult,adult,1
+TRAINING-582,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,1,1,0,0,1,2,1,0,17421,110.8833,C68,C,C,Thayer,Mrs.,no,5 digit,17421,T,Thayer-17421,39,39,adult,adult,adult,1
+TRAINING-583,2,"Downton, Mr. William James",male,54,0,0,0,0,0,0,0,0,28403,26,,S,,Downton,Mr. ,no,5 digit,28403,T,28403,54,54,adult,adult,adult,0
+TRAINING-584,1,"Ross, Mr. John Hugo",male,36,0,0,0,0,0,0,0,0,13049,40.125,A10,C,A,Ross,Mr. ,no,5 digit,13049,A,,36,36,adult,adult,adult,0
+TRAINING-585,3,"Paulner, Mr. Uscher",male,,0,0,0,0,0,0,0,0,3411,8.7125,,C,,Paulner,Mr. ,no,4 digit,3411,A,,26,26,adult,adult,,0
+TRAINING-586,1,"Taussig, Miss. Ruth",female,18,0,0,0,0,2,0,0,2,110413,79.65,E68,S,E,Taussig,Miss,no,6 digit,110413,T,Taussig,18,18,adult,adult,adult,1
+TRAINING-587,2,"Jarvis, Mr. John Denzil",male,47,0,0,0,0,0,0,0,0,237565,15,,S,,Jarvis,Mr. ,no,6 digit,237565,A,,47,47,adult,adult,adult,0
+TRAINING-588,1,"Frolicher-Stehli, Mr. Maxmillian",male,60,1,1,0,0,1,2,1,0,13567,79.2,B41,C,B,Frolicher-Stehli,Mr. ,no,5 digit,13567,T,Frolicher-Stehli,60,60,adult,adult,adult,1
+TRAINING-589,3,"Gilinski, Mr. Eliezer",male,22,0,0,0,0,0,0,0,0,14973,8.05,,S,,Gilinski,Mr. ,no,5 digit,14973,A,,22,22,adult,adult,adult,0
+TRAINING-59,2,"West, Miss. Constance Mirium",female,5,1,0,1,0,2,0,0,2,C.A. 34651,27.75,,S,,West,Miss,no,CA,34651,T,West,5,5,child,child,child,1
+TRAINING-590,3,"Murdlin, Mr. Joseph",male,,0,0,0,0,0,0,0,0,A./5. 3235,8.05,,S,,Murdlin,Mr. ,no,A/5 or A/4,3235,A,,26,26,adult,adult,,0
+TRAINING-591,3,"Rintamaki, Mr. Matti",male,35,0,0,0,0,0,0,0,0,STON/O 2. 3101273,7.125,,S,,Rintamaki,Mr. ,no,STON/O2.,3101273,A,,35,35,adult,adult,adult,0
+TRAINING-592,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,1,0,1,0,0,0,0,0,36947,78.2667,D20,C,D,Stephenson,Mrs.,no,5 digit,36947,T,Eustis-36947,52,52,adult,adult,adult,1
+TRAINING-593,3,"Elsbury, Mr. William James",male,47,0,0,0,0,0,0,0,0,A/5 3902,7.25,,S,,Elsbury,Mr. ,no,A/5 or A/4,3902,A,,47,47,adult,adult,adult,0
+TRAINING-594,3,"Bourke, Miss. Mary",female,,0,0,0,0,2,0,0,2,364848,7.75,,Q,,Bourke,Miss,no,6 digit,364848,T,Bourke,12,18,child,,,0
+TRAINING-595,2,"Chapman, Mr. John Henry",male,37,1,1,0,0,0,0,0,0,SC/AH 29037,26,,S,,Chapman,Mr. ,no,SC ,29037,T,Chapman,37,37,adult,adult,adult,0
+TRAINING-596,3,"Van Impe, Mr. Jean Baptiste",male,36,1,1,0,0,1,2,1,0,345773,24.15,,S,,Van Impe,Mr. ,no,6 digit,345773,T,Van Impe,36,36,adult,adult,adult,0
+TRAINING-597,2,"Leitch, Miss. Jessie Wills",female,,0,0,0,0,0,0,0,0,248727,33,,S,,Leitch,Miss,no,6 digit,248727,T,Harper-248727,20,20,adult,,,1
+TRAINING-598,3,"Johnson, Mr. Alfred",male,49,0,0,0,0,0,0,0,0,LINE,0,,S,,Johnson,Mr. ,no,LINE,0,U,,49,49,adult,adult,adult,0
+TRAINING-599,3,"Boulos, Mr. Hanna",male,,0,0,0,0,0,0,0,0,2664,7.225,,C,,Boulos,Mr. ,no,4 digit,2664,T,Boulos,29,26,adult,adult,,0
+TRAINING-6,3,"Moran, Mr. James",male,,0,0,0,0,0,0,0,0,330877,8.4583,,Q,,Moran,Mr. ,no,6 digit,330877,A,,26,26,adult,adult,,0
+TRAINING-60,3,"Goodwin, Master. William Frederick",male,11,5,0,2,3,2,0,0,2,CA 2144,46.9,,S,,Goodwin,Mast,no,CA,2144,T,Goodwin,11,11,child,child,child,0
+TRAINING-600,1,"Duff Gordon, Sir. Cosmo Edmund ( Mr Morgan )",male,49,1,1,0,0,0,0,0,0,PC 17485,56.9292,A20,C,A,Duff Gordon,Sir,yes,PC,17485,T,Duff Gordon 17485,49,49,adult,adult,adult,1
+TRAINING-601,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,2,1,1,0,1,0,0,1,243847,27,,S,,Jacobsohn,Mrs.,no,6 digit,243847,T,Christy-Jacobson,24,24,adult,adult,adult,1
+TRAINING-602,3,"Slabenoff, Mr. Petco",male,,0,0,0,0,0,0,0,0,349214,7.8958,,S,,Slabenoff,Mr. ,no,6 digit,349214,A,,26,26,adult,adult,,0
+TRAINING-603,1,"Harrington, Mr. Charles H",male,,0,0,0,0,0,0,0,0,113796,42.4,,S,,Harrington,Mr. ,no,6 digit,113796,T,113796,47,41.5,adult,adult,,0
+TRAINING-604,3,"Torber, Mr. Ernst William",male,44,0,0,0,0,0,0,0,0,364511,8.05,,S,,Torber,Mr. ,no,6 digit,364511,A,,44,44,adult,adult,adult,0
+TRAINING-605,1,"Homer, Mr. Harry ( Mr E Haven )",male,35,0,0,0,0,0,0,0,0,111426,26.55,,C,,Homer,Mr. ,yes,6 digit,111426,A,,35,35,adult,adult,adult,1
+TRAINING-606,3,"Lindell, Mr. Edvard Bengtsson",male,36,1,1,0,0,0,0,0,0,349910,15.55,,S,,Lindell,Mr. ,no,6 digit,349910,T,Lindell,36,36,adult,adult,adult,0
+TRAINING-607,3,"Karaic, Mr. Milan",male,30,0,0,0,0,0,0,0,0,349246,7.8958,,S,,Karaic,Mr. ,no,6 digit,349246,A,,30,30,adult,adult,adult,0
+TRAINING-608,1,"Daniel, Mr. Robert Williams",male,27,0,0,0,0,0,0,0,0,113804,30.5,,S,,Daniel,Mr. ,no,6 digit,113804,A,,27,27,adult,adult,adult,1
+TRAINING-609,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,1,1,0,0,2,2,2,0,SC/Paris 2123,41.5792,,C,,Laroche,Mrs.,no,SC/Paris,2123,T,Laroche,22,22,adult,adult,adult,1
+TRAINING-61,3,"Sirayanian, Mr. Orsen",male,22,0,0,0,0,0,0,0,0,2669,7.2292,,C,,Sirayanian,Mr. ,no,4 digit,2669,A,,22,22,adult,adult,adult,0
+TRAINING-610,1,"Shutes, Miss. Elizabeth W",female,40,0,0,0,0,0,0,0,0,PC 17582,153.4625,C125,S,C,Shutes,Miss,no,PC,17582,T,Graham-17582,40,40,adult,adult,adult,1
+TRAINING-611,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,1,1,0,0,5,2,5,0,347082,31.275,,S,,Andersson,Mrs.,no,6 digit,347082,T,Andersson-347082,39,39,adult,adult,adult,0
+TRAINING-612,3,"Jardin, Mr. Jose Neto",male,,0,0,0,0,0,0,0,0,SOTON/O.Q. 3101305,7.05,,S,,Jardin,Mr. ,no,SOTON/OQ,3101305,A,,26,26,adult,adult,,0
+TRAINING-613,3,"Murphy, Miss. Margaret Jane",female,,1,0,1,0,0,0,0,0,367230,15.5,,Q,,Murphy,Miss,no,6 digit,367230,T,Murphy,18,18,adult,,,1
+TRAINING-614,3,"Horgan, Mr. John",male,,0,0,0,0,0,0,0,0,370377,7.75,,Q,,Horgan,Mr. ,no,6 digit,370377,A,,26,26,adult,adult,,0
+TRAINING-615,3,"Brocklebank, Mr. William Alfred",male,35,0,0,0,0,0,0,0,0,364512,8.05,,S,,Brocklebank,Mr. ,no,6 digit,364512,A,,35,35,adult,adult,adult,0
+TRAINING-616,2,"Herman, Miss. Alice",female,24,1,0,1,0,2,0,0,2,220845,65,,S,,Herman,Miss,no,6 digit,220845,T,Herman-220845,24,24,adult,adult,adult,1
+TRAINING-617,3,"Danbom, Mr. Ernst Gilbert",male,34,1,1,0,0,1,2,1,0,347080,14.4,,S,,Danbom,Mr. ,no,6 digit,347080,T,Danbom,34,34,adult,adult,adult,0
+TRAINING-618,3,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,1,1,0,0,0,0,0,0,A/5. 3336,16.1,,S,,Lobb,Mrs.,no,A/5 or A/4,3336,T,Lobb,26,26,adult,adult,adult,0
+TRAINING-619,2,"Becker, Miss. Marion Louise",female,4,2,0,1,1,1,0,0,1,230136,39,F4,S,F,Becker,Miss,no,6 digit,230136,T,Becker,4,4,child,child,child,1
+TRAINING-62,1,"Icard, Miss. Amelie",female,38,0,0,0,0,0,0,0,0,113572,80,B28,,B,Icard,Miss,no,6 digit,113572,T,113572,38,38,adult,adult,adult,1
+TRAINING-620,2,"Gavey, Mr. Lawrence",male,26,0,0,0,0,0,0,0,0,31028,10.5,,S,,Gavey,Mr. ,no,5 digit,31028,U,,26,26,adult,adult,adult,0
+TRAINING-621,3,"Yasbeck, Mr. Antoni",male,27,1,1,0,0,0,0,0,0,2659,14.4542,,C,,Yasbeck,Mr. ,no,4 digit,2659,T,Yasbeck,27,27,adult,adult,adult,0
+TRAINING-622,1,"Kimball, Mr. Edwin Nelson Jr",male,42,1,1,0,0,0,0,0,0,11753,52.5542,D19,S,D,Kimball,Mr. ,no,5 digit,11753,T,Kimball,42,42,adult,adult,adult,1
+TRAINING-623,3,"Nakid, Mr. Sahid",male,20,1,1,0,0,1,2,1,0,2653,15.7417,,C,,Nakid,Mr. ,no,4 digit,2653,T,Nakid,20,20,adult,adult,adult,1
+TRAINING-624,3,"Hansen, Mr. Henry Damsgaard",male,21,0,0,0,0,0,0,0,0,350029,7.8542,,S,,Hansen,Mr. ,no,6 digit,350029,T,Hansen,21,21,adult,adult,adult,0
+TRAINING-625,3,"Bowen, Mr. David John  Dai ",male,21,0,0,0,0,0,0,0,0,54636,16.1,,S,,Bowen,Mr. ,yes,5 digit,54636,T,54636,21,21,adult,adult,adult,0
+TRAINING-626,1,"Sutton, Mr. Frederick",male,61,0,0,0,0,0,0,0,0,36963,32.3208,D50,S,D,Sutton,Mr. ,no,5 digit,36963,A,,61,61,adult,adult,senior,0
+TRAINING-627,2,"Kirkland, Rev. Charles Leonard",male,57,0,0,0,0,0,0,0,0,219533,12.35,,Q,,Kirkland,Rev.,no,6 digit,219533,A,,57,57,adult,adult,adult,0
+TRAINING-628,1,"Longley, Miss. Gretchen Fiske",female,21,0,0,0,0,0,0,0,0,13502,77.9583,D9,S,D,Longley,Miss,no,5 digit,13502,T,Andrews-13502,21,21,adult,adult,adult,1
+TRAINING-629,3,"Bostandyeff, Mr. Guentcho",male,26,0,0,0,0,0,0,0,0,349224,7.8958,,S,,Bostandyeff,Mr. ,no,6 digit,349224,A,,26,26,adult,adult,adult,0
+TRAINING-63,1,"Harris, Mr. Henry Birkhardt",male,45,1,1,0,0,0,0,0,0,36973,83.475,C83,S,C,Harris,Mr. ,no,5 digit,36973,T,Harris,45,45,adult,adult,adult,0
+TRAINING-630,3,"O'Connell, Mr. Patrick D",male,,0,0,0,0,0,0,0,0,334912,7.7333,,Q,,O'Connell,Mr. ,no,6 digit,334912,A,,26,26,adult,adult,,0
+TRAINING-631,1,"Barkworth, Mr. Algernon Henry Wilson",male,80,0,0,0,0,0,0,0,0,27042,30,A23,S,A,Barkworth,Mr. ,no,5 digit,27042,A,,80,80,adult,adult,senior,1
+TRAINING-632,3,"Lundahl, Mr. Johan Svensson",male,51,0,0,0,0,0,0,0,0,347743,7.0542,,S,,Lundahl,Mr. ,no,6 digit,347743,A,,51,51,adult,adult,adult,0
+TRAINING-633,1,"Stahelin-Maeglin, Dr. Max",male,32,0,0,0,0,0,0,0,0,13214,30.5,B50,C,B,Stahelin-Maeglin,Dr. ,no,5 digit,13214,A,,32,32,adult,adult,adult,1
+TRAINING-634,1,"Parr, Mr. William Henry Marsh",male,,0,0,0,0,0,0,0,0,112052,0,,S,,Parr,Mr. ,no,6 digit,112052,U,,41.5,41.5,adult,adult,,0
+TRAINING-635,3,"Skoog, Miss. Mabel",female,9,3,0,1,2,2,0,0,2,347088,27.9,,S,,Skoog,Miss,no,6 digit,347088,T,Skoog,9,9,child,child,child,0
+TRAINING-636,2,"Davis, Miss. Mary",female,28,0,0,0,0,0,0,0,0,237668,13,,S,,Davis,Miss,no,6 digit,237668,A,,28,28,adult,adult,adult,1
+TRAINING-637,3,"Leinonen, Mr. Antti Gustaf",male,32,0,0,0,0,0,0,0,0,STON/O 2. 3101292,7.925,,S,,Leinonen,Mr. ,no,STON/O2.,3101292,A,,32,32,adult,adult,adult,0
+TRAINING-638,2,"Collyer, Mr. Harvey",male,31,1,1,0,0,1,2,1,0,C.A. 31921,26.25,,S,,Collyer,Mr. ,no,CA,31921,T,Collyer,31,31,adult,adult,adult,0
+TRAINING-639,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,0,0,0,0,5,1,5,0,3101295,39.6875,,S,,Panula,Mrs.,no,7 digit,3101295,T,Panula-3101295,41,41,adult,adult,adult,0
+TRAINING-64,3,"Skoog, Master. Harald",male,4,3,0,2,1,2,0,0,2,347088,27.9,,S,,Skoog,Mast,no,6 digit,347088,T,Skoog,4,4,child,child,child,0
+TRAINING-640,3,"Thorneycroft, Mr. Percival",male,,1,1,0,0,0,0,0,0,376564,16.1,,S,,Thorneycroft,Mr. ,no,6 digit,376564,T,Thorneycroft,26,26,adult,adult,,0
+TRAINING-641,3,"Jensen, Mr. Hans Peder",male,20,0,0,0,0,0,0,0,0,350050,7.8542,,S,,Jensen,Mr. ,no,6 digit,350050,T,Jensen,20,20,adult,adult,adult,0
+TRAINING-642,1,"Sagesser, Mlle. Emma",female,24,0,0,0,0,0,0,0,0,PC 17477,69.3,B35,C,B,Sagesser,Miss,no,PC,17477,T,17477,24,24,adult,adult,adult,1
+TRAINING-643,3,"Skoog, Miss. Margit Elizabeth",female,2,3,0,1,2,2,0,0,2,347088,27.9,,S,,Skoog,Miss,no,6 digit,347088,T,Skoog,2,2,child,child,child,0
+TRAINING-644,3,"Foo, Mr. Choong",male,,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Foo,Mr. ,no,4 digit,1601,T,1601,29.5,26,adult,adult,,1
+TRAINING-645,3,"Baclini, Miss. Eugenie",female,0.75,2,0,2,0,1,0,0,1,2666,19.2583,,C,,Baclini,Miss,no,4 digit,2666,T,Baclini,0.75,0.75,child,child,child,1
+TRAINING-646,1,"Harper, Mr. Henry Sleeper",male,48,1,1,0,0,0,0,0,0,PC 17572,76.7292,D33,C,D,Harper,Mr. ,no,PC,17572,T,Harper-17572,48,48,adult,adult,adult,1
+TRAINING-647,3,"Cor, Mr. Liudevit",male,19,0,0,0,0,0,0,0,0,349231,7.8958,,S,,Cor,Mr. ,no,6 digit,349231,T,Cor,19,19,adult,adult,adult,0
+TRAINING-648,1,"Simonius-Blumer, Col. Oberst Alfons",male,56,0,0,0,0,0,0,0,0,13213,35.5,A26,C,A,Simonius-Blumer,Col.,no,5 digit,13213,A,,56,56,adult,adult,adult,1
+TRAINING-649,3,"Willey, Mr. Edward",male,,0,0,0,0,0,0,0,0,S.O./P.P. 751,7.55,,S,,Willey,Mr. ,no,PP,751,A,,26,26,adult,adult,,0
+TRAINING-65,1,"Stewart, Mr. Albert A",male,,0,0,0,0,0,0,0,0,PC 17605,27.7208,,C,,Stewart,Mr. ,no,PC,17605,A,,41.5,41.5,adult,adult,,0
+TRAINING-650,3,"Stanley, Miss. Amy Zillah Elsie",female,23,0,0,0,0,0,0,0,0,CA. 2314,7.55,,S,,Stanley,Miss,no,cA,2314,A,,30,23,adult,adult,adult,1
+TRAINING-651,3,"Mitkoff, Mr. Mito",male,,0,0,0,0,0,0,0,0,349221,7.8958,,S,,Mitkoff,Mr. ,no,6 digit,349221,A,,26,26,adult,adult,,0
+TRAINING-652,2,"Doling, Miss. Elsie",female,18,0,0,0,0,1,0,0,1,231919,23,,S,,Doling,Miss,no,6 digit,231919,T,Doling,18,18,adult,adult,adult,1
+TRAINING-653,3,"Kalvik, Mr. Johannes Halvorsen",male,21,0,0,0,0,0,0,0,0,8475,8.4333,,S,,Kalvik,Mr. ,no,4 digit,8475,A,,21,21,adult,adult,adult,0
+TRAINING-654,3,"O'Leary, Miss. Hanora  Norah ",female,,0,0,0,0,0,0,0,0,330919,7.8292,,Q,,O'Leary,Miss,yes,6 digit,330919,A,,18,18,adult,,,1
+TRAINING-655,3,"Hegarty, Miss. Hanora  Nora ",female,18,0,0,0,0,0,0,0,0,365226,6.75,,Q,,Hegarty,Miss,yes,6 digit,365226,A,,18,18,adult,adult,adult,0
+TRAINING-656,2,"Hickman, Mr. Leonard Mark",male,24,2,0,0,2,0,0,0,0,S.O.C. 14879,73.5,,S,,Hickman,Mr. ,no,S.O.C.,14879,T,Hickman-14879,24,24,adult,adult,adult,0
+TRAINING-657,3,"Radeff, Mr. Alexander",male,,0,0,0,0,0,0,0,0,349223,7.8958,,S,,Radeff,Mr. ,no,6 digit,349223,A,,26,26,adult,adult,,0
+TRAINING-658,3,"Bourke, Mrs. John (Catherine)",female,32,1,1,0,0,1,2,1,0,364849,15.5,,Q,,Bourke,Mrs.,no,6 digit,364849,T,Bourke,32,32,adult,adult,adult,0
+TRAINING-659,2,"Eitemiller, Mr. George Floyd",male,23,0,0,0,0,0,0,0,0,29751,13,,S,,Eitemiller,Mr. ,no,5 digit,29751,A,,23,23,adult,adult,adult,0
+TRAINING-66,3,"Moubarek, Master. Gerios",male,,1,0,0,1,1,0,0,1,2661,15.2458,,C,,Moubarek,Mast,no,4 digit,2661,T,Moubarek,6,6,child,child,child,1
+TRAINING-660,1,"Newell, Mr. Arthur Webster",male,58,0,0,0,0,2,0,0,0,35273,113.275,D48,C,D,Newell,Mr. ,no,5 digit,35273,T,Newell,58,58,adult,adult,adult,0
+TRAINING-661,1,"Frauenthal, Dr. Henry William",male,50,2,1,0,1,0,0,0,0,PC 17611,133.65,,S,,Frauenthal,Dr. ,no,PC,17611,T,Frauenthal,50,50,adult,adult,adult,1
+TRAINING-662,3,"Badt, Mr. Mohamed",male,40,0,0,0,0,0,0,0,0,2623,7.225,,C,,Badt,Mr. ,no,4 digit,2623,A,,40,40,adult,adult,adult,0
+TRAINING-663,1,"Colley, Mr. Edward Pomeroy",male,47,0,0,0,0,0,0,0,0,5727,25.5875,E58,S,E,Colley,Mr. ,no,4 digit,5727,A,,47,47,adult,adult,adult,0
+TRAINING-664,3,"Coleff, Mr. Peju",male,36,1,0,0,1,0,0,0,0,349210,7.4958,,S,,Coleff,Mr. ,no,6 digit,349210,T,Coleff,36,36,adult,adult,adult,0
+TRAINING-665,3,"Lindqvist, Mr. Eino William",male,20,1,0,1,0,0,0,0,0,STON/O 2. 3101285,7.925,,S,,Lindqvist,Mr. ,no,STON/O2.,3101285,T,Hirvonen-Lindqvist,20,20,adult,adult,adult,1
+TRAINING-666,2,"Hickman, Mr. Lewis",male,32,2,0,0,2,0,0,0,0,S.O.C. 14879,73.5,,S,,Hickman,Mr. ,no,S.O.C.,14879,T,Hickman-14879,32,32,adult,adult,adult,0
+TRAINING-667,2,"Butler, Mr. Reginald Fenton",male,25,0,0,0,0,0,0,0,0,234686,13,,S,,Butler,Mr. ,no,6 digit,234686,A,,25,25,adult,adult,adult,0
+TRAINING-668,3,"Rommetvedt, Mr. Knud Paust",male,,0,0,0,0,0,0,0,0,312993,7.775,,S,,Rommetvedt,Mr. ,no,6 digit,312993,A,,26,26,adult,adult,,0
+TRAINING-669,3,"Cook, Mr. Jacob",male,43,0,0,0,0,0,0,0,0,A/5 3536,8.05,,S,,Cook,Mr. ,no,A/5 or A/4,3536,A,,43,43,adult,adult,adult,0
+TRAINING-67,2,"Nye, Mrs. (Elizabeth Ramell)",female,29,0,0,0,0,0,0,0,0,C.A. 29395,10.5,F33,S,F,Nye,Mrs.,no,CA,29395,T,F33,29,29,adult,adult,adult,1
+TRAINING-670,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,1,1,0,0,0,0,0,0,19996,52,C126,S,C,Taylor,Mrs.,no,5 digit,19996,T,Taylor,46,45,adult,adult,,1
+TRAINING-671,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,1,1,0,0,1,2,1,0,29750,39,,S,,Brown,Mrs.,no,5 digit,29750,T,Brown,40,40,adult,adult,adult,1
+TRAINING-672,1,"Davidson, Mr. Thornton",male,31,1,1,0,0,0,0,0,0,F.C. 12750,52,B71,S,B,Davidson,Mr. ,no,F.C. Number,12750,T,Hays-Davidson-12749,31,31,adult,adult,adult,0
+TRAINING-673,2,"Mitchell, Mr. Henry Michael",male,70,0,0,0,0,0,0,0,0,C.A. 24580,10.5,,S,,Mitchell,Mr. ,no,CA,24580,U,,70,70,adult,adult,senior,0
+TRAINING-674,2,"Wilhelms, Mr. Charles",male,31,0,0,0,0,0,0,0,0,244270,13,,S,,Wilhelms,Mr. ,no,6 digit,244270,A,,31,31,adult,adult,adult,1
+TRAINING-675,2,"Watson, Mr. Ennis Hastings",male,,0,0,0,0,0,0,0,0,239856,0,,S,,Watson,Mr. ,no,6 digit,239856,U,,30,30,adult,adult,,0
+TRAINING-676,3,"Edvardsson, Mr. Gustaf Hjalmar",male,18,0,0,0,0,0,0,0,0,349912,7.775,,S,,Edvardsson,Mr. ,no,6 digit,349912,A,,18,18,adult,adult,adult,0
+TRAINING-677,3,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,0,0,0,0,0,0,342826,8.05,,S,,Sawyer,Mr. ,no,6 digit,342826,A,,24.5,24.5,adult,adult,adult,0
+TRAINING-678,3,"Turja, Miss. Anna Sofia",female,18,0,0,0,0,0,0,0,0,4138,9.8417,,S,,Turja,Miss,no,4 digit,4138,A,,18,18,adult,adult,adult,1
+TRAINING-679,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,1,1,0,0,6,2,6,0,CA 2144,46.9,,S,,Goodwin,Mrs.,no,CA,2144,T,Goodwin,43,43,adult,adult,adult,0
+TRAINING-68,3,"Crease, Mr. Ernest James",male,19,0,0,0,0,0,0,0,0,S.P. 3464,8.1583,,S,,Crease,Mr. ,no,Other,3464,A,,19,19,adult,adult,adult,0
+TRAINING-680,1,"Cardeza, Mr. Thomas Drake Martinez",male,36,0,0,0,0,1,0,0,1,PC 17755,512.3292,B51 B53 B55,C,B,Cardeza,Mr. ,no,PC,17755,T,Cardeza-17755,36,36,adult,adult,adult,1
+TRAINING-681,3,"Peters, Miss. Katie",female,,0,0,0,0,0,0,0,0,330935,8.1375,,Q,,Peters,Miss,no,6 digit,330935,A,,18,18,adult,,,0
+TRAINING-682,1,"Hassab, Mr. Hammad",male,27,0,0,0,0,0,0,0,0,PC 17572,76.7292,D49,C,D,Hassab,Mr. ,no,PC,17572,T,Harper-17572,27,27,adult,adult,adult,1
+TRAINING-683,3,"Olsvigen, Mr. Thor Anderson",male,20,0,0,0,0,0,0,0,0,6563,9.225,,S,,Olsvigen,Mr. ,no,4 digit,6563,A,,20,20,adult,adult,adult,0
+TRAINING-684,3,"Goodwin, Mr. Charles Edward",male,14,5,0,2,3,2,0,0,2,CA 2144,46.9,,S,,Goodwin,Mr. ,no,CA,2144,T,Goodwin,14,14,adult,adult,adult,0
+TRAINING-685,2,"Brown, Mr. Thomas William Solomon",male,60,1,1,0,0,1,2,1,0,29750,39,,S,,Brown,Mr. ,no,5 digit,29750,T,Brown,60,60,adult,adult,adult,0
+TRAINING-686,2,"Laroche, Mr. Joseph Philippe Lemercier",male,25,1,1,0,0,2,2,2,0,SC/Paris 2123,41.5792,,C,,Laroche,Mr. ,no,SC/Paris,2123,T,Laroche,25,25,adult,adult,adult,0
+TRAINING-687,3,"Panula, Mr. Jaako Arnold",male,14,4,0,0,4,1,0,0,0,3101295,39.6875,,S,,Panula,Mr. ,no,7 digit,3101295,T,Panula-3101295,14,14,adult,adult,adult,0
+TRAINING-688,3,"Dakic, Mr. Branko",male,19,0,0,0,0,0,0,0,0,349228,10.1708,,S,,Dakic,Mr. ,no,6 digit,349228,A,,19,19,adult,adult,adult,0
+TRAINING-689,3,"Fischer, Mr. Eberhard Thelander",male,18,0,0,0,0,0,0,0,0,350036,7.7958,,S,,Fischer,Mr. ,no,6 digit,350036,A,,18,18,adult,adult,adult,0
+TRAINING-69,3,"Andersson, Miss. Erna Alexandra",female,17,4,0,1,0,2,0,0,2,3101281,7.925,,S,,Andersson,Miss,no,7 digit,3101281,T,Andersson,17,17,adult,adult,adult,1
+TRAINING-690,1,"Madill, Miss. Georgette Alexandra",female,15,0,0,0,0,1,0,0,1,24160,211.3375,B5,S,B,Madill,Miss,no,5 digit,24160,T,24160,15,15,adult,adult,adult,1
+TRAINING-691,1,"Dick, Mr. Albert Adrian",male,31,1,1,0,0,0,0,0,0,17474,57,B20,S,B,Dick,Mr. ,no,5 digit,17474,T,Dick,31,31,adult,adult,adult,1
+TRAINING-692,3,"Karun, Miss. Manca",female,4,0,0,0,0,1,0,0,1,349256,13.4167,,C,,Karun,Miss,no,6 digit,349256,T,Karun,4,4,child,child,child,1
+TRAINING-693,3,"Lam, Mr. Ali",male,,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Lam,Mr. ,no,4 digit,1601,T,1601,29.5,26,adult,adult,,1
+TRAINING-694,3,"Saad, Mr. Khalil",male,25,0,0,0,0,0,0,0,0,2672,7.225,,C,,Saad,Mr. ,no,4 digit,2672,T,Saad,25,25,adult,adult,adult,0
+TRAINING-695,1,"Weir, Col. John",male,60,0,0,0,0,0,0,0,0,113800,26.55,,S,,Weir,Col.,no,6 digit,113800,A,,60,60,adult,adult,adult,0
+TRAINING-696,2,"Chapman, Mr. Charles Henry",male,52,0,0,0,0,0,0,0,0,248731,13.5,,S,,Chapman,Mr. ,no,6 digit,248731,A,,52,52,adult,adult,adult,0
+TRAINING-697,3,"Kelly, Mr. James",male,44,0,0,0,0,0,0,0,0,363592,8.05,,S,,Kelly,Mr. ,no,6 digit,363592,A,,44,44,adult,adult,adult,0
+TRAINING-698,3,"Mullens, Miss. Katherine  Katie ",female,,0,0,0,0,0,0,0,0,35852,7.7333,,Q,,Mullens,Miss,yes,5 digit,35852,A,,18,18,adult,,,1
+TRAINING-699,1,"Thayer, Mr. John Borland",male,49,1,1,0,0,1,2,1,0,17421,110.8833,C68,C,C,Thayer,Mr. ,no,5 digit,17421,T,Thayer-17421,49,49,adult,adult,adult,0
+TRAINING-7,1,"McCarthy, Mr. Timothy J",male,54,0,0,0,0,0,0,0,0,17463,51.8625,E46,S,E,McCarthy,Mr. ,no,5 digit,17463,T,17463,54,54,adult,adult,adult,0
+TRAINING-70,3,"Kink, Mr. Vincenz",male,26,2,0,1,1,0,0,0,0,315151,8.6625,,S,,Kink,Mr. ,no,6 digit,315151,T,Kink-Heilmann,26,26,adult,adult,adult,0
+TRAINING-700,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,0,0,0,0,0,0,0,0,348121,7.65,F G63,S,F,Humblen,Mr. ,no,6 digit,348121,T,Abelseth,42,42,adult,adult,adult,
+TRAINING-701,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,1,1,0,0,0,0,0,0,PC 17757,227.525,C62 C64,C,C,Astor,Mrs.,no,PC,17757,T,17757,18,18,adult,adult,adult,1
+TRAINING-702,1,"Silverthorne, Mr. Spencer Victor",male,35,0,0,0,0,0,0,0,0,PC 17475,26.2875,E24,S,E,Silverthorne,Mr. ,no,PC,17475,T,E24,35,35,adult,adult,adult,1
+TRAINING-703,3,"Barbara, Miss. Saiide",female,18,0,0,0,0,1,0,0,1,2691,14.4542,,C,,Barbara,Miss,no,4 digit,2691,T,Barbara,18,18,adult,adult,adult,0
+TRAINING-704,3,"Gallagher, Mr. Martin",male,25,0,0,0,0,0,0,0,0,36864,7.7417,,Q,,Gallagher,Mr. ,no,5 digit,36864,A,,25,25,adult,adult,adult,0
+TRAINING-705,3,"Hansen, Mr. Henrik Juul",male,26,1,0,1,0,0,0,0,0,350025,7.8542,,S,,Hansen,Mr. ,no,6 digit,350025,T,Hansen,26,26,adult,adult,adult,0
+TRAINING-706,2,"Morley, Mr. Henry Samuel ( Mr Henry Marshall )",male,39,0,0,0,0,0,0,0,0,250655,26,,S,,Morley,Mr. ,yes,6 digit,250655,T,250655,39,39,adult,adult,adult,0
+TRAINING-707,2,"Kelly, Mrs. Florence  Fannie ",female,45,0,0,0,0,0,0,0,0,223596,13.5,,S,,Kelly,Mrs.,yes,6 digit,223596,A,,45,45,adult,adult,adult,1
+TRAINING-708,1,"Calderhead, Mr. Edward Pennington",male,42,0,0,0,0,0,0,0,0,PC 17476,26.2875,E24,S,E,Calderhead,Mr. ,no,PC,17476,T,E24,42,42,adult,adult,adult,1
+TRAINING-709,1,"Cleaver, Miss. Alice",female,22,0,0,0,0,0,0,0,0,113781,151.55,,S,,Cleaver,Miss,no,6 digit,113781,T,Allison-113781,22,22,adult,adult,adult,1
+TRAINING-71,2,"Jenkin, Mr. Stephen Curnow",male,32,0,0,0,0,0,0,0,0,C.A. 33111,10.5,,S,,Jenkin,Mr. ,no,CA,33111,A,,32,32,adult,adult,adult,0
+TRAINING-710,3,"Moubarek, Master. Halim Gonios ( William George )",male,,1,0,0,1,1,0,0,1,2661,15.2458,,C,,Moubarek,Mast,yes,4 digit,2661,T,Moubarek,6,6,child,child,child,1
+TRAINING-711,1,"Mayne, Mlle. Berthe Antonine ( Mrs de Villiers )",female,24,0,0,0,0,0,0,0,0,PC 17482,49.5042,C90,C,C,Mayne,Miss,yes,PC,17482,A,,24,24,adult,adult,adult,1
+TRAINING-712,1,"Klaber, Mr. Herman",male,,0,0,0,0,0,0,0,0,113028,26.55,C124,S,C,Klaber,Mr. ,no,6 digit,113028,T,C124,45.5,41.5,adult,adult,,0
+TRAINING-713,1,"Taylor, Mr. Elmer Zebley",male,48,1,1,0,0,0,0,0,0,19996,52,C126,S,C,Taylor,Mr. ,no,5 digit,19996,T,Taylor,48,48,adult,adult,adult,1
+TRAINING-714,3,"Larsson, Mr. August Viktor",male,29,1,0,1,0,0,0,0,0,7545,9.4833,,S,,Larsson,Mr. ,no,4 digit,7545,T,Larsson,29,29,adult,adult,adult,0
+TRAINING-715,2,"Greenberg, Mr. Samuel",male,52,0,0,0,0,0,0,0,0,250647,13,,S,,Greenberg,Mr. ,no,6 digit,250647,T,250647,52,52,adult,adult,adult,0
+TRAINING-716,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,0,0,0,0,0,0,0,0,348124,7.65,F G73,S,F,Soholt,Mr. ,no,6 digit,348124,T,F G73,19,19,adult,adult,adult,0
+TRAINING-717,1,"Endres, Miss. Caroline Louise",female,38,0,0,0,0,0,0,0,0,PC 17757,227.525,C45,C,C,Endres,Miss,no,PC,17757,T,17757,38,38,adult,adult,adult,1
+TRAINING-718,2,"Troutt, Miss. Edwina Celia  Winnie ",female,27,0,0,0,0,0,0,0,0,34218,10.5,E101,S,E,Troutt,Miss,yes,5 digit,34218,T,E101,27,27,adult,adult,adult,1
+TRAINING-719,3,"McEvoy, Mr. Michael",male,,0,0,0,0,0,0,0,0,36568,15.5,,Q,,McEvoy,Mr. ,no,5 digit,36568,T,36568,26,26,adult,adult,,0
+TRAINING-72,3,"Goodwin, Miss. Lillian Amy",female,16,5,0,1,4,2,0,0,2,CA 2144,46.9,,S,,Goodwin,Miss,no,CA,2144,T,Goodwin,16,16,adult,adult,adult,0
+TRAINING-720,3,"Johnson, Mr. Malkolm Joackim",male,33,0,0,0,0,0,0,0,0,347062,7.775,,S,,Johnson,Mr. ,no,6 digit,347062,A,,33,33,adult,adult,adult,0
+TRAINING-721,2,"Harper, Miss. Annie Jessie  Nina ",female,6,0,0,0,0,1,0,0,1,248727,33,,S,,Harper,Miss,yes,6 digit,248727,T,Harper-248727,6,6,child,child,child,1
+TRAINING-722,3,"Jensen, Mr. Svend Lauritz",male,17,1,0,1,0,0,0,0,0,350048,7.0542,,S,,Jensen,Mr. ,no,6 digit,350048,T,Jensen,17,17,adult,adult,adult,0
+TRAINING-723,2,"Gillespie, Mr. William Henry",male,34,0,0,0,0,0,0,0,0,12233,13,,S,,Gillespie,Mr. ,no,5 digit,12233,A,,34,34,adult,adult,adult,0
+TRAINING-724,2,"Hodges, Mr. Henry Price",male,50,0,0,0,0,0,0,0,0,250643,13,,S,,Hodges,Mr. ,no,6 digit,250643,A,,50,50,adult,adult,adult,0
+TRAINING-725,1,"Chambers, Mr. Norman Campbell",male,27,1,1,0,0,0,0,0,0,113806,53.1,E8,S,E,Chambers,Mr. ,no,6 digit,113806,T,Chambers,27,27,adult,adult,adult,1
+TRAINING-726,3,"Oreskovic, Mr. Luka",male,20,2,0,2,0,0,0,0,0,315094,8.6625,,S,,Oreskovic,Mr. ,no,6 digit,315094,T,Oreskovic,20,20,adult,adult,adult,0
+TRAINING-727,2,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,3,1,0,2,0,0,0,0,31027,21,,S,,Renouf,Mrs.,no,5 digit,31027,T,Renouf-Jefferys-31029,30,30,adult,adult,adult,1
+TRAINING-728,3,"Mannion, Miss. Margareth",female,,0,0,0,0,0,0,0,0,36866,7.7375,,Q,,Mannion,Miss,no,5 digit,36866,A,,18,18,adult,,,1
+TRAINING-729,2,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,1,0,1,0,0,0,0,0,236853,26,,S,,Bryhl,Mr. ,no,6 digit,236853,T,Bryhl,25,25,adult,adult,adult,0
+TRAINING-73,2,"Hood, Mr. Ambrose Jr",male,21,0,0,0,0,0,0,0,0,S.O.C. 14879,73.5,,S,,Hood,Mr. ,no,S.O.C.,14879,T,Hickman-14879,21,21,adult,adult,adult,0
+TRAINING-730,3,"Ilmakangas, Miss. Pieta Sofia",female,25,1,0,1,0,0,0,0,0,STON/O2. 3101271,7.925,,S,,Ilmakangas,Miss,no,STON/O2.,3101271,T,Ilmakangas,25,25,adult,adult,adult,0
+TRAINING-731,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,0,0,0,0,0,0,24160,211.3375,B5,S,B,Allen,Miss,no,5 digit,24160,T,24160,29,29,adult,adult,adult,1
+TRAINING-732,3,"Hassan, Mr. Houssein G N",male,11,0,0,0,0,0,0,0,0,2699,18.7875,,C,,Hassan,Mr. ,no,4 digit,2699,T,2699,11,11,child,child,child,0
+TRAINING-733,2,"Knight, Mr. Robert J",male,,0,0,0,0,0,0,0,0,239855,0,,S,,Knight,Mr. ,no,6 digit,239855,U,,30,30,adult,adult,,0
+TRAINING-734,2,"Berriman, Mr. William John",male,23,0,0,0,0,0,0,0,0,28425,13,,S,,Berriman,Mr. ,no,5 digit,28425,U,,23,23,adult,adult,adult,0
+TRAINING-735,2,"Troupiansky, Mr. Moses Aaron",male,23,0,0,0,0,0,0,0,0,233639,13,,S,,Troupiansky,Mr. ,no,6 digit,233639,A,,23,23,adult,adult,adult,0
+TRAINING-736,3,"Williams, Mr. Leslie",male,28.5,0,0,0,0,0,0,0,0,54636,16.1,,S,,Williams,Mr. ,no,5 digit,54636,T,54636,28.5,28.5,adult,adult,adult,0
+TRAINING-737,3,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,1,1,0,0,3,2,3,0,W./C. 6608,34.375,,S,,Ford,Mrs.,no,W./C. ,6608,T,Ford-Johnston-Watson,48,48,adult,adult,adult,0
+TRAINING-738,1,"Lesurer, Mr. Gustave J",male,35,0,0,0,0,0,0,0,0,PC 17755,512.3292,,C,B,Lesurer,Mr. ,no,PC,17755,T,Cardeza-17755,35,35,adult,adult,adult,1
+TRAINING-739,3,"Ivanoff, Mr. Kanio",male,,0,0,0,0,0,0,0,0,349201,7.8958,,S,,Ivanoff,Mr. ,no,6 digit,349201,A,,26,26,adult,adult,,0
+TRAINING-74,3,"Chronopoulos, Mr. Apostolos",male,26,1,0,0,1,0,0,0,0,2680,14.4542,,C,,Chronopoulos,Mr. ,no,4 digit,2680,T,Chronopoulos,26,26,adult,adult,adult,0
+TRAINING-740,3,"Nankoff, Mr. Minko",male,,0,0,0,0,0,0,0,0,349218,7.8958,,S,,Nankoff,Mr. ,no,6 digit,349218,A,,26,26,adult,adult,,0
+TRAINING-741,1,"Hawksford, Mr. Walter James",male,,0,0,0,0,0,0,0,0,16988,30,D45,S,D,Hawksford,Mr. ,no,5 digit,16988,A,,41.5,41.5,adult,adult,,1
+TRAINING-742,1,"Cavendish, Mr. Tyrell William",male,36,1,1,0,0,0,0,0,0,19877,78.85,C46,S,C,Cavendish,Mr. ,no,5 digit,19877,T,Cavendish-19877,36,36,adult,adult,adult,0
+TRAINING-743,1,"Ryerson, Miss. Susan Parker  Suzette ",female,21,2,0,1,1,2,0,0,2,PC 17608,262.375,B57 B59 B63 B66,C,B,Ryerson,Miss,yes,PC,17608,T,Ryerson-17608,21,21,adult,adult,adult,1
+TRAINING-744,3,"McNamee, Mr. Neal",male,24,1,1,0,0,0,0,0,0,376566,16.1,,S,,McNamee,Mr. ,no,6 digit,376566,T,McNamee,24,24,adult,adult,adult,0
+TRAINING-745,3,"Stranden, Mr. Juho",male,31,0,0,0,0,0,0,0,0,STON/O 2. 3101288,7.925,,S,,Stranden,Mr. ,no,STON/O2.,3101288,A,,31,31,adult,adult,adult,1
+TRAINING-746,1,"Crosby, Capt. Edward Gifford",male,70,1,1,0,0,1,2,1,0,WE/P 5735,71,B22,S,B,Crosby,Capt,no,WEP,5735,T,Crosby,70,70,adult,adult,senior,0
+TRAINING-747,3,"Abbott, Mr. Rossmore Edward",male,16,1,1,0,0,1,0,0,0,C.A. 2673,20.25,,S,,Abbott,Mr. ,no,CA,2673,T,Abbott,16,16,adult,adult,adult,0
+TRAINING-748,2,"Sinkkonen, Miss. Anna",female,30,0,0,0,0,0,0,0,0,250648,13,,S,,Sinkkonen,Miss,no,6 digit,250648,A,,30,30,adult,adult,adult,1
+TRAINING-749,1,"Marvin, Mr. Daniel Warner",male,19,1,1,0,0,0,0,0,0,113773,53.1,D30,S,D,Marvin,Mr. ,no,6 digit,113773,T,Marvin,19,19,adult,adult,adult,0
+TRAINING-75,3,"Bing, Mr. Lee",male,32,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Bing,Mr. ,no,4 digit,1601,T,1601,32,32,adult,adult,adult,1
+TRAINING-750,3,"Connaghton, Mr. Michael",male,31,0,0,0,0,0,0,0,0,335097,7.75,,Q,,Connaghton,Mr. ,no,6 digit,335097,A,,31,31,adult,adult,adult,0
+TRAINING-751,2,"Wells, Miss. Joan",female,4,1,0,0,1,1,0,0,1,29103,23,,S,,Wells,Miss,no,5 digit,29103,T,Wells,4,4,child,child,child,1
+TRAINING-752,3,"Moor, Master. Meier",male,6,0,0,0,0,1,0,0,1,392096,12.475,E121,S,E,Moor,Mast,no,6 digit,392096,T,Moor,6,6,child,child,child,1
+TRAINING-753,3,"Vande Velde, Mr. Johannes Joseph",male,33,0,0,0,0,0,0,0,0,345780,9.5,,S,,Vande Velde,Mr. ,no,6 digit,345780,A,,33,33,adult,adult,adult,0
+TRAINING-754,3,"Jonkoff, Mr. Lalio",male,23,0,0,0,0,0,0,0,0,349204,7.8958,,S,,Jonkoff,Mr. ,no,6 digit,349204,A,,23,23,adult,adult,adult,0
+TRAINING-755,2,"Herman, Mrs. Samuel (Jane Laver)",female,48,1,1,0,0,2,2,2,0,220845,65,,S,,Herman,Mrs.,no,6 digit,220845,T,Herman-220845,48,48,adult,adult,adult,1
+TRAINING-756,2,"Hamalainen, Master. Viljo",male,0.67,1,0,1,0,1,0,0,1,250649,14.5,,S,,Hamalainen,Mast,no,6 digit,250649,T,Hamalainen-Hiltunen,0.67,0.67,child,child,child,1
+TRAINING-757,3,"Carlsson, Mr. August Sigfrid",male,28,0,0,0,0,0,0,0,0,350042,7.7958,,S,,Carlsson,Mr. ,no,6 digit,350042,U,,28,28,adult,adult,adult,0
+TRAINING-758,2,"Bailey, Mr. Percy Andrew",male,18,0,0,0,0,0,0,0,0,29108,11.5,,S,,Bailey,Mr. ,no,5 digit,29108,U,,18,18,adult,adult,adult,0
+TRAINING-759,3,"Theobald, Mr. Thomas Leonard",male,34,0,0,0,0,0,0,0,0,363294,8.05,,S,,Theobald,Mr. ,no,6 digit,363294,A,,34,34,adult,adult,adult,0
+TRAINING-76,3,"Moen, Mr. Sigurd Hansen",male,25,0,0,0,0,0,0,0,0,348123,7.65,F G73,S,F,Moen,Mr. ,no,6 digit,348123,T,F G73,25,25,adult,adult,adult,0
+TRAINING-760,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,0,0,0,0,0,0,0,0,110152,86.5,B77,S,B,Rothes,Lady,no,6 digit,110152,T,110152,33,33,adult,adult,adult,1
+TRAINING-761,3,"Garfirth, Mr. John",male,,0,0,0,0,0,0,0,0,358585,14.5,,S,,Garfirth,Mr. ,no,6 digit,358585,T,358585,19,26,adult,adult,,0
+TRAINING-762,3,"Nirva, Mr. Iisakki Antino Aijo",male,41,0,0,0,0,0,0,0,0,SOTON/O2 3101272,7.125,,S,,Nirva,Mr. ,no,STON/O2.,3101272,A,,41,41,adult,adult,adult,0
+TRAINING-763,3,"Barah, Mr. Hanna Assi",male,20,0,0,0,0,0,0,0,0,2663,7.2292,,C,,Barah,Mr. ,no,4 digit,2663,A,,20,20,adult,adult,adult,1
+TRAINING-764,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,1,1,0,0,2,2,2,0,113760,120,B96 B98,S,B,Carter,Mrs.,no,6 digit,113760,T,Carter-Polk,36,36,adult,adult,adult,1
+TRAINING-765,3,"Eklund, Mr. Hans Linus",male,16,0,0,0,0,0,0,0,0,347074,7.775,,S,,Eklund,Mr. ,no,6 digit,347074,A,,16,16,adult,adult,adult,0
+TRAINING-766,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,1,1,1,0,0,0,0,0,13502,77.9583,D11,S,D,Hogeboom,Mrs.,no,5 digit,13502,T,Andrews-13502,51,51,adult,adult,adult,1
+TRAINING-767,1,"Brewe, Dr. Arthur Jackson",male,,0,0,0,0,0,0,0,0,112379,39.6,,C,,Brewe,Dr. ,no,6 digit,112379,A,,49,49,adult,adult,,0
+TRAINING-768,3,"Mangan, Miss. Mary",female,30.5,0,0,0,0,0,0,0,0,364850,7.75,,Q,,Mangan,Miss,no,6 digit,364850,A,,30.5,30.5,adult,adult,adult,0
+TRAINING-769,3,"Moran, Mr. Daniel J",male,,1,0,1,0,0,0,0,0,371110,24.15,,Q,,Moran,Mr. ,no,6 digit,371110,T,Moran-371110,26,26,adult,adult,,0
+TRAINING-77,3,"Staneff, Mr. Ivan",male,,0,0,0,0,0,0,0,0,349208,7.8958,,S,,Staneff,Mr. ,no,6 digit,349208,A,,26,26,adult,adult,,0
+TRAINING-770,3,"Gronnestad, Mr. Daniel Danielsen",male,32,0,0,0,0,0,0,0,0,8471,8.3625,,S,,Gronnestad,Mr. ,no,4 digit,8471,A,,32,32,adult,adult,adult,0
+TRAINING-771,3,"Lievens, Mr. Rene Aime",male,24,0,0,0,0,0,0,0,0,345781,9.5,,S,,Lievens,Mr. ,no,6 digit,345781,A,,24,24,adult,adult,adult,0
+TRAINING-772,3,"Jensen, Mr. Niels Peder",male,48,0,0,0,0,0,0,0,0,350047,7.8542,,S,,Jensen,Mr. ,no,6 digit,350047,T,Jensen,48,48,adult,adult,adult,0
+TRAINING-773,2,"Mack, Mrs. (Mary)",female,57,0,0,0,0,0,0,0,0,S.O./P.P. 3,10.5,E77,S,E,Mack,Mrs.,no,PP,3,T,S.O./P.P. 3,57,57,adult,adult,adult,0
+TRAINING-774,3,"Elias, Mr. Dibo",male,,0,0,0,0,0,0,0,0,2674,7.225,,C,,Elias,Mr. ,no,4 digit,2674,T,Elias,39,26,adult,adult,,0
+TRAINING-775,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,1,1,0,0,3,1,3,0,29105,23,,S,,Hocking,Mrs.,no,5 digit,29105,T,Hocking-Richards,54,54,adult,adult,adult,1
+TRAINING-776,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,0,0,0,0,0,0,0,0,347078,7.75,,S,,Myhrman,Mr. ,no,6 digit,347078,A,,18,18,adult,adult,adult,0
+TRAINING-777,3,"Tobin, Mr. Roger",male,,0,0,0,0,0,0,0,0,383121,7.75,F38,Q,F,Tobin,Mr. ,no,6 digit,383121,A,,26,26,adult,adult,,0
+TRAINING-778,3,"Emanuel, Miss. Virginia Ethel",female,5,0,0,0,0,0,0,0,0,364516,12.475,,S,,Emanuel,Miss,no,6 digit,364516,T,364516,5,5,child,child,child,1
+TRAINING-779,3,"Kilgannon, Mr. Thomas J",male,,0,0,0,0,0,0,0,0,36865,7.7375,,Q,,Kilgannon,Mr. ,no,5 digit,36865,A,,26,26,adult,adult,,0
+TRAINING-78,3,"Moutal, Mr. Rahamin Haim",male,,0,0,0,0,0,0,0,0,374746,8.05,,S,,Moutal,Mr. ,no,6 digit,374746,A,,26,26,adult,adult,,0
+TRAINING-780,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,0,0,0,0,1,1,1,0,24160,211.3375,B3,S,B,Robert,Mrs.,no,5 digit,24160,T,24160,43,43,adult,adult,adult,1
+TRAINING-781,3,"Ayoub, Miss. Banoura",female,13,0,0,0,0,0,0,0,0,2687,7.2292,,C,,Ayoub,Miss,no,4 digit,2687,U,,13,13,child,child,child,1
+TRAINING-782,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,1,1,0,0,0,0,0,0,17474,57,B20,S,B,Dick,Mrs.,no,5 digit,17474,T,Dick,17,17,adult,adult,adult,1
+TRAINING-783,1,"Long, Mr. Milton Clyde",male,29,0,0,0,0,0,0,0,0,113501,30,D6,S,D,Long,Mr. ,no,6 digit,113501,A,,29,29,adult,adult,adult,0
+TRAINING-784,3,"Johnston, Mr. Andrew G",male,,1,1,0,0,2,2,2,0,W./C. 6607,23.45,,S,,Johnston,Mr. ,no,W./C. ,6607,T,Ford-Johnston-Watson,26,26,adult,adult,,0
+TRAINING-785,3,"Ali, Mr. William",male,25,1,0,0,1,0,0,0,0,SOTON/O.Q. 3101312,7.05,,S,,Ali,Mr. ,no,SOTON/OQ,3101312,T,Ali,25,25,adult,adult,adult,0
+TRAINING-786,3,"Harmer, Mr. Abraham (David Lishin)",male,25,0,0,0,0,0,0,0,0,374887,7.25,,S,,Harmer,Mr. ,no,6 digit,374887,A,,25,25,adult,adult,adult,0
+TRAINING-787,3,"Sjoblom, Miss. Anna Sofia",female,18,0,0,0,0,0,0,0,0,3101265,7.4958,,S,,Sjoblom,Miss,no,7 digit,3101265,A,,18,18,adult,adult,adult,1
+TRAINING-788,3,"Rice, Master. George Hugh",male,8,4,0,0,4,1,0,0,1,382652,29.125,,Q,,Rice,Mast,no,6 digit,382652,T,Rice,8,8,child,child,child,0
+TRAINING-789,3,"Dean, Master. Bertram Vere",male,1,1,0,1,0,2,0,0,2,C.A. 2315,20.575,,S,,Dean,Mast,no,CA,2315,T,Dean,30,1,child,child,child,1
+TRAINING-79,2,"Caldwell, Master. Alden Gates",male,0.83,0,0,0,0,2,0,0,2,248738,29,,S,,Caldwell,Mast,no,6 digit,248738,T,Caldwell,0.83,0.83,child,child,child,1
+TRAINING-790,1,"Guggenheim, Mr. Benjamin",male,46,0,0,0,0,0,0,0,0,PC 17593,79.2,B82 B84,C,B,Guggenheim,Mr. ,no,PC,17593,T,17593,46,46,adult,adult,adult,0
+TRAINING-791,3,"Keane, Mr. Andrew  Andy ",male,,0,0,0,0,0,0,0,0,12460,7.75,,Q,,Keane,Mr. ,yes,5 digit,12460,A,,26,26,adult,adult,,0
+TRAINING-792,2,"Gaskell, Mr. Alfred",male,16,0,0,0,0,0,0,0,0,239865,26,,S,,Gaskell,Mr. ,no,6 digit,239865,T,239865,16,16,adult,adult,adult,0
+TRAINING-793,3,"Sage, Miss. Stella Anna",female,,8,0,3,5,2,0,0,2,CA. 2343,69.55,,S,,Sage,Miss,no,CA,2343,T,Sage,18,18,adult,,,0
+TRAINING-794,1,"Hoyt, Mr. William Fisher",male,,0,0,0,0,0,0,0,0,PC 17600,30.6958,,C,,Hoyt,Mr. ,no,PC,17600,A,,41.5,41.5,adult,adult,,0
+TRAINING-795,3,"Dantcheff, Mr. Ristiu",male,25,0,0,0,0,0,0,0,0,349203,7.8958,,S,,Dantcheff,Mr. ,no,6 digit,349203,A,,25,25,adult,adult,adult,0
+TRAINING-796,2,"Otter, Mr. Richard",male,39,0,0,0,0,0,0,0,0,28213,13,,S,,Otter,Mr. ,no,5 digit,28213,A,,39,39,adult,adult,adult,0
+TRAINING-797,1,"Leader, Dr. Alice (Farnham)",female,49,0,0,0,0,0,0,0,0,17465,25.9292,D17,S,D,Leader,Dr. ,no,5 digit,17465,T,D17,49,49,adult,adult,adult,1
+TRAINING-798,3,"Osman, Mrs. Mara",female,31,0,0,0,0,0,0,0,0,349244,8.6833,,S,,Osman,Mrs.,no,6 digit,349244,A,,31,31,adult,adult,adult,1
+TRAINING-799,3,"Ibrahim Shawah, Mr. Yousseff",male,30,0,0,0,0,0,0,0,0,2685,7.2292,,C,,Ibrahim Shawah,Mr. ,no,4 digit,2685,A,,30,30,adult,adult,adult,0
+TRAINING-8,3,"Palsson, Master. Gosta Leonard",male,2,3,0,2,1,1,0,0,1,349909,21.075,,S,,Palsson,Mast,no,6 digit,349909,T,Palsson,2,2,child,child,child,0
+TRAINING-80,3,"Dowdell, Miss. Elizabeth",female,30,0,0,0,0,0,0,0,0,364516,12.475,,S,,Dowdell,Miss,no,6 digit,364516,T,364516,30,30,adult,adult,adult,1
+TRAINING-800,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,1,1,0,0,1,2,1,0,345773,24.15,,S,,Van Impe,Mrs.,no,6 digit,345773,T,Van Impe,30,30,adult,adult,adult,0
+TRAINING-801,2,"Ponesell, Mr. Martin",male,34,0,0,0,0,0,0,0,0,250647,13,,S,,Ponesell,Mr. ,no,6 digit,250647,T,250647,34,34,adult,adult,adult,0
+TRAINING-802,2,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,1,1,0,0,1,2,1,0,C.A. 31921,26.25,,S,,Collyer,Mrs.,no,CA,31921,T,Collyer,31,31,adult,adult,adult,1
+TRAINING-803,1,"Carter, Master. William Thornton II",male,11,1,0,1,0,2,0,0,2,113760,120,B96 B98,S,B,Carter,Mast,no,6 digit,113760,T,Carter-Polk,11,11,child,child,child,1
+TRAINING-804,3,"Thomas, Master. Assad Alexander",male,0.42,0,0,0,0,1,0,0,1,2625,8.5167,,C,,Thomas,Mast,no,4 digit,2625,T,Thomas,0.42,0.42,child,child,child,1
+TRAINING-805,3,"Hedman, Mr. Oskar Arvid",male,27,0,0,0,0,0,0,0,0,347089,6.975,,S,,Hedman,Mr. ,no,6 digit,347089,A,,27,27,adult,adult,adult,1
+TRAINING-806,3,"Johansson, Mr. Karl Johan",male,31,0,0,0,0,0,0,0,0,347063,7.775,,S,,Johansson,Mr. ,no,6 digit,347063,A,,31,31,adult,adult,adult,0
+TRAINING-807,1,"Andrews, Mr. Thomas Jr",male,39,0,0,0,0,0,0,0,0,112050,0,A36,S,A,Andrews,Mr. ,no,6 digit,112050,U,,39,39,adult,adult,adult,0
+TRAINING-808,3,"Pettersson, Miss. Ellen Natalia",female,18,0,0,0,0,0,0,0,0,347087,7.775,,S,,Pettersson,Miss,no,6 digit,347087,A,,18,18,adult,adult,adult,0
+TRAINING-809,2,"Meyer, Mr. August",male,39,0,0,0,0,0,0,0,0,248723,13,,S,,Meyer,Mr. ,no,6 digit,248723,A,,39,39,adult,adult,adult,0
+TRAINING-81,3,"Waelens, Mr. Achille",male,22,0,0,0,0,0,0,0,0,345767,9,,S,,Waelens,Mr. ,no,6 digit,345767,A,,22,22,adult,adult,adult,0
+TRAINING-810,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,1,1,0,0,0,0,0,0,113806,53.1,E8,S,E,Chambers,Mrs.,no,6 digit,113806,T,Chambers,33,33,adult,adult,adult,1
+TRAINING-811,3,"Alexander, Mr. William",male,26,0,0,0,0,0,0,0,0,3474,7.8875,,S,,Alexander,Mr. ,no,4 digit,3474,A,,26,26,adult,adult,adult,0
+TRAINING-812,3,"Lester, Mr. James",male,39,0,0,0,0,0,0,0,0,A/4 48871,24.15,,S,,Lester,Mr. ,no,A/5 or A/4,48871,T,Davies-48871,39,39,adult,adult,adult,0
+TRAINING-813,2,"Slemen, Mr. Richard James",male,35,0,0,0,0,0,0,0,0,28206,10.5,,S,,Slemen,Mr. ,no,5 digit,28206,A,,35,35,adult,adult,adult,0
+TRAINING-814,3,"Andersson, Miss. Ebba Iris Alfrida",female,6,4,0,3,1,2,0,0,2,347082,31.275,,S,,Andersson,Miss,no,6 digit,347082,T,Andersson-347082,6,6,child,child,child,0
+TRAINING-815,3,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,0,0,0,0,0,0,364499,8.05,,S,,Tomlin,Mr. ,no,6 digit,364499,A,,30.5,30.5,adult,adult,adult,0
+TRAINING-816,1,"Fry, Mr. Richard",male,,0,0,0,0,0,0,0,0,112058,0,B102,S,B,Fry,Mr. ,no,6 digit,112058,T,112058,49,41.5,adult,adult,,0
+TRAINING-817,3,"Heininen, Miss. Wendla Maria",female,23,0,0,0,0,0,0,0,0,STON/O2. 3101290,7.925,,S,,Heininen,Miss,no,STON/O2.,3101290,U,,23,23,adult,adult,adult,0
+TRAINING-818,2,"Mallet, Mr. Albert",male,31,1,1,0,0,1,2,1,0,S.C./PARIS 2079,37.0042,,C,,Mallet,Mr. ,no,SC/Paris,2079,T,Mallet,31,31,adult,adult,adult,0
+TRAINING-819,3,"Holm, Mr. John Fredrik Alexander",male,43,0,0,0,0,0,0,0,0,C 7075,6.45,,S,,Holm,Mr. ,no,C number,7075,A,,43,43,adult,adult,adult,0
+TRAINING-82,3,"Sheerlinck, Mr. Jan Baptist",male,29,0,0,0,0,0,0,0,0,345779,9.5,,S,,Sheerlinck,Mr. ,no,6 digit,345779,A,,29,29,adult,adult,adult,1
+TRAINING-820,3,"Skoog, Master. Karl Thorsten",male,10,3,0,2,1,2,0,0,2,347088,27.9,,S,,Skoog,Mast,no,6 digit,347088,T,Skoog,10,10,child,child,child,0
+TRAINING-821,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,1,1,0,0,1,2,1,0,12749,93.5,B69,S,B,Hays,Mrs.,no,5 digit,12749,T,Hays-Davidson-12749,52,52,adult,adult,adult,1
+TRAINING-822,3,"Lulic, Mr. Nikola",male,27,0,0,0,0,0,0,0,0,315098,8.6625,,S,,Lulic,Mr. ,no,6 digit,315098,A,,27,27,adult,adult,adult,1
+TRAINING-823,1,"Reuchlin, Jonkheer. John George",male,38,0,0,0,0,0,0,0,0,19972,0,,S,,Reuchlin,Sir,no,5 digit,19972,A,,38,38,adult,adult,adult,0
+TRAINING-824,3,"Moor, Mrs. (Beila)",female,27,0,0,0,0,1,1,1,0,392096,12.475,E121,S,E,Moor,Mrs.,no,6 digit,392096,T,Moor,27,27,adult,adult,adult,1
+TRAINING-825,3,"Panula, Master. Urho Abraham",male,2,4,0,0,4,1,0,0,1,3101295,39.6875,,S,,Panula,Mast,no,7 digit,3101295,T,Panula-3101295,2,2,child,child,child,0
+TRAINING-826,3,"Flynn, Mr. John",male,,0,0,0,0,0,0,0,0,368323,6.95,,Q,,Flynn,Mr. ,no,6 digit,368323,U,,26,26,adult,adult,,0
+TRAINING-827,3,"Lam, Mr. Len",male,,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Lam,Mr. ,no,4 digit,1601,T,1601,29.5,26,adult,adult,,0
+TRAINING-828,2,"Mallet, Master. Andre",male,1,0,0,0,0,2,0,0,2,S.C./PARIS 2079,37.0042,,C,,Mallet,Mast,no,SC/Paris,2079,T,Mallet,1,1,child,child,child,1
+TRAINING-829,3,"McCormack, Mr. Thomas Joseph",male,,0,0,0,0,0,0,0,0,367228,7.75,,Q,,McCormack,Mr. ,no,6 digit,367228,A,,26,26,adult,adult,,1
+TRAINING-83,3,"McDermott, Miss. Brigdet Delia",female,,0,0,0,0,0,0,0,0,330932,7.7875,,Q,,McDermott,Miss,no,6 digit,330932,A,,18,18,adult,,,1
+TRAINING-830,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62,0,0,0,0,0,0,0,0,113572,80,B28,,B,Stone,Mrs.,no,6 digit,113572,T,113572,62,62,adult,adult,senior,1
+TRAINING-831,3,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,1,1,0,0,0,0,0,0,2659,14.4542,,C,,Yasbeck,Mrs.,no,4 digit,2659,T,Yasbeck,15,15,adult,adult,adult,1
+TRAINING-832,2,"Richards, Master. George Sibley",male,0.83,1,0,0,1,1,0,0,1,29106,18.75,,S,,Richards,Mast,no,5 digit,29106,T,Hocking-Richards,0.83,0.83,child,child,child,1
+TRAINING-833,3,"Saad, Mr. Amin",male,,0,0,0,0,0,0,0,0,2671,7.2292,,C,,Saad,Mr. ,no,4 digit,2671,T,Saad,25,26,adult,adult,,0
+TRAINING-834,3,"Augustsson, Mr. Albert",male,23,0,0,0,0,0,0,0,0,347468,7.8542,,S,,Augustsson,Mr. ,no,6 digit,347468,A,,23,23,adult,adult,adult,0
+TRAINING-835,3,"Allum, Mr. Owen George",male,18,0,0,0,0,0,0,0,0,2223,8.3,,S,,Allum,Mr. ,no,4 digit,2223,A,,30,18,adult,adult,adult,0
+TRAINING-836,1,"Compton, Miss. Sara Rebecca",female,39,1,0,0,1,1,0,0,1,PC 17756,83.1583,E49,C,E,Compton,Miss,no,PC,17756,T,Compton,39,39,adult,adult,adult,1
+TRAINING-837,3,"Pasic, Mr. Jakob",male,21,0,0,0,0,0,0,0,0,315097,8.6625,,S,,Pasic,Mr. ,no,6 digit,315097,A,,21,21,adult,adult,adult,0
+TRAINING-838,3,"Sirota, Mr. Maurice",male,,0,0,0,0,0,0,0,0,392092,8.05,,S,,Sirota,Mr. ,no,6 digit,392092,A,,26,26,adult,adult,,0
+TRAINING-839,3,"Chip, Mr. Chang",male,32,0,0,0,0,0,0,0,0,1601,56.4958,,S,,Chip,Mr. ,no,4 digit,1601,T,1601,32,32,adult,adult,adult,1
+TRAINING-84,1,"Carrau, Mr. Francisco M",male,28,1,0,0,1,0,0,0,0,113059,47.1,,S,,Carrau,Mr. ,no,6 digit,113059,T,Carrau,28,28,adult,adult,adult,0
+TRAINING-840,1,"Marechal, Mr. Pierre",male,,0,0,0,0,0,0,0,0,11774,29.7,C47,C,C,Marechal,Mr. ,no,5 digit,11774,A,,41.5,41.5,adult,adult,,1
+TRAINING-841,3,"Alhomaki, Mr. Ilmari Rudolf",male,20,0,0,0,0,0,0,0,0,SOTON/O2 3101287,7.925,,S,,Alhomaki,Mr. ,no,STON/O2.,3101287,A,,20,20,adult,adult,adult,0
+TRAINING-842,2,"Mudd, Mr. Thomas Charles",male,16,0,0,0,0,0,0,0,0,S.O./P.P. 3,10.5,,S,,Mudd,Mr. ,no,PP,3,T,S.O./P.P. 3,16,16,adult,adult,adult,0
+TRAINING-843,1,"Serepeca, Miss. Augusta",female,30,0,0,0,0,0,0,0,0,113798,31,,C,,Serepeca,Miss,no,6 digit,113798,T,113798,30,30,adult,adult,adult,1
+TRAINING-844,3,"Lemberopolous, Mr. Peter L",male,34.5,0,0,0,0,0,0,0,0,2683,6.4375,,C,,Lemberopolous,Mr. ,no,4 digit,2683,A,,34.5,34.5,adult,adult,adult,0
+TRAINING-845,3,"Culumovic, Mr. Jeso",male,17,0,0,0,0,0,0,0,0,315090,8.6625,,S,,Culumovic,Mr. ,no,6 digit,315090,A,,17,17,adult,adult,adult,0
+TRAINING-846,3,"Abbing, Mr. Anthony",male,42,0,0,0,0,0,0,0,0,C.A. 5547,7.55,,S,,Abbing,Mr. ,no,CA,5547,A,,42,42,adult,adult,adult,0
+TRAINING-847,3,"Sage, Mr. Douglas Bullen",male,,8,0,4,4,2,0,0,2,CA. 2343,69.55,,S,,Sage,Mr. ,no,CA,2343,T,Sage,26,26,adult,adult,,0
+TRAINING-848,3,"Markoff, Mr. Marin",male,35,0,0,0,0,0,0,0,0,349213,7.8958,,C,,Markoff,Mr. ,no,6 digit,349213,A,,35,35,adult,adult,adult,0
+TRAINING-849,2,"Harper, Rev. John",male,28,0,0,0,0,1,1,1,0,248727,33,,S,,Harper,Rev.,no,6 digit,248727,T,Harper-248727,28,28,adult,adult,adult,0
+TRAINING-85,2,"Ilett, Miss. Bertha",female,17,0,0,0,0,0,0,0,0,SO/C 14885,10.5,,S,,Ilett,Miss,no,S.O.C.,14885,A,,17,17,adult,adult,adult,1
+TRAINING-850,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,1,1,0,0,0,0,0,0,17453,89.1042,C92,C,C,Goldenberg,Mrs.,no,5 digit,17453,T,Goldenberg,47,45,adult,adult,,1
+TRAINING-851,3,"Andersson, Master. Sigvard Harald Elias",male,4,4,0,4,0,2,0,0,2,347082,31.275,,S,,Andersson,Mast,no,6 digit,347082,T,Andersson-347082,4,4,child,child,child,0
+TRAINING-852,3,"Svensson, Mr. Johan",male,74,0,0,0,0,0,0,0,0,347060,7.775,,S,,Svensson,Mr. ,no,6 digit,347060,U,,74,74,adult,adult,senior,0
+TRAINING-853,3,"Boulos, Miss. Nourelain",female,9,1,0,0,1,1,0,0,1,2678,15.2458,,C,,Boulos,Miss,no,4 digit,2678,T,Boulos,9,9,child,child,child,0
+TRAINING-854,1,"Lines, Miss. Mary Conover",female,16,0,0,0,0,1,0,0,1,PC 17592,39.4,D28,S,D,Lines,Miss,no,PC,17592,T,Lines,16,16,adult,adult,adult,1
+TRAINING-855,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,1,1,0,0,0,0,0,0,244252,26,,S,,Carter,Mrs.,no,6 digit,244252,T,Carter-Hughes,44,44,adult,adult,adult,0
+TRAINING-856,3,"Aks, Mrs. Sam (Leah Rosen)",female,18,0,0,0,0,1,1,1,0,392091,9.35,,S,,Aks,Mrs.,no,6 digit,392091,T,Aks,18,18,adult,adult,adult,1
+TRAINING-857,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,1,1,0,0,1,2,1,0,36928,164.8667,,S,,Wick,Mrs.,no,5 digit,36928,T,Wick-36928,45,45,adult,adult,adult,1
+TRAINING-858,1,"Daly, Mr. Peter Denis ",male,51,0,0,0,0,0,0,0,0,113055,26.55,E17,S,E,Daly,Mr. ,no,6 digit,113055,A,,51,51,adult,adult,adult,1
+TRAINING-859,3,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,0,0,0,0,3,1,3,0,2666,19.2583,,C,,Baclini,Mrs.,no,4 digit,2666,T,Baclini,24,24,adult,adult,adult,1
+TRAINING-86,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,3,1,0,2,0,0,0,0,3101278,15.85,,S,,Backstrom,Mrs.,no,7 digit,3101278,T,Backstrom-Gustafsson,33,33,adult,adult,adult,1
+TRAINING-860,3,"Razi, Mr. Raihed",male,,0,0,0,0,0,0,0,0,2629,7.2292,,C,,Razi,Mr. ,no,4 digit,2629,A,,26,26,adult,adult,,0
+TRAINING-861,3,"Hansen, Mr. Claus Peter",male,41,2,1,0,1,0,0,0,0,350026,14.1083,,S,,Hansen,Mr. ,no,6 digit,350026,T,Hansen,41,41,adult,adult,adult,0
+TRAINING-862,2,"Giles, Mr. Frederick Edward",male,21,1,0,0,1,0,0,0,0,28134,11.5,,S,,Giles,Mr. ,no,5 digit,28134,T,Giles,21,21,adult,adult,adult,0
+TRAINING-863,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,0,0,0,0,0,0,0,0,17466,25.9292,D17,S,D,Swift,Mrs.,no,5 digit,17466,T,D17,48,48,adult,adult,adult,1
+TRAINING-864,3,"Sage, Miss. Dorothy Edith  Dolly ",female,,8,0,3,5,2,0,0,2,CA. 2343,69.55,,S,,Sage,Miss,yes,CA,2343,T,Sage,18,18,adult,,,0
+TRAINING-865,2,"Gill, Mr. John William",male,24,0,0,0,0,0,0,0,0,233866,13,,S,,Gill,Mr. ,no,6 digit,233866,A,,24,24,adult,adult,adult,0
+TRAINING-866,2,"Bystrom, Mrs. (Karolina)",female,42,0,0,0,0,0,0,0,0,236852,13,,S,,Bystrom,Mrs.,no,6 digit,236852,A,,42,42,adult,adult,adult,1
+TRAINING-867,2,"Duran y More, Miss. Asuncion",female,27,1,0,1,0,0,0,0,0,SC/PARIS 2149,13.8583,,C,,Duran y More,Miss,no,SC/Paris,2149,T,Duran y More,27,27,adult,adult,adult,1
+TRAINING-868,1,"Roebling, Mr. Washington Augustus II",male,31,0,0,0,0,0,0,0,0,PC 17590,50.4958,A24,S,A,Roebling,Mr. ,no,PC,17590,A,,31,31,adult,adult,adult,0
+TRAINING-869,3,"van Melkebeke, Mr. Philemon",male,,0,0,0,0,0,0,0,0,345777,9.5,,S,,van Melkebeke,Mr. ,no,6 digit,345777,A,,26,26,adult,adult,,0
+TRAINING-87,3,"Ford, Mr. William Neal",male,16,1,0,0,1,2,0,0,2,W./C. 6608,34.375,,S,,Ford,Mr. ,no,W./C. ,6608,T,Ford-Johnston-Watson,16,16,adult,adult,adult,0
+TRAINING-870,3,"Johnson, Master. Harold Theodor",male,4,1,0,1,0,1,0,0,1,347742,11.1333,,S,,Johnson,Mast,no,6 digit,347742,T,Johnson,4,4,child,child,child,1
+TRAINING-871,3,"Balkic, Mr. Cerin",male,26,0,0,0,0,0,0,0,0,349248,7.8958,,S,,Balkic,Mr. ,no,6 digit,349248,A,,26,26,adult,adult,adult,0
+TRAINING-872,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,1,1,0,0,1,2,1,0,11751,52.5542,D35,S,D,Beckwith,Mrs.,no,5 digit,11751,T,Beckwith-Monypeny,47,47,adult,adult,adult,1
+TRAINING-873,1,"Carlsson, Mr. Frans Olof",male,33,0,0,0,0,0,0,0,0,695,5,,S,B,Carlsson,Mr. ,no,3 digit,695,A,,33,33,adult,adult,adult,0
+TRAINING-874,3,"Vander Cruyssen, Mr. Victor",male,47,0,0,0,0,0,0,0,0,345765,9,,S,,Vander Cruyssen,Mr. ,no,6 digit,345765,A,,47,47,adult,adult,adult,0
+TRAINING-875,2,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,1,1,0,0,0,0,0,0,P/PP 3381,24,,C,,Abelson,Mrs.,no,PP,3381,T,Abelson,28,28,adult,adult,adult,1
+TRAINING-876,3,"Najib, Miss. Adele Kiamie  Jane ",female,15,0,0,0,0,0,0,0,0,2667,7.225,,C,,Najib,Miss,yes,4 digit,2667,A,,15,15,adult,adult,adult,1
+TRAINING-877,3,"Gustafsson, Mr. Alfred Ossian",male,20,0,0,0,0,0,0,0,0,7534,9.8458,,S,,Gustafsson,Mr. ,no,4 digit,7534,T,7534,20,20,adult,adult,adult,0
+TRAINING-878,3,"Petroff, Mr. Nedelio",male,19,1,0,0,1,0,0,0,0,349212,7.8958,,S,,Petroff,Mr. ,no,6 digit,349212,T,Petroff,19,19,adult,adult,adult,0
+TRAINING-879,3,"Laleff, Mr. Kristo",male,,0,0,0,0,0,0,0,0,349217,7.8958,,S,,Laleff,Mr. ,no,6 digit,349217,A,,26,26,adult,adult,,0
+TRAINING-88,3,"Slocovski, Mr. Selman Francis",male,,0,0,0,0,0,0,0,0,SOTON/OQ 392086,8.05,,S,,Slocovski,Mr. ,no,SOTON/OQ,392086,A,,26,26,adult,adult,,0
+TRAINING-880,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,0,0,0,0,1,1,1,0,11767,83.1583,C50,C,C,Potter,Mrs.,no,5 digit,11767,T,Potter-11767,56,56,adult,adult,adult,1
+TRAINING-881,2,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,0,0,0,0,1,0,0,1,230433,26,,S,,Shelley,Mrs.,no,6 digit,230433,T,Parrish-230433,25,25,adult,adult,adult,1
+TRAINING-882,3,"Markun, Mr. Johann",male,33,0,0,0,0,0,0,0,0,349257,7.8958,,S,,Markun,Mr. ,no,6 digit,349257,A,,33,33,adult,adult,adult,0
+TRAINING-883,3,"Dahlberg, Miss. Gerda Ulrika",female,22,0,0,0,0,0,0,0,0,7552,10.5167,,S,,Dahlberg,Miss,no,4 digit,7552,A,,22,22,adult,adult,adult,0
+TRAINING-884,2,"Banfield, Mr. Frederick James",male,28,0,0,0,0,0,0,0,0,C.A./SOTON 34068,10.5,,S,,Banfield,Mr. ,no,CA,34068,A,,28,28,adult,adult,adult,0
+TRAINING-885,3,"Sutehall, Mr. Henry Jr",male,25,0,0,0,0,0,0,0,0,SOTON/OQ 392076,7.05,,S,,Sutehall,Mr. ,no,SOTON/OQ,392076,A,,25,25,adult,adult,adult,0
+TRAINING-886,3,"Rice, Mrs. William (Margaret Norton)",female,39,0,0,0,0,5,1,5,0,382652,29.125,,Q,,Rice,Mrs.,no,6 digit,382652,T,Rice,39,39,adult,adult,adult,0
+TRAINING-887,2,"Montvila, Rev. Juozas",male,27,0,0,0,0,0,0,0,0,211536,13,,S,,Montvila,Rev.,no,6 digit,211536,A,,27,27,adult,adult,adult,0
+TRAINING-888,1,"Graham, Miss. Margaret Edith",female,19,0,0,0,0,0,0,0,0,112053,30,B42,S,B,Graham,Miss,no,6 digit,112053,A,,19,19,adult,adult,adult,1
+TRAINING-889,3,"Johnston, Miss. Catherine Helen  Carrie ",female,,1,0,0,1,2,0,0,2,W./C. 6607,23.45,,S,,Johnston,Miss,yes,W./C. ,6607,T,Ford-Johnston-Watson,18,18,adult,,,0
+TRAINING-89,1,"Fortune, Miss. Mabel Helen",female,23,3,0,2,1,2,0,0,2,19950,263,C23 C25 C27,S,C,Fortune,Miss,no,5 digit,19950,T,Fortune,23,23,adult,adult,adult,1
+TRAINING-890,1,"Behr, Mr. Karl Howell",male,26,0,0,0,0,0,0,0,0,111369,30,C148,C,C,Behr,Mr. ,no,6 digit,111369,A,,26,26,adult,adult,adult,1
+TRAINING-891,3,"Dooley, Mr. Patrick",male,32,0,0,0,0,0,0,0,0,370376,7.75,,Q,,Dooley,Mr. ,no,6 digit,370376,A,,32,32,adult,adult,adult,0
+TRAINING-9,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,0,0,0,2,1,2,0,347742,11.1333,,S,,Johnson,Mrs.,no,6 digit,347742,T,Johnson,27,27,adult,adult,adult,1
+TRAINING-90,3,"Celotti, Mr. Francesco",male,24,0,0,0,0,0,0,0,0,343275,8.05,,S,,Celotti,Mr. ,no,6 digit,343275,A,,24,24,adult,adult,adult,0
+TRAINING-91,3,"Christmann, Mr. Emil",male,29,0,0,0,0,0,0,0,0,343276,8.05,,S,,Christmann,Mr. ,no,6 digit,343276,A,,29,29,adult,adult,adult,0
+TRAINING-92,3,"Andreasson, Mr. Paul Edvin",male,20,0,0,0,0,0,0,0,0,347466,7.8542,,S,,Andreasson,Mr. ,no,6 digit,347466,A,,20,20,adult,adult,adult,0
+TRAINING-93,1,"Chaffee, Mr. Herbert Fuller",male,46,1,1,0,0,0,0,0,0,W.E.P. 5734,61.175,E31,S,E,Chaffee,Mr. ,no,WEP,5734,T,Chaffee,46,46,adult,adult,adult,0
+TRAINING-94,3,"Dean, Mr. Bertram Frank",male,26,1,1,0,0,2,2,2,0,C.A. 2315,20.575,,S,,Dean,Mr. ,no,CA,2315,T,Dean,30,26,adult,adult,adult,0
+TRAINING-95,3,"Coxon, Mr. Daniel",male,59,0,0,0,0,0,0,0,0,364500,7.25,,S,,Coxon,Mr. ,no,6 digit,364500,A,,59,59,adult,adult,adult,0
+TRAINING-96,3,"Shorney, Mr. Charles Joseph",male,,0,0,0,0,0,0,0,0,374910,8.05,,S,,Shorney,Mr. ,no,6 digit,374910,A,,26,26,adult,adult,,0
+TRAINING-97,1,"Goldschmidt, Mr. George B",male,71,0,0,0,0,0,0,0,0,PC 17754,34.6542,A5,C,A,Goldschmidt,Mr. ,no,PC,17754,A,,71,71,adult,adult,senior,0
+TRAINING-98,1,"Greenfield, Mr. William Bertram",male,23,0,0,0,0,1,0,0,1,PC 17759,63.3583,D10 D12,C,D,Greenfield,Mr. ,no,PC,17759,T,Greenfield,23,23,adult,adult,adult,1
+TRAINING-99,2,"Doling, Mrs. John T (Ada Julia Bone)",female,34,0,0,0,0,1,1,1,0,231919,23,,S,,Doling,Mrs.,no,6 digit,231919,T,Doling,34,34,adult,adult,adult,1
