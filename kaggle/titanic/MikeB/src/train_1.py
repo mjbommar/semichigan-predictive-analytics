@@ -239,7 +239,7 @@ data_train = pandas.read_csv('data/train.csv')
 data_test_kaggle = pandas.read_csv('data/test.csv')
 
 # Split into test and train
-test_ratio = 0.4
+test_ratio = 0.2
 test_rows = random.choice(data_train.index, int(test_ratio * len(data_train.index)))
 data_test = data_train.ix[test_rows]
 data_train = data_train.drop(test_rows)
@@ -261,7 +261,7 @@ for column_name in data_train_features.columns:
 #print(data_train_features.abs().sum())
 
 # Train
-model_train = sklearn.svm.SVC(C=0.25, kernel='linear')
+model_train = sklearn.svm.SVC(C=0.4, kernel='linear')
 model_train.fit(data_train_features, data_train_target)
 
 # Test
